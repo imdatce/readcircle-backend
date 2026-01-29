@@ -381,6 +381,25 @@ public class DistributionController {
             resourceRepository.save(yasin);
         }
 
+        if (resourceRepository.findByCodeKey("OZELSALAVAT") == null) {
+            Resource res = new Resource();
+            res.setCodeKey("OZELSALAVAT");
+            res.setType(ResourceType.JOINT);
+            res.setTotalUnits(1);
+
+            ResourceTranslation tr = new ResourceTranslation();
+            tr.setLangCode("tr");
+            tr.setName("Büyük Salavat (Resimli)");
+            tr.setUnitName("Adet");
+
+            String content = loadTextFile("salavat.txt");
+
+            tr.setDescription(content);
+            tr.setResource(res);
+            res.setTranslations(List.of(tr));
+            resourceRepository.save(res);
+        }
+
 
         return "Veritabanı güncellendi!";
     }
