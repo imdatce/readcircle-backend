@@ -59,6 +59,8 @@ public class DistributionController {
     private String mergeCevsenFiles() {
         String arabicRaw = loadFileContent("cevsen.txt");
         String latinRaw = loadFileContent("cevsen_latin.txt");
+        String meaningRaw = loadFileContent("cevsen_.txt");
+
 
         String[] arabicParts = arabicRaw.split("###");
         String[] latinParts = latinRaw.split("###");
@@ -84,6 +86,18 @@ public class DistributionController {
         }
         return combinedBuilder.toString();
     }
+    private String loadTextFile(String fileName) {
+        try {
+            org.springframework.core.io.ClassPathResource resource =
+                    new org.springframework.core.io.ClassPathResource(fileName);
+
+            byte[] data = resource.getInputStream().readAllBytes();
+            return new String(data, java.nio.charset.StandardCharsets.UTF_8);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "Metin yüklenemedi: " + fileName; // Hata olursa bunu yazar
+        }
+    }
 
     private String mergeFiles(String arabicFile, String latinFile) {
         String arabicRaw = loadFileContent(arabicFile);
@@ -99,7 +113,7 @@ public class DistributionController {
         for (int i = 0; i < length; i++) {
             String arabic = arabicParts[i].trim();
             String latin = latinParts[i].trim();
-            String meaning = "Meal hazırlanıyor..."; // Şimdilik sabit
+            String meaning = "Meal hazırlanıyor...";
 
             combinedBuilder.append(arabic)
                     .append("|||")
@@ -177,17 +191,38 @@ public class DistributionController {
 
             ResourceTranslation tr = new ResourceTranslation();
             tr.setLangCode("tr");
-            tr.setName("Cevşen-ül Kebir");
+            tr.setName("Cevşenü'l Kebir");
             tr.setUnitName("Bab");
 
-            String mergedContent = mergeFiles("cevsen.txt", "cevsen_latin.txt");
-            tr.setDescription(mergedContent);
+            String arabicContent = loadTextFile("cevsen.txt");
+            String latinContent = loadTextFile("cevsen_latin.txt");
+            String meaningContent = loadTextFile("cevsen_meaning.txt");
 
+            String[] arabicParts = arabicContent.split("###");
+            String[] latinParts = latinContent.split("###");
+            String[] meaningParts = meaningContent.split("###");
+
+            StringBuilder finalDescription = new StringBuilder();
+
+            int limit = Math.min(arabicParts.length, Math.min(latinParts.length, meaningParts.length));
+
+            for (int i = 0; i < limit; i++) {
+                finalDescription.append(arabicParts[i].trim())
+                        .append("|||")
+                        .append(latinParts[i].trim())
+                        .append("|||")
+                        .append(meaningParts[i].trim());
+
+                if (i < limit - 1) {
+                    finalDescription.append("###");
+                }
+            }
+
+            tr.setDescription(finalDescription.toString());
             tr.setResource(cevsen);
             cevsen.setTranslations(List.of(tr));
             resourceRepository.save(cevsen);
         }
-
         if (resourceRepository.findByCodeKey("MUNCIYE") == null) {
             Resource munciye = new Resource();
             munciye.setCodeKey("MUNCIYE");
@@ -227,6 +262,125 @@ public class DistributionController {
             yaLatif.setTranslations(List.of(tr));
             resourceRepository.save(yaLatif);
         }
+
+        if (resourceRepository.findByCodeKey("YAHAFIZ") == null) {
+            Resource yaHafiz = new Resource();
+            yaHafiz.setCodeKey("YAHAFIZ");
+            yaHafiz.setType(ResourceType.JOINT);
+            yaHafiz.setTotalUnits(998);
+
+            ResourceTranslation tr = new ResourceTranslation();
+            tr.setLangCode("tr");
+            tr.setName("Yâ Hâfîz");
+            tr.setUnitName("Adet");
+
+            String content = "يَا حَفِيظُ|||Yâ Hafîz|||Ey her şeyi koruyan, muhafaza eden, " +
+                    "hiç bir şeyin kaybolmasına müsaade etmeyen ve belalardan saklayan Allah.";
+            tr.setDescription(content);
+
+            tr.setResource(yaHafiz);
+            yaHafiz.setTranslations(List.of(tr));
+            resourceRepository.save(yaHafiz);
+        }
+
+        if (resourceRepository.findByCodeKey("YAFETTAH") == null) {
+            Resource yaFettah = new Resource();
+            yaFettah.setCodeKey("YAFETTAH");
+            yaFettah.setType(ResourceType.JOINT);
+            yaFettah.setTotalUnits(489);
+
+            ResourceTranslation tr = new ResourceTranslation();
+            tr.setLangCode("tr");
+            tr.setName("Yâ Fettâh");
+            tr.setUnitName("Adet");
+
+            String content = "يَا فَتَّاحُ|||Yâ Fettâh|||Ey her türlü hayır kapılarını açan, " +
+                    "maddi-manevi darlıkları gideren, zorlukları kolaylaştıran Allah.";
+            tr.setDescription(content);
+
+            tr.setResource(yaFettah);
+            yaFettah.setTranslations(List.of(tr));
+            resourceRepository.save(yaFettah);
+        }
+
+        if (resourceRepository.findByCodeKey("HASBUNALLAH") == null) {
+            Resource hasbunallah = new Resource();
+            hasbunallah.setCodeKey("HASBUNALLAH");
+            hasbunallah.setType(ResourceType.JOINT);
+            hasbunallah.setTotalUnits(450);
+
+            ResourceTranslation tr = new ResourceTranslation();
+            tr.setLangCode("tr");
+            tr.setName("Hasbunallâh");
+            tr.setUnitName("Adet");
+
+            String content = "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ|||Hasbunallâhu ve ni'mel vekîl|||Allah bize yeter," +
+                    " O ne güzel vekildir.";
+            tr.setDescription(content);
+
+            tr.setResource(hasbunallah);
+            hasbunallah.setTranslations(List.of(tr));
+            resourceRepository.save(hasbunallah);
+        }
+
+        if (resourceRepository.findByCodeKey("LAHAVLE") == null) {
+            Resource lahavle = new Resource();
+            lahavle.setCodeKey("LAHAVLE");
+            lahavle.setType(ResourceType.JOINT);
+            lahavle.setTotalUnits(199);
+
+            ResourceTranslation tr = new ResourceTranslation();
+            tr.setLangCode("tr");
+            tr.setName("Lâ Havle");
+            tr.setUnitName("Adet");
+
+            String content = "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ|||Lâ havle ve lâ kuvvete illâ billâh|||Güç ve kuvvet, sadece " +
+                    "Yüce ve Büyük olan Allah'ın yardımıyladır.";
+            tr.setDescription(content);
+
+            tr.setResource(lahavle);
+            lahavle.setTranslations(List.of(tr));
+            resourceRepository.save(lahavle);
+        }
+
+        if (resourceRepository.findByCodeKey("FETIH") == null) {
+            Resource fetih = new Resource();
+            fetih.setCodeKey("FETIH");
+            fetih.setType(ResourceType.JOINT);
+            fetih.setTotalUnits(1);
+
+            ResourceTranslation tr = new ResourceTranslation();
+            tr.setLangCode("tr");
+            tr.setName("Fetih Suresi");
+            tr.setUnitName("Adet");
+
+            String content = loadTextFile("fetih.txt");
+
+            tr.setDescription(content);
+            tr.setResource(fetih);
+            fetih.setTranslations(List.of(tr));
+            resourceRepository.save(fetih);
+        }
+
+        if (resourceRepository.findByCodeKey("YASIN") == null) {
+            Resource yasin = new Resource();
+            yasin.setCodeKey("YASIN");
+            yasin.setType(ResourceType.JOINT);
+            yasin.setTotalUnits(1);
+
+            ResourceTranslation tr = new ResourceTranslation();
+            tr.setLangCode("tr");
+            tr.setName("Yasin Suresi");
+            tr.setUnitName("Adet");
+
+            String content = loadTextFile("yasin.txt");
+
+            tr.setDescription(content);
+            tr.setResource(yasin);
+            yasin.setTranslations(List.of(tr));
+            resourceRepository.save(yasin);
+        }
+
 
         return "Veritabanı güncellendi!";
     }
