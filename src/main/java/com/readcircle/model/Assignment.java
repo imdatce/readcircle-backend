@@ -29,6 +29,18 @@ public class Assignment {
     @JoinColumn(name = "resource_id")
     private Resource resource;
 
+    @Column(nullable = true)
+    private Integer currentCount;
+
+    // --- BU METODLAR OLMAZSA VERİ GİTMEZ ---
+    public Integer getCurrentCount() {
+        return currentCount;
+    }
+
+    public void setCurrentCount(Integer currentCount) {
+        this.currentCount = currentCount;
+    }
+
     public Resource getResource() { return resource; }
     public void setResource(Resource resource) { this.resource = resource; }
 

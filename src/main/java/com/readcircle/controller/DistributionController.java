@@ -13,7 +13,7 @@ import org.springframework.http.HttpStatus;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
-
+import org.springframework.transaction.annotation.Transactional;
 @RestController
 @RequestMapping("/api/distribution")
 public class DistributionController {
@@ -469,5 +469,23 @@ public class DistributionController {
         // 3. Servisi çağır ve işlemi yap
         Assignment updatedAssignment = service.claimAssignment(assignmentId, name);
         return ResponseEntity.ok(updatedAssignment);
+    }
+    @PostMapping("/update-progress/{id}")
+    @Transactional // <--- BU SATIRI MUTLAKA EKLE (İşlemi garantiye alır)
+    public ResponseEntity<?> updateProgress(@PathVariable Long id, @RequestParam int count) {
+
+        Assignment assignment = assignmentRepository.findById(id).orElse(null);
+
+        if (assignment == null) {
+            return ResponseEntity.notFound().build();
+        }
+
+        assignment.setCurrentCount(count);
+
+        // ESKİSİ: assignmentRepository.save(assignment);
+        // YENİSİ: (Anında veritabanına yazar ve commit eder)
+        assignmentRepository.saveAndFlush(assignment);
+
+        return ResponseEntity.ok("Progress saved: " + count);
     }
 }
