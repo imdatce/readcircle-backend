@@ -1,12 +1,15 @@
 package com.readcircle.controller;
 
 import com.readcircle.model.*;
+import com.readcircle.repository.AssignmentRepository;
 import com.readcircle.repository.ResourceRepository;
 import com.readcircle.service.DistributionService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.util.StreamUtils;
 import org.springframework.web.bind.annotation.*;
-
+import org.springframework.http.ResponseEntity;
+import org.springframework.http.HttpStatus;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
@@ -17,7 +20,8 @@ public class DistributionController {
 
     private final DistributionService service;
     private final ResourceRepository resourceRepository;
-
+    @Autowired
+    private AssignmentRepository assignmentRepository;
     public DistributionController(DistributionService service, ResourceRepository resourceRepository) {
         this.service = service;
         this.resourceRepository = resourceRepository;
@@ -442,7 +446,28 @@ public class DistributionController {
     }
 
     @GetMapping("/take/{assignmentId}")
-    public Assignment takeAssignment(@PathVariable Long assignmentId, @RequestParam String name) {
-        return service.claimAssignment(assignmentId, name);
+    public ResponseEntity<?> takeAssignment(@PathVariable Long assignmentId, @RequestParam String name) {
+
+        // 1. Repository artık hata vermez, çünkü yukarıda tanımladık
+        Assignment assignment = assignmentRepository.findById(assignmentId).orElse(null);
+
+        if (assignment == null) {
+            return ResponseEntity.notFound().build();
+        }
+
+        // 2. Dolu mu kontrolü
+        if (assignment.isTaken()) {
+            // Eğer alan kişi aynıysa (kendi tekrar tıkladıysa) başarılı dön
+            if (assignment.getAssignedToName() != null && assignment.getAssignedToName().equals(name)) {
+                return ResponseEntity.ok(assignment);
+            }
+
+            // Başkası almışsa 409 (Conflict) hatası dön
+            return ResponseEntity.status(HttpStatus.CONFLICT).body("ALREADY_TAKEN");
+        }
+
+        // 3. Servisi çağır ve işlemi yap
+        Assignment updatedAssignment = service.claimAssignment(assignmentId, name);
+        return ResponseEntity.ok(updatedAssignment);
     }
 }
