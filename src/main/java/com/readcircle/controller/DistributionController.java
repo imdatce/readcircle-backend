@@ -2,6 +2,7 @@ package com.readcircle.controller;
 
 import com.readcircle.model.*;
 import com.readcircle.repository.AssignmentRepository;
+import com.readcircle.repository.DistributionSessionRepository;
 import com.readcircle.repository.ResourceRepository;
 import com.readcircle.service.DistributionService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import org.springframework.http.HttpStatus;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
+import com.readcircle.dto.CreateDistributionRequest;
 import org.springframework.transaction.annotation.Transactional;
 @RestController
 @RequestMapping("/api/distribution")
@@ -22,32 +24,11 @@ public class DistributionController {
     private final ResourceRepository resourceRepository;
     @Autowired
     private AssignmentRepository assignmentRepository;
-    public DistributionController(DistributionService service, ResourceRepository resourceRepository) {
+    private final DistributionSessionRepository distributionSessionRepository;
+    public DistributionController(DistributionService service, ResourceRepository resourceRepository, DistributionSessionRepository distributionSessionRepository) {
         this.service = service;
         this.resourceRepository = resourceRepository;
-    }
-
-    private String loadBedirNamesFromFile() {
-        try {
-            ClassPathResource resource = new ClassPathResource("bedir_latin.txt");
-            String content = StreamUtils.copyToString(resource.getInputStream(), StandardCharsets.UTF_8);
-
-            return content.replace("\n", " ").replace("\r", " ");
-
-        } catch (IOException e) {
-            e.printStackTrace();
-            return "Liste yüklenirken hata oluştu.";
-        }
-    }
-
-    private String loadCevsenFromFile() {
-        try {
-            ClassPathResource resource = new ClassPathResource("cevsen.txt");
-            return StreamUtils.copyToString(resource.getInputStream(), StandardCharsets.UTF_8);
-        } catch (IOException e) {
-            e.printStackTrace();
-            return "Cevşen yüklenirken hata oluştu.";
-        }
+        this.distributionSessionRepository = distributionSessionRepository;
     }
 
     private String loadFileContent(String fileName) {
@@ -60,36 +41,6 @@ public class DistributionController {
         }
     }
 
-    private String mergeCevsenFiles() {
-        String arabicRaw = loadFileContent("cevsen.txt");
-        String latinRaw = loadFileContent("cevsen_latin.txt");
-        String meaningRaw = loadFileContent("cevsen_.txt");
-
-
-        String[] arabicParts = arabicRaw.split("###");
-        String[] latinParts = latinRaw.split("###");
-
-        StringBuilder combinedBuilder = new StringBuilder();
-
-        int length = Math.min(arabicParts.length, latinParts.length);
-
-        for (int i = 0; i < length; i++) {
-            String arabic = arabicParts[i].trim();
-            String latin = latinParts[i].trim();
-            String meaning = "Meal yakında eklenecek...";
-
-            combinedBuilder.append(arabic)
-                    .append("|||")
-                    .append(latin)
-                    .append("|||")
-                    .append(meaning);
-
-            if (i < length - 1) {
-                combinedBuilder.append("###");
-            }
-        }
-        return combinedBuilder.toString();
-    }
     private String loadTextFile(String fileName) {
         try {
             org.springframework.core.io.ClassPathResource resource =
@@ -99,7 +50,7 @@ public class DistributionController {
             return new String(data, java.nio.charset.StandardCharsets.UTF_8);
         } catch (Exception e) {
             e.printStackTrace();
-            return "Metin yüklenemedi: " + fileName; // Hata olursa bunu yazar
+            return "Metin yüklenemedi: " + fileName;
         }
     }
 
@@ -153,8 +104,7 @@ public class DistributionController {
             Resource bedir = new Resource();
             bedir.setCodeKey("BEDIR");
             bedir.setType(ResourceType.LIST_BASED);
-            bedir.setTotalUnits(32); // 319 isim / 10 = ~32 parça
-
+            bedir.setTotalUnits(32);
             ResourceTranslation tr = new ResourceTranslation();
             tr.setLangCode("tr");
             tr.setName("Ashab-ı Bedir");
@@ -413,17 +363,18 @@ public class DistributionController {
         return resourceRepository.findAll();
     }
 
-    @GetMapping("/create")
-    public DistributionSession createSession(
+     @GetMapping("/create")
+    public ResponseEntity<DistributionSession> createSession(
             @RequestParam List<Long> resourceIds,
             @RequestParam int participants,
-            @RequestParam(required = false) String customTotals
+            @RequestParam(required = false) String customTotals,
+            @RequestParam String creatorName
     ) {
 
         java.util.Map<Long, Integer> customCountsMap = new java.util.HashMap<>();
 
         if (customTotals != null && !customTotals.isEmpty()) {
-            String[] pairs = customTotals.split(",");
+             String[] pairs = customTotals.split(",");
             for (String pair : pairs) {
                 try {
                     String[] parts = pair.split(":");
@@ -433,13 +384,52 @@ public class DistributionController {
                         customCountsMap.put(resId, count);
                     }
                 } catch (NumberFormatException e) {
-                    System.err.println("Parse hatası: " + pair);
+                    System.err.println("Parse hatası");
                 }
             }
         }
 
-        return service.createDistribution(resourceIds, participants, customCountsMap);
+         DistributionSession session = service.createDistribution(
+                resourceIds,
+                participants,
+                customCountsMap,
+                creatorName
+        );
+
+        return ResponseEntity.ok(session);
     }
+
+    @PostMapping("/create")
+    public ResponseEntity<?> createDistribution(@RequestBody CreateDistributionRequest request) {
+         DistributionSession session = new DistributionSession();
+
+         String uniqueCode = java.util.UUID.randomUUID().toString().substring(0, 8);
+        session.setCode(uniqueCode);
+
+
+         session.setParticipants(request.getCount());
+
+         session.setCreatorName(request.getCreatorName());
+
+         session = distributionSessionRepository.save(session);
+
+         Resource resource = resourceRepository.findByCodeKey(request.getType());
+        if (resource == null) {
+            return ResponseEntity.badRequest().body("Geçersiz dağıtım türü: " + request.getType());
+        }
+
+         service.createAssignments(session, resource, request.getCount());
+
+         return ResponseEntity.ok(session);
+    }
+
+    @GetMapping("/my-created-sessions")
+    public ResponseEntity<List<DistributionSession>> getMyCreatedSessions(@RequestParam String name) {
+        List<DistributionSession> sessions = distributionSessionRepository.findByCreatorNameOrderByIdDesc(name);
+        return ResponseEntity.ok(sessions);
+    }
+
+
     @GetMapping("/get/{code}")
     public DistributionSession getSession(@PathVariable String code) {
         return service.getSessionByCode(code);
@@ -448,30 +438,33 @@ public class DistributionController {
     @GetMapping("/take/{assignmentId}")
     public ResponseEntity<?> takeAssignment(@PathVariable Long assignmentId, @RequestParam String name) {
 
-        // 1. Repository artık hata vermez, çünkü yukarıda tanımladık
-        Assignment assignment = assignmentRepository.findById(assignmentId).orElse(null);
+         Assignment assignment = assignmentRepository.findById(assignmentId).orElse(null);
 
         if (assignment == null) {
             return ResponseEntity.notFound().build();
         }
 
-        // 2. Dolu mu kontrolü
-        if (assignment.isTaken()) {
-            // Eğer alan kişi aynıysa (kendi tekrar tıkladıysa) başarılı dön
-            if (assignment.getAssignedToName() != null && assignment.getAssignedToName().equals(name)) {
+         if (assignment.isTaken()) {
+             if (assignment.getAssignedToName() != null && assignment.getAssignedToName().equals(name)) {
                 return ResponseEntity.ok(assignment);
             }
 
-            // Başkası almışsa 409 (Conflict) hatası dön
-            return ResponseEntity.status(HttpStatus.CONFLICT).body("ALREADY_TAKEN");
+             return ResponseEntity.status(HttpStatus.CONFLICT).body("ALREADY_TAKEN");
         }
 
-        // 3. Servisi çağır ve işlemi yap
-        Assignment updatedAssignment = service.claimAssignment(assignmentId, name);
+         Assignment updatedAssignment = service.claimAssignment(assignmentId, name);
         return ResponseEntity.ok(updatedAssignment);
     }
+
+    @GetMapping("/my-sessions")
+    public ResponseEntity<List<DistributionSession>> getMySessions(@RequestParam String name) {
+        List<DistributionSession> sessions = assignmentRepository.findSessionsByUserName(name);
+        return ResponseEntity.ok(sessions);
+    }
+
+
     @PostMapping("/update-progress/{id}")
-    @Transactional // <--- BU SATIRI MUTLAKA EKLE (İşlemi garantiye alır)
+    @Transactional
     public ResponseEntity<?> updateProgress(@PathVariable Long id, @RequestParam int count) {
 
         Assignment assignment = assignmentRepository.findById(id).orElse(null);
@@ -482,9 +475,7 @@ public class DistributionController {
 
         assignment.setCurrentCount(count);
 
-        // ESKİSİ: assignmentRepository.save(assignment);
-        // YENİSİ: (Anında veritabanına yazar ve commit eder)
-        assignmentRepository.saveAndFlush(assignment);
+         assignmentRepository.saveAndFlush(assignment);
 
         return ResponseEntity.ok("Progress saved: " + count);
     }

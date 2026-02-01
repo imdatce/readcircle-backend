@@ -32,8 +32,7 @@ public class Assignment {
     @Column(nullable = true)
     private Integer currentCount;
 
-    // --- BU METODLAR OLMAZSA VERİ GİTMEZ ---
-    public Integer getCurrentCount() {
+     public Integer getCurrentCount() {
         return currentCount;
     }
 
