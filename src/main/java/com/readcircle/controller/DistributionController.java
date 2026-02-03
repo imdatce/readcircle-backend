@@ -196,6 +196,42 @@ public class DistributionController {
             resourceRepository.save(munciye);
         }
 
+
+        if (resourceRepository.findByCodeKey("UHUD") == null) {
+            Resource uhud = new Resource();
+            uhud.setCodeKey("UHUD");
+
+            // ÖNEMLİ: Tipi JOINT yapıyoruz.
+            // Bu sayede "Bireysel Kaynaklar" listesine düşer ve herkese tamamı atanır.
+            uhud.setType(ResourceType.JOINT);
+            uhud.setTotalUnits(1);
+
+            ResourceTranslation trUhud = new ResourceTranslation();
+            trUhud.setLangCode("tr");
+            trUhud.setName("Şühedâ-i Uhud");
+            trUhud.setUnitName("Tamamı");
+
+            try {
+                // Dosyaların tamamını tek seferde string olarak okuyoruz
+                String arabicContent = loadTextFile("uhud.txt");
+                String latinContent = loadTextFile("uhud_latin.txt");
+
+                // Format: Arapça(Tümü) ||| Latin(Tümü) ||| Meal/Açıklama
+                // Not: String birleştirme yaparken araya ayraç koyuyoruz.
+                String finalDescription = arabicContent.trim() + "|||" + latinContent.trim() + "|||Şüheda-i Uhud İsim Listesi";
+
+                trUhud.setDescription(finalDescription);
+
+            } catch (Exception e) {
+                System.err.println("Uhud dosyaları yüklenemedi: " + e.getMessage());
+                trUhud.setDescription("Hata|||Hata|||Hata");
+            }
+
+            trUhud.setResource(uhud);
+            uhud.setTranslations(List.of(trUhud));
+            resourceRepository.save(uhud);
+        }
+
         if (resourceRepository.findByCodeKey("YALATIF") == null) {
             Resource yaLatif = new Resource();
             yaLatif.setCodeKey("YALATIF");
@@ -225,7 +261,7 @@ public class DistributionController {
 
             ResourceTranslation tr = new ResourceTranslation();
             tr.setLangCode("tr");
-            tr.setName("Yâ Hâfîz");
+            tr.setName("Yâ Hafîz");
             tr.setUnitName("Adet");
 
             String content = "يَا حَفِيظُ|||Yâ Hafîz|||Ey her şeyi koruyan, muhafaza eden, " +
@@ -353,7 +389,6 @@ public class DistributionController {
             res.setTranslations(List.of(tr));
             resourceRepository.save(res);
         }
-
 
         return "Veritabanı güncellendi!";
     }
