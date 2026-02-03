@@ -1,11 +1,13 @@
 package com.readcircle.model;
 
-import jakarta.persistence.*;
-import lombok.Data;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
-@Data
+@Getter
+@Setter
 @Table(name = "resource_translations")
 public class ResourceTranslation {
     @Id
@@ -15,50 +17,17 @@ public class ResourceTranslation {
     private String langCode;
     private String name;
     private String unitName;
-    @Lob
-    @Column(columnDefinition = "LONGTEXT")
+
+    @Column(columnDefinition = "TEXT")
     private String description;
-    public Resource getResource() {
-        return resource;
-    }
 
-    public void setResource(Resource resource) {
-        this.resource = resource;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getUnitName() {
-        return unitName;
-    }
-
-    public void setUnitName(String unitName) {
-        this.unitName = unitName;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getLangCode() {
-        return langCode;
-    }
-
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "resource_id")
     @JsonIgnore
     private Resource resource;
 
-    public void setLangCode(String tr) {
+    @Override
+    public String toString() {
+        return "ResourceTranslation(id=" + id + ", name=" + name + ", langCode=" + langCode + ")";
     }
 }
