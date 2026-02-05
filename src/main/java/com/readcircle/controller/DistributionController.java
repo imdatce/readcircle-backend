@@ -11,7 +11,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
-
+import org.springframework.beans.factory.annotation.Value;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
@@ -32,6 +32,9 @@ public class DistributionController {
         this.resourceRepository = resourceRepository;
         this.distributionSessionRepository = distributionSessionRepository;
     }
+
+    @Value("${app.security.db-reset-enabled:false}")
+    private boolean isDbResetEnabled;
 
     @GetMapping("/resources")
     public List<Resource> getAllResources() {
@@ -151,6 +154,12 @@ public class DistributionController {
 
     @PostMapping("/init")
     public ResponseEntity<String> initData() {
+        // Eğer özellik kapalıysa işlemi reddet
+        if (!isDbResetEnabled) {
+            return ResponseEntity.status(HttpStatus.FORBIDDEN)
+                    .body("Bu özellik güvenlik nedeniyle devre dışı bırakılmıştır.");
+        }
+
         service.initDatabase();
         return ResponseEntity.ok("Veritabanı başarıyla sıfırlandı.");
     }

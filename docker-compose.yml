@@ -7,6 +7,8 @@ services:
       - POSTGRES_USER=readuser
       - POSTGRES_PASSWORD=readpassword
       - POSTGRES_DB=readcircledb
+      - JWT_SECRET=${JWT_SECRET}
+      - APP_SECURITY_DB_RESET_ENABLED=false
     ports:
       - "5432:5432"
     volumes:
@@ -26,3 +28,4 @@ services:
 
 volumes:
   postgres_data:
+
