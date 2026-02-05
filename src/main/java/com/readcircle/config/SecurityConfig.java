@@ -3,6 +3,7 @@ package com.readcircle.config;
 import org.springframework.beans.factory.annotation.Autowired; // Eklendi
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy; // Eklendi
@@ -20,7 +21,6 @@ import java.util.List;
 @Configuration
 public class SecurityConfig {
 
-    // 1. Yazdığımız filtreyi buraya çağırıyoruz
     @Autowired
     private JwtAuthenticationFilter jwtAuthenticationFilter;
 
@@ -30,21 +30,21 @@ public class SecurityConfig {
                 .cors(Customizer.withDefaults())
                 .csrf(csrf -> csrf.disable())
 
-                // 2. JWT Filtresini standart filtrenin önüne ekle
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)
 
-                // 3. Oturum yönetimini Stateless (Durumsuz) yap.
-                // Çünkü JWT kullanıyoruz, sunucuda session tutmayacağız.
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(
                                 "/api/auth/**",
-                                "/api/distribution/**", // Test için açık bırakmıştık, artık kapatabilirsin istersen
+                                "/api/distribution/get/**",
+                                "/api/distribution/take/**",
+                                "/api/distribution/cancel/**",
                                 "/error"
                         ).permitAll()
-                        .anyRequest().authenticated()
-                );
+                .requestMatchers(HttpMethod.GET, "/api/distribution/join/**").permitAll()
+                .requestMatchers(HttpMethod.POST, "/api/distribution/assign/**").permitAll()
+                .anyRequest().authenticated()
+        );
 
         return http.build();
     }

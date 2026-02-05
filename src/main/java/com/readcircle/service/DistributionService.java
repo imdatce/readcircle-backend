@@ -148,17 +148,42 @@ public class DistributionService {
             if (!assignment.getAssignedToName().equals(name)) {
                 throw new RuntimeException("Bu parça maalesef başkası tarafından alındı.");
             }
+            return assignment;
         }
 
         assignment.setTaken(true);
         assignment.setAssignedToName(name);
+
         return assignmentRepository.save(assignment);
     }
-
-     public void updateProgress(Long assignmentId, int newCount) {
+    public void updateProgress(Long assignmentId, int newCount, String name) {
         Assignment assignment = assignmentRepository.findById(assignmentId)
                 .orElseThrow(() -> new RuntimeException("Parça bulunamadı"));
+
+         if (!assignment.getAssignedToName().equals(name)) {
+            throw new RuntimeException("Bu parçayı güncelleme yetkiniz yok.");
+        }
+
         assignment.setCurrentCount(newCount);
         assignmentRepository.save(assignment);
     }
+
+    public Assignment cancelAssignment(Long assignmentId, String name) {
+        Assignment assignment = assignmentRepository.findById(assignmentId)
+                .orElseThrow(() -> new RuntimeException("Parça bulunamadı"));
+
+         if (assignment.isTaken() && assignment.getAssignedToName() != null) {
+            if (assignment.getAssignedToName().equals(name)) {
+                assignment.setTaken(false);
+                assignment.setAssignedToName(null);
+                  return assignmentRepository.save(assignment);
+            }
+        }
+        throw new RuntimeException("Bu işlemi yapmaya yetkiniz yok.");
+    }
+
+     public void initDatabase() {
+        assignmentRepository.deleteAll();
+        sessionRepository.deleteAll();
+     }
 }

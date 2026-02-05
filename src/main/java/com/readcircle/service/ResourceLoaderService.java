@@ -10,23 +10,17 @@ import java.nio.charset.StandardCharsets;
 @Service
 public class ResourceLoaderService {
 
-    /**
-     * Verilen dosya adını resources klasöründen okur ve String olarak döner.
-     */
     public String loadTextFile(String fileName) {
         try {
             ClassPathResource resource = new ClassPathResource(fileName);
             return StreamUtils.copyToString(resource.getInputStream(), StandardCharsets.UTF_8);
         } catch (IOException e) {
-            e.printStackTrace(); // Gerçek uygulamada loglama yapılmalı (log.error)
+            e.printStackTrace();
             return "Dosya okunamadı: " + fileName;
         }
     }
 
-    /**
-     * İki dosyayı (Arapça ve Latin) ### ayraçlarına göre parçalayıp birleştirir.
-     * Bedir vb. kaynaklar için kullanılır.
-     */
+
     public String mergeTwoFiles(String arabicFile, String latinFile, String defaultMeaning) {
         String arabicRaw = loadTextFile(arabicFile);
         String latinRaw = loadTextFile(latinFile);
@@ -42,7 +36,7 @@ public class ResourceLoaderService {
                     .append("|||")
                     .append(latinParts[i].trim())
                     .append("|||")
-                    .append(defaultMeaning); // Genelde "Meal hazırlanıyor..." veya sabit metin
+                    .append(defaultMeaning);
 
             if (i < length - 1) {
                 combinedBuilder.append("###");
@@ -51,10 +45,7 @@ public class ResourceLoaderService {
         return combinedBuilder.toString();
     }
 
-    /**
-     * Üç dosyayı (Arapça, Latin, Meal) birleştirir.
-     * Cevşen vb. kaynaklar için kullanılır.
-     */
+
     public String mergeThreeFiles(String arabicFile, String latinFile, String meaningFile) {
         String arabicRaw = loadTextFile(arabicFile);
         String latinRaw = loadTextFile(latinFile);
@@ -63,6 +54,7 @@ public class ResourceLoaderService {
         String[] arabicParts = arabicRaw.split("###");
         String[] latinParts = latinRaw.split("###");
         String[] meaningParts = meaningRaw.split("###");
+
 
         StringBuilder combinedBuilder = new StringBuilder();
         int limit = Math.min(arabicParts.length, Math.min(latinParts.length, meaningParts.length));

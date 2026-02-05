@@ -7,7 +7,9 @@ import com.readcircle.repository.ResourceRepository;
 import com.readcircle.service.ResourceLoaderService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Component
@@ -16,17 +18,15 @@ public class DataSeeder implements CommandLineRunner {
     private final ResourceRepository resourceRepository;
     private final ResourceLoaderService resourceLoaderService;
 
-    // Constructor Injection
     public DataSeeder(ResourceRepository resourceRepository, ResourceLoaderService resourceLoaderService) {
         this.resourceRepository = resourceRepository;
         this.resourceLoaderService = resourceLoaderService;
     }
 
     @Override
+    @Transactional
     public void run(String... args) throws Exception {
-        if (resourceRepository.count() == 0) {
-            loadData();
-        }
+        loadData();
     }
 
     private void loadData() {
@@ -206,7 +206,7 @@ public class DataSeeder implements CommandLineRunner {
             tr.setName("Yâ Fettâh");
             tr.setUnitName("Adet");
 
-            String content = "يَا فَتَّاحُ|||Yâ Fettâh|||Ey her türlü hayır kapılarını açan, " +
+            String content = "يَا فَتَّاحُ|||Yâ Fettâh|||Ey her türlü hayır kapılarını açan, " +
                     "maddi-manevi darlıkları gideren, zorlukları kolaylaştıran Allah.";
             tr.setDescription(content);
 
@@ -227,7 +227,7 @@ public class DataSeeder implements CommandLineRunner {
             tr.setName("Hasbunallâh");
             tr.setUnitName("Adet");
 
-            String content = "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ|||Hasbunallâhu ve ni'mel vekîl|||Allah bize yeter," +
+            String content = "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ|||Hasbunallâhu ve ni'mel vekîl|||Allah bize yeter," +
                     " O ne güzel vekildir.";
             tr.setDescription(content);
 
@@ -248,7 +248,7 @@ public class DataSeeder implements CommandLineRunner {
             tr.setName("Lâ Havle");
             tr.setUnitName("Adet");
 
-            String content = "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ|||Lâ havle ve lâ kuvvete illâ billâh|||Güç ve kuvvet, sadece " +
+            String content = "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ|||Lâ havle ve lâ kuvvete illâ billâh|||Güç ve kuvvet, sadece " +
                     "Yüce ve Büyük olan Allah'ın yardımıyladır.";
             tr.setDescription(content);
 
@@ -315,6 +315,32 @@ public class DataSeeder implements CommandLineRunner {
             tr.setResource(res);
             res.setTranslations(List.of(tr));
             resourceRepository.save(res);
+        }
+
+        // 15. TEVHİDNAME
+        if (resourceRepository.findByCodeKey("TEVHIDNAME") == null) {
+            Resource tevhidname = new Resource();
+            tevhidname.setCodeKey("TEVHIDNAME");
+            tevhidname.setType(ResourceType.LIST_BASED);
+            tevhidname.setTotalUnits(133);
+
+            ResourceTranslation trTevhid = new ResourceTranslation();
+            trTevhid.setLangCode("tr");
+            trTevhid.setName("Tevhidnâme");
+            trTevhid.setUnitName("Bölüm");
+
+            String finalDescription = resourceLoaderService.mergeThreeFiles(
+                    "tevhidname.txt",
+                    "tevhidname_latin.txt",
+                    "tevhidname_meaning.txt"
+            );
+            trTevhid.setDescription(finalDescription);
+            trTevhid.setResource(tevhidname);
+
+            List<ResourceTranslation> translations = new ArrayList<>();
+            translations.add(trTevhid);
+            tevhidname.setTranslations(translations);
+            resourceRepository.save(tevhidname);
         }
     }
 }

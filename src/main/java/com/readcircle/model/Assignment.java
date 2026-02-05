@@ -11,6 +11,13 @@ public class Assignment {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @ManyToOne(optional = true)
+
+    @JoinColumn(name = "user_id", nullable = true)
+     private User user;
+
+    private String guestName;
+
     private int participantNumber;
     private int startUnit;
     private int endUnit;
