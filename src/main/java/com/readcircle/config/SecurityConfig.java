@@ -39,6 +39,8 @@ public class SecurityConfig {
                                 "/api/distribution/get/**",
                                 "/api/distribution/take/**",
                                 "/api/distribution/cancel/**",
+                                "/api/distribution/update-progress/**",
+                                "/api/distribution/complete/**",
                                 "/error"
                         ).permitAll()
                 .requestMatchers(HttpMethod.GET, "/api/distribution/join/**").permitAll()

@@ -168,6 +168,27 @@ public class DistributionService {
         assignmentRepository.save(assignment);
     }
 
+    @Transactional
+    public Assignment completeAssignment(Long assignmentId, String name) {
+        Assignment assignment = assignmentRepository.findById(assignmentId)
+                .orElseThrow(() -> new RuntimeException("Parça bulunamadı."));
+
+        // Güvenlik: Sadece parçayı alan kişi tamamlayabilir
+        if (assignment.getAssignedToName() == null || !assignment.getAssignedToName().equals(name)) {
+            throw new RuntimeException("Bu parçayı tamamlama yetkiniz yok.");
+        }
+
+        // Durumu güncelle
+        assignment.setCompleted(true);
+
+        // Eğer sayaçlı bir kaynaksa (Örn: Salavat), sayıyı da fulleyelim
+        if (assignment.getResource().getType() == ResourceType.COUNTABLE) {
+            assignment.setCurrentCount(assignment.getEndUnit());
+        }
+
+        return assignmentRepository.save(assignment);
+    }
+
     public Assignment cancelAssignment(Long assignmentId, String name) {
         Assignment assignment = assignmentRepository.findById(assignmentId)
                 .orElseThrow(() -> new RuntimeException("Parça bulunamadı"));

@@ -5,6 +5,7 @@ import com.readcircle.model.ResourceTranslation;
 import com.readcircle.model.ResourceType;
 import com.readcircle.repository.ResourceRepository;
 import com.readcircle.service.ResourceLoaderService;
+import com.readcircle.util.Constants; // <-- YENİ IMPORT
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
@@ -125,7 +126,7 @@ public class DataSeeder implements CommandLineRunner {
             resourceRepository.save(munciye);
         }
 
-        // 6. ŞÜHEDA-İ UHUD
+        // 6. ŞÜHEDA-İ UHUD (GÜNCELLENDİ)
         if (resourceRepository.findByCodeKey("UHUD") == null) {
             Resource uhud = new Resource();
             uhud.setCodeKey("UHUD");
@@ -140,10 +141,13 @@ public class DataSeeder implements CommandLineRunner {
             try {
                 String arabic = resourceLoaderService.loadTextFile("uhud.txt");
                 String latin = resourceLoaderService.loadTextFile("uhud_latin.txt");
-                String finalDesc = arabic.trim() + "|||" + latin.trim() + "|||Şüheda-i Uhud İsim Listesi";
+                // "|||" YERİNE SABİT KULLANILDI
+                String finalDesc = arabic.trim() + Constants.FIELD_SEPARATOR + latin.trim()
+                        + Constants.FIELD_SEPARATOR + "Şüheda-i Uhud İsim Listesi";
                 trUhud.setDescription(finalDesc);
             } catch (Exception e) {
-                trUhud.setDescription("Hata|||Hata|||Hata");
+                // "|||" YERİNE SABİT KULLANILDI
+                trUhud.setDescription("Hata" + Constants.FIELD_SEPARATOR + "Hata" + Constants.FIELD_SEPARATOR + "Hata");
             }
 
             trUhud.setResource(uhud);
@@ -151,7 +155,7 @@ public class DataSeeder implements CommandLineRunner {
             resourceRepository.save(uhud);
         }
 
-        // 7. YÂ LATÎF
+        // 7. YÂ LATÎF (GÜNCELLENDİ)
         if (resourceRepository.findByCodeKey("YALATIF") == null) {
             Resource yaLatif = new Resource();
             yaLatif.setCodeKey("YALATIF");
@@ -163,7 +167,9 @@ public class DataSeeder implements CommandLineRunner {
             tr.setName("Yâ Latîf");
             tr.setUnitName("Adet");
 
-            String content = "يَا لَطِيفُ|||Yâ Latîf|||Ey sonsuz lütuf ve ihsan sahibi, " +
+            // "|||" YERİNE SABİT KULLANILDI
+            String content = "يَا لَطِيفُ" + Constants.FIELD_SEPARATOR + "Yâ Latîf"
+                    + Constants.FIELD_SEPARATOR + "Ey sonsuz lütuf ve ihsan sahibi, " +
                     "en ince işlerin iç yüzünü bilen," +
                     "kullarına şefkatle muamele eden Allah.";
             tr.setDescription(content);
@@ -173,7 +179,7 @@ public class DataSeeder implements CommandLineRunner {
             resourceRepository.save(yaLatif);
         }
 
-        // 8. YÂ HAFÎZ
+        // 8. YÂ HAFÎZ (GÜNCELLENDİ)
         if (resourceRepository.findByCodeKey("YAHAFIZ") == null) {
             Resource yaHafiz = new Resource();
             yaHafiz.setCodeKey("YAHAFIZ");
@@ -185,7 +191,9 @@ public class DataSeeder implements CommandLineRunner {
             tr.setName("Yâ Hafîz");
             tr.setUnitName("Adet");
 
-            String content = "يَا حَفِيظُ|||Yâ Hafîz|||Ey her şeyi koruyan, muhafaza eden, " +
+            // "|||" YERİNE SABİT KULLANILDI
+            String content = "يَا حَفِيظُ" + Constants.FIELD_SEPARATOR + "Yâ Hafîz"
+                    + Constants.FIELD_SEPARATOR + "Ey her şeyi koruyan, muhafaza eden, " +
                     "hiç bir şeyin kaybolmasına müsaade etmeyen ve belalardan saklayan Allah.";
             tr.setDescription(content);
 
@@ -194,7 +202,7 @@ public class DataSeeder implements CommandLineRunner {
             resourceRepository.save(yaHafiz);
         }
 
-        // 9. YÂ FETTÂH
+        // 9. YÂ FETTÂH (GÜNCELLENDİ)
         if (resourceRepository.findByCodeKey("YAFETTAH") == null) {
             Resource yaFettah = new Resource();
             yaFettah.setCodeKey("YAFETTAH");
@@ -206,7 +214,9 @@ public class DataSeeder implements CommandLineRunner {
             tr.setName("Yâ Fettâh");
             tr.setUnitName("Adet");
 
-            String content = "يَا فَتَّاحُ|||Yâ Fettâh|||Ey her türlü hayır kapılarını açan, " +
+            // "|||" YERİNE SABİT KULLANILDI
+            String content = "يَا فَتَّاحُ" + Constants.FIELD_SEPARATOR + "Yâ Fettâh"
+                    + Constants.FIELD_SEPARATOR + "Ey her türlü hayır kapılarını açan, " +
                     "maddi-manevi darlıkları gideren, zorlukları kolaylaştıran Allah.";
             tr.setDescription(content);
 
@@ -215,7 +225,7 @@ public class DataSeeder implements CommandLineRunner {
             resourceRepository.save(yaFettah);
         }
 
-        // 10. HASBUNALLAH
+        // 10. HASBUNALLAH (GÜNCELLENDİ)
         if (resourceRepository.findByCodeKey("HASBUNALLAH") == null) {
             Resource hasbunallah = new Resource();
             hasbunallah.setCodeKey("HASBUNALLAH");
@@ -227,7 +237,9 @@ public class DataSeeder implements CommandLineRunner {
             tr.setName("Hasbunallâh");
             tr.setUnitName("Adet");
 
-            String content = "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ|||Hasbunallâhu ve ni'mel vekîl|||Allah bize yeter," +
+            // "|||" YERİNE SABİT KULLANILDI
+            String content = "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ" + Constants.FIELD_SEPARATOR +
+                    "Hasbunallâhu ve ni'mel vekîl" + Constants.FIELD_SEPARATOR + "Allah bize yeter," +
                     " O ne güzel vekildir.";
             tr.setDescription(content);
 
@@ -236,7 +248,7 @@ public class DataSeeder implements CommandLineRunner {
             resourceRepository.save(hasbunallah);
         }
 
-        // 11. LÂ HAVLE
+        // 11. LÂ HAVLE (GÜNCELLENDİ)
         if (resourceRepository.findByCodeKey("LAHAVLE") == null) {
             Resource lahavle = new Resource();
             lahavle.setCodeKey("LAHAVLE");
@@ -248,7 +260,9 @@ public class DataSeeder implements CommandLineRunner {
             tr.setName("Lâ Havle");
             tr.setUnitName("Adet");
 
-            String content = "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ|||Lâ havle ve lâ kuvvete illâ billâh|||Güç ve kuvvet, sadece " +
+            // "|||" YERİNE SABİT KULLANILDI
+            String content = "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ" + Constants.FIELD_SEPARATOR +
+                    "Lâ havle ve lâ kuvvete illâ billâh" + Constants.FIELD_SEPARATOR + "Güç ve kuvvet, sadece " +
                     "Yüce ve Büyük olan Allah'ın yardımıyladır.";
             tr.setDescription(content);
 

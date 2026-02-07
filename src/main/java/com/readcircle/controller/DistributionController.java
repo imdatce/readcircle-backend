@@ -105,10 +105,13 @@ public class DistributionController {
     }
 
     @GetMapping("/get/{code}")
-    public DistributionSession getSession(@PathVariable String code) {
-        return service.getSessionByCode(code);
+    public ResponseEntity<DistributionSession> getSession(@PathVariable String code) {
+        DistributionSession session = service.getSessionByCode(code);
+        if (session == null) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(session);
     }
-
     @GetMapping("/take/{assignmentId}")
     public ResponseEntity<?> takeAssignment(@PathVariable Long assignmentId, @RequestParam String name) {
          Assignment assignment = assignmentRepository.findById(assignmentId).orElse(null);
@@ -163,4 +166,15 @@ public class DistributionController {
         service.initDatabase();
         return ResponseEntity.ok("Veritabanı başarıyla sıfırlandı.");
     }
+
+    @PostMapping("/complete/{id}")
+    public ResponseEntity<?> completeAssignment(@PathVariable Long id, @RequestParam String name) {
+        try {
+            Assignment updated = service.completeAssignment(id, name);
+            return ResponseEntity.ok(updated);
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.FORBIDDEN).body(e.getMessage());
+        }
+    }
+
 }
