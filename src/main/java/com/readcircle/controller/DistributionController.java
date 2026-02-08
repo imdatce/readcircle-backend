@@ -1,7 +1,9 @@
 package com.readcircle.controller;
 
 import com.readcircle.dto.CreateDistributionRequest;
-import com.readcircle.model.*;
+import com.readcircle.model.Assignment;
+import com.readcircle.model.DistributionSession;
+import com.readcircle.model.Resource;
 import com.readcircle.repository.AssignmentRepository;
 import com.readcircle.repository.DistributionSessionRepository;
 import com.readcircle.repository.ResourceRepository;
@@ -105,13 +107,10 @@ public class DistributionController {
     }
 
     @GetMapping("/get/{code}")
-    public ResponseEntity<DistributionSession> getSession(@PathVariable String code) {
-        DistributionSession session = service.getSessionByCode(code);
-        if (session == null) {
-            return ResponseEntity.notFound().build();
-        }
-        return ResponseEntity.ok(session);
+    public DistributionSession getSession(@PathVariable String code) {
+        return service.getSessionByCode(code);
     }
+
     @GetMapping("/take/{assignmentId}")
     public ResponseEntity<?> takeAssignment(@PathVariable Long assignmentId, @RequestParam String name) {
          Assignment assignment = assignmentRepository.findById(assignmentId).orElse(null);
@@ -155,6 +154,16 @@ public class DistributionController {
         }
     }
 
+    @PostMapping("/complete/{id}")
+    public ResponseEntity<?> completeAssignment(@PathVariable Long id, @RequestParam String name) {
+        try {
+            Assignment updated = service.completeAssignment(id, name);
+            return ResponseEntity.ok(updated);
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.FORBIDDEN).body(e.getMessage());
+        }
+    }
+
     @PostMapping("/init")
     public ResponseEntity<String> initData() {
         // Eğer özellik kapalıysa işlemi reddet
@@ -167,11 +176,31 @@ public class DistributionController {
         return ResponseEntity.ok("Veritabanı başarıyla sıfırlandı.");
     }
 
-    @PostMapping("/complete/{id}")
-    public ResponseEntity<?> completeAssignment(@PathVariable Long id, @RequestParam String name) {
+    @DeleteMapping("/delete-session/{code}")
+    public ResponseEntity<?> deleteSession(@PathVariable String code, @RequestParam String username) {
         try {
-            Assignment updated = service.completeAssignment(id, name);
-            return ResponseEntity.ok(updated);
+            service.deleteSession(code, username);
+            return ResponseEntity.ok("Oturum başarıyla silindi.");
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.FORBIDDEN).body(e.getMessage());
+        }
+    }
+
+    @PostMapping("/leave-session/{code}")
+    public ResponseEntity<?> leaveSession(@PathVariable String code, @RequestParam String username) {
+        try {
+            service.leaveSession(code, username);
+            return ResponseEntity.ok("Halkadan ayrıldınız.");
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
+
+    @PostMapping("/reset-session/{code}")
+    public ResponseEntity<?> resetSession(@PathVariable String code, @RequestParam String username) {
+        try {
+            service.resetSession(code, username);
+            return ResponseEntity.ok("Oturum başarıyla sıfırlandı.");
         } catch (Exception e) {
             return ResponseEntity.status(HttpStatus.FORBIDDEN).body(e.getMessage());
         }

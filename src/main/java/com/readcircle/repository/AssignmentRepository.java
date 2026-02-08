@@ -13,4 +13,7 @@ public interface AssignmentRepository extends JpaRepository<Assignment, Long> {
 
     @Query("SELECT DISTINCT a.session FROM Assignment a WHERE a.assignedToName = :name")
     List<DistributionSession> findSessionsByUserName(@Param("name") String name);
+
+    List<Assignment> findBySession_CodeAndAssignedToName(String sessionCode, String assignedToName);
+    void deleteBySession_Id(Long sessionId);
 }

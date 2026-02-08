@@ -70,7 +70,6 @@ public class DistributionService {
     ) {
         DistributionSession session = new DistributionSession();
         session.setCode(UUID.randomUUID().toString().substring(0, 8));
-        session.setDescription("Çoklu Kaynak Dağıtımı");
         session.setParticipants(participantCount);
 
          session.setCreatorName(creatorName);
@@ -136,8 +135,18 @@ public class DistributionService {
         return assignment;
     }
 
+    @Transactional(readOnly = true)
     public DistributionSession getSessionByCode(String code) {
-        return sessionRepository.findByCode(code);
+        DistributionSession session = sessionRepository.findByCodeWithAssignments(code);
+        if (session == null) return sessionRepository.findByCode(code);
+        if (session.getAssignments() != null) {
+            session.getAssignments().forEach(a -> {
+                if (a.getResource() != null && a.getResource().getTranslations() != null) {
+                    a.getResource().getTranslations().size();
+                }
+            });
+        }
+        return session;
     }
 
     public Assignment claimAssignment(Long assignmentId, String name) {
@@ -189,6 +198,38 @@ public class DistributionService {
         return assignmentRepository.save(assignment);
     }
 
+    // be/src/main/java/com/readcircle/service/DistributionService.java içine ekleyin:
+
+    @Transactional
+    public void deleteSession(String code, String username) {
+        DistributionSession session = sessionRepository.findByCode(code);
+        if (session == null) {
+            throw new RuntimeException("Oturum bulunamadı.");
+        }
+
+        if (!session.getCreatorName().equals(username)) {
+            throw new RuntimeException("Bu oturumu silmeye yetkiniz yok.");
+        }
+
+        assignmentRepository.deleteBySession_Id(session.getId());
+
+        sessionRepository.delete(session);
+    }
+
+    @Transactional
+    public void leaveSession(String code, String username) {
+        List<Assignment> userAssignments = assignmentRepository.findBySession_CodeAndAssignedToName(code, username);
+
+        for (Assignment assignment : userAssignments) {
+            assignment.setTaken(false);
+            assignment.setAssignedToName(null);
+            assignment.setCurrentCount(0);
+            assignment.setCompleted(false);
+        }
+
+        assignmentRepository.saveAll(userAssignments);
+    }
+
     public Assignment cancelAssignment(Long assignmentId, String name) {
         Assignment assignment = assignmentRepository.findById(assignmentId)
                 .orElseThrow(() -> new RuntimeException("Parça bulunamadı"));
@@ -202,6 +243,37 @@ public class DistributionService {
         }
         throw new RuntimeException("Bu işlemi yapmaya yetkiniz yok.");
     }
+
+    @Transactional
+    public void resetSession(String code, String username) {
+        DistributionSession session = sessionRepository.findByCode(code);
+        if (session == null) {
+            throw new RuntimeException("Oturum bulunamadı.");
+        }
+
+        // Güvenlik: Sadece oluşturan kişi sıfırlayabilir
+        if (!session.getCreatorName().equals(username)) {
+            throw new RuntimeException("Bu oturumu sıfırlamaya yetkiniz yok.");
+        }
+
+        List<Assignment> assignments = assignmentRepository.findBySession_Id(session.getId());
+
+        for (Assignment assignment : assignments) {
+            // 1. Sahipliği kaldır
+            assignment.setTaken(false);
+            assignment.setAssignedToName(null);
+
+            // 2. Tamamlandı işaretini kaldır
+            assignment.setCompleted(false);
+
+            // 3. Sayacı başlangıç değerine (full) getir (Geri sayım mantığı olduğu için)
+            int initialCount = assignment.getEndUnit() - assignment.getStartUnit() + 1;
+            assignment.setCurrentCount(initialCount);
+        }
+
+        assignmentRepository.saveAll(assignments);
+    }
+
 
      public void initDatabase() {
         assignmentRepository.deleteAll();
