@@ -11,12 +11,14 @@ import com.readcircle.service.DistributionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.Value;
+import jakarta.validation.Valid;
+
 import java.util.List;
-import java.util.Map;
-import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/distribution")
@@ -43,66 +45,31 @@ public class DistributionController {
         return resourceRepository.findAll();
     }
 
-     @GetMapping("/create")
-    public ResponseEntity<?> createDistributionGet(
-            @RequestParam(name = "resourceIds") List<Long> resourceIds,
-            @RequestParam int participants,
-            @RequestParam String creatorName
-    ) {
-         DistributionSession session = new DistributionSession();
-        String uniqueCode = UUID.randomUUID().toString().substring(0, 8);
-        session.setCode(uniqueCode);
-        session.setParticipants(participants);
-        session.setCreatorName(creatorName);
-        session = distributionSessionRepository.save(session);
+    @PostMapping("/create")
+    public ResponseEntity<?> createDistribution(@Valid @RequestBody CreateDistributionRequest request) {
+        String creatorName = getCurrentUsername();
 
-         if (resourceIds != null) {
-            for (Long resId : resourceIds) {
-                Resource resource = resourceRepository.findById(resId).orElse(null);
-                if (resource != null) {
-                    service.createAssignments(session, resource, participants);
-                }
-            }
-        }
+        DistributionSession session = service.createDistribution(
+                request.getResourceIds(),
+                request.getParticipants(),
+                request.getCustomTotals(),
+                creatorName
+        );
 
         return ResponseEntity.ok(session);
     }
 
-    @PostMapping("/create")
-    public ResponseEntity<?> createDistribution(@RequestBody Map<String, Object> payload) {
-        try {
-            String creatorName = (String) payload.get("creatorName");
-            int count = (int) payload.get("participants");
-
-             List<Integer> resourceIdsInt = (List<Integer>) payload.get("resourceIds");
-            List<Long> resourceIds = resourceIdsInt.stream().map(Integer::longValue).toList();
-
-             Map<String, String> customTotalsRaw = (Map<String, String>) payload.get("customTotals");
-            Map<Long, Integer> customCountsMap = new java.util.HashMap<>();
-
-            if (customTotalsRaw != null) {
-                for (Map.Entry<String, String> entry : customTotalsRaw.entrySet()) {
-                    customCountsMap.put(Long.parseLong(entry.getKey()), Integer.parseInt(entry.getValue()));
-                }
-            }
-
-             DistributionSession session = service.createDistribution(
-                    resourceIds,
-                    count,
-                    customCountsMap,
-                    creatorName
-            );
-
-            return ResponseEntity.ok(session);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return ResponseEntity.badRequest().body("Hata: " + e.getMessage());
-        }
+    @GetMapping("/my-created-sessions")
+    public ResponseEntity<List<DistributionSession>> getMyCreatedSessions() {
+        String name = getCurrentUsername();
+        List<DistributionSession> sessions = distributionSessionRepository.findByCreatorNameOrderByIdDesc(name);
+        return ResponseEntity.ok(sessions);
     }
 
-    @GetMapping("/my-created-sessions")
-    public ResponseEntity<List<DistributionSession>> getMyCreatedSessions(@RequestParam String name) {
-        List<DistributionSession> sessions = distributionSessionRepository.findByCreatorNameOrderByIdDesc(name);
+    @GetMapping("/my-sessions")
+    public ResponseEntity<List<DistributionSession>> getMySessions() {
+        String name = getCurrentUsername();
+        List<DistributionSession> sessions = assignmentRepository.findSessionsByUserName(name);
         return ResponseEntity.ok(sessions);
     }
 
@@ -111,53 +78,59 @@ public class DistributionController {
         return service.getSessionByCode(code);
     }
 
-    @GetMapping("/take/{assignmentId}")
-    public ResponseEntity<?> takeAssignment(@PathVariable Long assignmentId, @RequestParam String name) {
-         Assignment assignment = assignmentRepository.findById(assignmentId).orElse(null);
+     @PostMapping("/take/{assignmentId}")
+    public ResponseEntity<?> takeAssignment(@PathVariable Long assignmentId, @RequestParam(required = false) String name) {
+        String effectiveName;
+        try {
+            effectiveName = getEffectiveUsername(name);
+        } catch (RuntimeException e) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(e.getMessage());
+        }
+
+        Assignment assignment = assignmentRepository.findById(assignmentId).orElse(null);
         if (assignment == null) return ResponseEntity.notFound().build();
 
-         if (assignment.isTaken()) {
-            if (assignment.getAssignedToName() != null && assignment.getAssignedToName().equals(name)) {
+        if (assignment.isTaken()) {
+            if (assignment.getAssignedToName() != null && assignment.getAssignedToName().equals(effectiveName)) {
                 return ResponseEntity.ok(assignment);
             }
             return ResponseEntity.status(HttpStatus.CONFLICT).body("ALREADY_TAKEN");
         }
 
-         Assignment updatedAssignment = service.claimAssignment(assignmentId, name);
+        Assignment updatedAssignment = service.claimAssignment(assignmentId, effectiveName);
         return ResponseEntity.ok(updatedAssignment);
     }
 
-    @GetMapping("/my-sessions")
-    public ResponseEntity<List<DistributionSession>> getMySessions(@RequestParam String name) {
-        List<DistributionSession> sessions = assignmentRepository.findSessionsByUserName(name);
-        return ResponseEntity.ok(sessions);
-    }
-
-    @PostMapping("/update-progress/{id}")
+     @PostMapping("/update-progress/{id}")
     @Transactional
-    public ResponseEntity<?> updateProgress(@PathVariable Long id, @RequestParam int count) {
-        Assignment assignment = assignmentRepository.findById(id).orElse(null);
-        if (assignment == null) return ResponseEntity.notFound().build();
-
-        assignment.setCurrentCount(count);
-        assignmentRepository.saveAndFlush(assignment);
-        return ResponseEntity.ok("Progress saved: " + count);
-    }
-
-    @PostMapping("/cancel/{id}")
-    public ResponseEntity<?> cancelAssignment(@PathVariable Long id, @RequestParam String name) {
+    public ResponseEntity<?> updateProgress(@PathVariable Long id, @RequestParam int count, @RequestParam(required = false) String name) {
         try {
-             service.cancelAssignment(id, name);
-            return ResponseEntity.ok("İptal edildi");
+             String effectiveName = getEffectiveUsername(name);
+
+             service.updateProgress(id, count, effectiveName);
+
+            return ResponseEntity.ok("Progress saved: " + count);
         } catch (Exception e) {
-             return ResponseEntity.status(HttpStatus.FORBIDDEN).body(e.getMessage());
+            return ResponseEntity.status(HttpStatus.FORBIDDEN).body(e.getMessage());
         }
     }
 
-    @PostMapping("/complete/{id}")
-    public ResponseEntity<?> completeAssignment(@PathVariable Long id, @RequestParam String name) {
+     @PostMapping("/cancel/{id}")
+    public ResponseEntity<?> cancelAssignment(@PathVariable Long id, @RequestParam(required = false) String name) {
         try {
-            Assignment updated = service.completeAssignment(id, name);
+            String effectiveName = getEffectiveUsername(name);
+            service.cancelAssignment(id, effectiveName);
+            return ResponseEntity.ok("İptal edildi");
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.FORBIDDEN).body(e.getMessage());
+        }
+    }
+
+     @PostMapping("/complete/{id}")
+    public ResponseEntity<?> completeAssignment(@PathVariable Long id, @RequestParam(required = false) String name) {
+        try {
+            String effectiveName = getEffectiveUsername(name);
+            Assignment updated = service.completeAssignment(id, effectiveName);
             return ResponseEntity.ok(updated);
         } catch (Exception e) {
             return ResponseEntity.status(HttpStatus.FORBIDDEN).body(e.getMessage());
@@ -166,7 +139,6 @@ public class DistributionController {
 
     @PostMapping("/init")
     public ResponseEntity<String> initData() {
-        // Eğer özellik kapalıysa işlemi reddet
         if (!isDbResetEnabled) {
             return ResponseEntity.status(HttpStatus.FORBIDDEN)
                     .body("Bu özellik güvenlik nedeniyle devre dışı bırakılmıştır.");
@@ -177,8 +149,9 @@ public class DistributionController {
     }
 
     @DeleteMapping("/delete-session/{code}")
-    public ResponseEntity<?> deleteSession(@PathVariable String code, @RequestParam String username) {
+    public ResponseEntity<?> deleteSession(@PathVariable String code) {
         try {
+            String username = getCurrentUsername();
             service.deleteSession(code, username);
             return ResponseEntity.ok("Oturum başarıyla silindi.");
         } catch (Exception e) {
@@ -187,8 +160,9 @@ public class DistributionController {
     }
 
     @PostMapping("/leave-session/{code}")
-    public ResponseEntity<?> leaveSession(@PathVariable String code, @RequestParam String username) {
+    public ResponseEntity<?> leaveSession(@PathVariable String code) {
         try {
+            String username = getCurrentUsername();
             service.leaveSession(code, username);
             return ResponseEntity.ok("Halkadan ayrıldınız.");
         } catch (Exception e) {
@@ -197,8 +171,9 @@ public class DistributionController {
     }
 
     @PostMapping("/reset-session/{code}")
-    public ResponseEntity<?> resetSession(@PathVariable String code, @RequestParam String username) {
+    public ResponseEntity<?> resetSession(@PathVariable String code) {
         try {
+            String username = getCurrentUsername();
             service.resetSession(code, username);
             return ResponseEntity.ok("Oturum başarıyla sıfırlandı.");
         } catch (Exception e) {
@@ -206,4 +181,22 @@ public class DistributionController {
         }
     }
 
+     private String getCurrentUsername() {
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        if (authentication == null || !authentication.isAuthenticated() || authentication.getPrincipal().equals("anonymousUser")) {
+            throw new RuntimeException("Kullanıcı oturumu bulunamadı.");
+        }
+        return authentication.getName();
+    }
+
+    private String getEffectiveUsername(String paramName) {
+        try {
+             return getCurrentUsername();
+        } catch (Exception e) {
+             if (paramName != null && !paramName.trim().isEmpty()) {
+                return paramName;
+            }
+            throw new RuntimeException("Lütfen isminizi giriniz veya giriş yapınız.");
+        }
+    }
 }

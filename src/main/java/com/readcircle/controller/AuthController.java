@@ -30,8 +30,7 @@ public class AuthController {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    // application.properties dosyasındaki jwt.secret değerini buraya çekiyoruz
-    @Value("${jwt.secret}")
+     @Value("${jwt.secret}")
     private String secretKey;
 
     @PostMapping("/register")
@@ -50,8 +49,7 @@ public class AuthController {
 
         if (userOpt.isPresent() && passwordEncoder.matches(loginRequest.getPassword(), userOpt.get().getPassword())) {
 
-            // Anahtarımızı String'den Key nesnesine çeviriyoruz
-            Key key = Keys.hmacShaKeyFor(secretKey.getBytes(StandardCharsets.UTF_8));
+             Key key = Keys.hmacShaKeyFor(secretKey.getBytes(StandardCharsets.UTF_8));
 
             String token = Jwts.builder()
                     .setSubject(userOpt.get().getUsername())

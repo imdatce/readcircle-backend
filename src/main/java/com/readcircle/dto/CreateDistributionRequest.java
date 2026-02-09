@@ -1,32 +1,41 @@
 package com.readcircle.dto;
 
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotEmpty;
+import java.util.List;
+import java.util.Map;
+
 public class CreateDistributionRequest {
-    private String type;
-    private int count;
-    private String creatorName;
 
+    @Min(value = 1, message = "Min 1 participate.")
+    private int participants;
 
-    public String getType() {
-        return type;
+    @NotEmpty(message = "Min 1 part.")
+    private List<Long> resourceIds;
+
+    private Map<Long, Integer> customTotals;
+
+    public int getParticipants() {
+        return participants;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setParticipants(int participants) {
+        this.participants = participants;
     }
 
-    public int getCount() {
-        return count;
+    public List<Long> getResourceIds() {
+        return resourceIds;
     }
 
-    public void setCount(int count) {
-        this.count = count;
+    public void setResourceIds(List<Long> resourceIds) {
+        this.resourceIds = resourceIds;
     }
 
-    public String getCreatorName() {
-        return creatorName;
+    public Map<Long, Integer> getCustomTotals() {
+        return customTotals;
     }
 
-    public void setCreatorName(String creatorName) {
-        this.creatorName = creatorName;
+    public void setCustomTotals(Map<Long, Integer> customTotals) {
+        this.customTotals = customTotals;
     }
 }
