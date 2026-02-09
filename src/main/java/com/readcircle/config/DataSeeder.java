@@ -58,7 +58,7 @@ public class DataSeeder implements CommandLineRunner {
         createOrUpdateResource(
                 "BEDIR",
                 ResourceType.LIST_BASED,
-                32,
+                320,
                 Map.of(
                         "tr", "Ashab-ı Bedir",
                         "en", "Companions of Badr",
@@ -67,14 +67,13 @@ public class DataSeeder implements CommandLineRunner {
                         "ar", "أصحاب بدر"
                 ),
                 Map.of(
-                        "tr", "Grup",
-                        "en", "Group",
-                        "fr", "Groupe",
-                        "ku", "Kom",
-                        "ar", "مجموعة"
+                        "tr", "Kişi",
+                        "en", "Person",
+                        "fr", "Personne",
+                        "ku", "Kes",
+                        "ar", "شخص"
                 ),
                 (lang) -> {
-                    // Türkçe dışındaki diller için şimdilik "Translation pending" veya İngilizce içerik dönüyoruz
                     if ("tr".equals(lang)) return resourceLoaderService.mergeTwoFiles("bedir.txt", "bedir_latin.txt", "Meal hazırlanıyor...");
                     return resourceLoaderService.mergeTwoFiles("bedir.txt", "bedir_latin.txt", "Translation pending...");
                 }
@@ -466,10 +465,10 @@ public class DataSeeder implements CommandLineRunner {
         if (resource == null) {
             resource = new Resource();
             resource.setCodeKey(codeKey);
-            resource.setType(type);
-            resource.setTotalUnits(totalUnits);
-            resource = resourceRepository.save(resource);
         }
+        resource.setType(type);
+        resource.setTotalUnits(totalUnits);
+        resource = resourceRepository.save(resource);
 
         List<ResourceTranslation> translations = resource.getTranslations();
         if (translations == null) translations = new ArrayList<>();
