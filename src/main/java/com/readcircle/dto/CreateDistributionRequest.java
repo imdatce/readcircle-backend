@@ -7,6 +7,16 @@ import java.util.Map;
 
 public class CreateDistributionRequest {
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    private String description;
+
     @Min(value = 1, message = "Min 1 participate.")
     private int participants;
 

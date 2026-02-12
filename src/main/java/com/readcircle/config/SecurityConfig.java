@@ -43,14 +43,19 @@ public class SecurityConfig {
                                 "/api/distribution/complete/**",
                                 "/error"
                         ).permitAll()
-                .requestMatchers(HttpMethod.GET, "/api/distribution/join/**").permitAll()
-                .requestMatchers(HttpMethod.POST, "/api/distribution/assign/**").permitAll()
-                .anyRequest().authenticated()
-        );
+
+                         .requestMatchers(HttpMethod.GET, "/api/distribution/join/**").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/api/distribution/assign/**").permitAll()
+
+                         .requestMatchers("/admin/**").authenticated()
+
+                         .requestMatchers("/api/admin/**").authenticated()
+
+                         .anyRequest().authenticated()
+                );
 
         return http.build();
     }
-
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
@@ -59,7 +64,7 @@ public class SecurityConfig {
     @Bean
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(List.of("http://localhost:3000", "https://manevi-gece.vercel.app"));
+        configuration.setAllowedOrigins(List.of("http://localhost:3000","http://localhost:3001", "https://manevi-gece.vercel.app"));
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(List.of("*"));
         configuration.setAllowCredentials(true);

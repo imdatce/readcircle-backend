@@ -66,16 +66,15 @@ public class DistributionService {
             List<Long> resourceIds,
             int participantCount,
             java.util.Map<Long, Integer> customCountsMap,
-            String creatorName
+            String creatorName,
+            String description // <--- YENİ PARAMETRE EKLENDİ
     ) {
         DistributionSession session = new DistributionSession();
         session.setCode(UUID.randomUUID().toString().substring(0, 8));
         session.setParticipants(participantCount);
-
-         session.setCreatorName(creatorName);
-
+        session.setCreatorName(creatorName);
+        session.setDescription(description != null && !description.isEmpty() ? description : "Manevi Halka");
         session = sessionRepository.save(session);
-
         List<Assignment> assignments = new ArrayList<>();
 
         for (Long resId : resourceIds) {
@@ -190,15 +189,18 @@ public class DistributionService {
         // Durumu güncelle
         assignment.setCompleted(true);
 
-        // Eğer sayaçlı bir kaynaksa (Örn: Salavat), sayıyı da fulleyelim
-        if (assignment.getResource().getType() == ResourceType.COUNTABLE) {
-            assignment.setCurrentCount(assignment.getEndUnit());
+        // --- GÜNCELLENEN KISIM BAŞLANGIÇ ---
+        // Hem COUNTABLE (Şahsi) hem de JOINT (Ortak) türler için sayacı 0 yapıyoruz.
+        // Böylece veritabanında da işlem bitmiş olarak görünüyor.
+        if (assignment.getResource().getType() == ResourceType.COUNTABLE ||
+                assignment.getResource().getType() == ResourceType.JOINT) {
+
+            assignment.setCurrentCount(0);
         }
+        // --- GÜNCELLENEN KISIM BİTİŞ ---
 
         return assignmentRepository.save(assignment);
     }
-
-    // be/src/main/java/com/readcircle/service/DistributionService.java içine ekleyin:
 
     @Transactional
     public void deleteSession(String code, String username) {
@@ -234,11 +236,24 @@ public class DistributionService {
         Assignment assignment = assignmentRepository.findById(assignmentId)
                 .orElseThrow(() -> new RuntimeException("Parça bulunamadı"));
 
-         if (assignment.isTaken() && assignment.getAssignedToName() != null) {
+        if (assignment.isTaken() && assignment.getAssignedToName() != null) {
             if (assignment.getAssignedToName().equals(name)) {
+                // 1. Sahipliği kaldır
                 assignment.setTaken(false);
                 assignment.setAssignedToName(null);
-                  return assignmentRepository.save(assignment);
+
+                // 2. --- EKLENEN KISIM: Tamamlandı işaretini kaldır ---
+                assignment.setCompleted(false);
+
+                // 3. --- EKLENEN KISIM: Sayacı başlangıç değerine (full) getir ---
+                // Böylece tekrar alındığında sayaç 0'dan değil, en baştan başlar.
+                if (assignment.getResource().getType() == ResourceType.COUNTABLE ||
+                        assignment.getResource().getType() == ResourceType.JOINT) {
+                    int initialCount = assignment.getEndUnit() - assignment.getStartUnit() + 1;
+                    assignment.setCurrentCount(initialCount);
+                }
+
+                return assignmentRepository.save(assignment);
             }
         }
         throw new RuntimeException("Bu işlemi yapmaya yetkiniz yok.");

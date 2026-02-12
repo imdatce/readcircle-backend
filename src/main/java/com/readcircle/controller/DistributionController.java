@@ -53,7 +53,8 @@ public class DistributionController {
                 request.getResourceIds(),
                 request.getParticipants(),
                 request.getCustomTotals(),
-                creatorName
+                creatorName,
+                request.getDescription() // <--- YENİ PARAMETREYİ GEÇİRİYORUZ
         );
 
         return ResponseEntity.ok(session);
@@ -115,12 +116,15 @@ public class DistributionController {
         }
     }
 
-     @PostMapping("/cancel/{id}")
+    @PostMapping("/cancel/{id}")
     public ResponseEntity<?> cancelAssignment(@PathVariable Long id, @RequestParam(required = false) String name) {
         try {
             String effectiveName = getEffectiveUsername(name);
-            service.cancelAssignment(id, effectiveName);
-            return ResponseEntity.ok("İptal edildi");
+            // Servisten dönen güncel objeyi bir değişkene atıyoruz
+            Assignment updatedAssignment = service.cancelAssignment(id, effectiveName);
+
+            // Ve Frontend'e bu güncel objeyi gönderiyoruz (String yerine)
+            return ResponseEntity.ok(updatedAssignment);
         } catch (Exception e) {
             return ResponseEntity.status(HttpStatus.FORBIDDEN).body(e.getMessage());
         }
