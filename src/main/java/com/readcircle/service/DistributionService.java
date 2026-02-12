@@ -62,6 +62,30 @@ public class DistributionService {
     }
 
     @Transactional
+    public void addResourceToSession(String code, Long resourceId, String username) {
+        // 1. Oturumu ve yetkiyi kontrol et
+        DistributionSession session = sessionRepository.findByCode(code);
+        if (session == null) throw new RuntimeException("Oturum bulunamadı.");
+        if (!session.getCreatorName().equals(username)) {
+            throw new RuntimeException("Bu işlem için yetkiniz yok.");
+        }
+
+        // 2. Kaynağı bul
+        Resource resource = resourceRepository.findById(resourceId)
+                .orElseThrow(() -> new RuntimeException("Kaynak bulunamadı."));
+
+        // 3. Zaten ekli mi kontrol et (İsteğe bağlı, aynı kaynaktan 2 tane olsun istersen bu kontrolü kaldır)
+        boolean alreadyExists = session.getAssignments().stream()
+                .anyMatch(a -> a.getResource().getId().equals(resourceId));
+        if (alreadyExists) {
+            throw new RuntimeException("Bu kaynak zaten bu halkada mevcut.");
+        }
+
+        // 4. Dağıtımı yap (Mevcut kişi sayısına göre)
+        createAssignments(session, resource, session.getParticipants());
+    }
+
+    @Transactional
     public DistributionSession createDistribution(
             List<Long> resourceIds,
             int participantCount,

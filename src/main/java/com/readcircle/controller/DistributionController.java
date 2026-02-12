@@ -60,6 +60,20 @@ public class DistributionController {
         return ResponseEntity.ok(session);
     }
 
+    @PostMapping("/{code}/add-resource")
+    public ResponseEntity<?> addResourceToSession(
+            @PathVariable String code,
+            @RequestParam Long resourceId
+    ) {
+        try {
+            String username = getCurrentUsername();
+            service.addResourceToSession(code, resourceId, username);
+            return ResponseEntity.ok("Kaynak başarıyla eklendi.");
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
+        }
+    }
+
     @GetMapping("/my-created-sessions")
     public ResponseEntity<List<DistributionSession>> getMyCreatedSessions() {
         String name = getCurrentUsername();
