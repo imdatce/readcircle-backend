@@ -24,19 +24,21 @@ public class DistributionService {
         this.resourceRepository = resourceRepository;
     }
 
-     @Transactional
+    @Transactional
     public void createAssignments(DistributionSession session, Resource resource, int participantCount) {
+        // Bu metod tekil kaynak eklemelerinde (Add Resource) kullanılır.
+        // Varsayılan olarak 1 adet üzerinden işlem yapar.
         List<Assignment> assignments = new ArrayList<>();
         int totalUnits = resource.getTotalUnits();
 
-         if (resource.getType().toString().equals("JOINT")) {
+        if (resource.getType().toString().equals("JOINT")) {
             for (int i = 0; i < participantCount; i++) {
                 Assignment assignment = createAssignmentObj(session, resource, i + 1, 1, totalUnits);
                 assignment.setCurrentCount(totalUnits);
                 assignments.add(assignment);
             }
         }
-         else {
+        else {
             int baseAmount = totalUnits / participantCount;
             int remainder = totalUnits % participantCount;
             int currentStart = 1;
@@ -58,7 +60,6 @@ public class DistributionService {
             }
         }
         assignmentRepository.saveAll(assignments);
-
     }
 
     @Transactional
@@ -74,14 +75,14 @@ public class DistributionService {
         Resource resource = resourceRepository.findById(resourceId)
                 .orElseThrow(() -> new RuntimeException("Kaynak bulunamadı."));
 
-        // 3. Zaten ekli mi kontrol et (İsteğe bağlı, aynı kaynaktan 2 tane olsun istersen bu kontrolü kaldır)
+        // 3. Zaten ekli mi kontrol et
         boolean alreadyExists = session.getAssignments().stream()
                 .anyMatch(a -> a.getResource().getId().equals(resourceId));
         if (alreadyExists) {
             throw new RuntimeException("Bu kaynak zaten bu halkada mevcut.");
         }
 
-        // 4. Dağıtımı yap (Mevcut kişi sayısına göre)
+        // 4. Dağıtımı yap
         createAssignments(session, resource, session.getParticipants());
     }
 
@@ -91,7 +92,7 @@ public class DistributionService {
             int participantCount,
             java.util.Map<Long, Integer> customCountsMap,
             String creatorName,
-            String description // <--- YENİ PARAMETRE EKLENDİ
+            String description
     ) {
         DistributionSession session = new DistributionSession();
         session.setCode(UUID.randomUUID().toString().substring(0, 8));
@@ -106,15 +107,26 @@ public class DistributionService {
             if (resource != null) {
 
                 int totalUnits;
-                 if ((resource.getType().toString().equals("COUNTABLE") || resource.getType().toString().equals("JOINT")) &&
-                        customCountsMap != null &&
-                        customCountsMap.containsKey(resId)) {
-                    totalUnits = customCountsMap.get(resId);
+                boolean isCountableType = resource.getType().toString().equals("COUNTABLE") ||
+                        resource.getType().toString().equals("JOINT");
+
+                // 1. TOPLAM HEDEFİ HESAPLA
+                if (customCountsMap != null && customCountsMap.containsKey(resId)) {
+                    int inputValue = customCountsMap.get(resId);
+
+                    if (isCountableType) {
+                        // Zikirler için girilen sayı direkt hedeftir (örn: 5000 Salavat)
+                        totalUnits = inputValue;
+                    } else {
+                        // Kitaplar için girilen sayı ADET'tir (örn: 2 Hatim = 2 * 604 sayfa)
+                        totalUnits = resource.getTotalUnits() * inputValue;
+                    }
                 } else {
                     totalUnits = resource.getTotalUnits();
                 }
 
-                 if (resource.getType().toString().equals("JOINT")) {
+                // 2. DAĞITIM MANTIĞI
+                if (resource.getType().toString().equals("JOINT")) {
                     for (int i = 0; i < participantCount; i++) {
                         Assignment assignment = createAssignmentObj(session, resource, i+1, 1, totalUnits);
                         assignment.setCurrentCount(totalUnits);
@@ -122,19 +134,57 @@ public class DistributionService {
                     }
                 }
                 else {
+                    // Dağıtılabilir (Distributed) Kaynaklar
                     int baseAmount = totalUnits / participantCount;
                     int remainder = totalUnits % participantCount;
-                    int currentStart = 1;
+                    int currentCumulativeStart = 1; // Kümülatif başlangıç (1'den 1208'e kadar gider)
+                    int singleResourceLimit = resource.getTotalUnits(); // Tek bir kitabın limiti (örn: 604)
 
                     for (int i = 0; i < participantCount; i++) {
                         int myAmount = baseAmount + (i < remainder ? 1 : 0);
+
                         if (myAmount > 0) {
-                            Assignment assignment = createAssignmentObj(session, resource, i+1, currentStart, currentStart + myAmount - 1);
-                            if (resource.getType().toString().equals("COUNTABLE")) {
-                                assignment.setCurrentCount(myAmount);
+                            // --- DÜZELTİLEN MANTIK: SAYFA BÖLME VE BAŞA SARMA ---
+                            // Eğer kaynak COUNTABLE değilse (yani Kuran, Cevşen gibi sayfalıysa)
+                            // ve kişiye düşen pay kitap sınırını aşıyorsa bölmemiz gerekir.
+                            if (!resource.getType().toString().equals("COUNTABLE")) {
+                                int remainingAmountToAssign = myAmount;
+                                int tempStart = currentCumulativeStart;
+
+                                while (remainingAmountToAssign > 0) {
+                                    // Mevcut başlangıç noktasının kitap içindeki gerçek karşılığını bul
+                                    // Örn: 605. sayfa aslında 1. sayfadır.
+                                    // Matematik: (605 - 1) % 604 + 1 = 1
+                                    int localStart = (tempStart - 1) % singleResourceLimit + 1;
+
+                                    // Bu kitabın sonuna kadar kaç sayfa var?
+                                    // Örn: Başlangıç 600, Limit 604 -> 5 sayfa var (600,601,602,603,604)
+                                    int spaceInBook = singleResourceLimit - localStart + 1;
+
+                                    // Bu turda ne kadar verebiliriz? (Ya ihtiyacı kadar ya da kitap bitene kadar)
+                                    int chunk = Math.min(remainingAmountToAssign, spaceInBook);
+
+                                    int localEnd = localStart + chunk - 1;
+
+                                    // Parçayı oluştur
+                                    Assignment assignment = createAssignmentObj(session, resource, i+1, localStart, localEnd);
+                                    assignments.add(assignment);
+
+                                    // İlerlet
+                                    remainingAmountToAssign -= chunk;
+                                    tempStart += chunk;
+                                }
                             }
-                            assignments.add(assignment);
-                            currentStart += myAmount;
+                            else {
+                                // Zikirmatik (COUNTABLE) ise bölmeye gerek yok, kümülatif devam etsin
+                                int currentEnd = currentCumulativeStart + myAmount - 1;
+                                Assignment assignment = createAssignmentObj(session, resource, i+1, currentCumulativeStart, currentEnd);
+                                assignment.setCurrentCount(myAmount);
+                                assignments.add(assignment);
+                            }
+
+                            // Bir sonraki kişi için kümülatif sayacı ilerlet
+                            currentCumulativeStart += myAmount;
                         }
                     }
                 }
@@ -172,27 +222,41 @@ public class DistributionService {
         return session;
     }
 
+    @Transactional
     public Assignment claimAssignment(Long assignmentId, String name) {
-        Assignment assignment = assignmentRepository.findById(assignmentId)
+        Assignment mainAssignment = assignmentRepository.findById(assignmentId)
                 .orElseThrow(() -> new RuntimeException("Parça bulunamadı"));
 
-        if (assignment.isTaken()) {
-            if (!assignment.getAssignedToName().equals(name)) {
+        if (mainAssignment.isTaken()) {
+            if (!mainAssignment.getAssignedToName().equals(name)) {
                 throw new RuntimeException("Bu parça maalesef başkası tarafından alındı.");
             }
-            return assignment;
+            return mainAssignment;
         }
 
-        assignment.setTaken(true);
-        assignment.setAssignedToName(name);
+        // --- GÜNCELLEME: AYNI KATILIMCI NUMARASINA AİT TÜM PARÇALARI BUL VE ATA ---
+        // Örneğin: Kuran 2 Hatim ise ve kullanıcı 5. sıradaysa,
+        // hem (485-604) hem de (1-1) aralıklarını tek seferde üzerine alır.
+        List<Assignment> relatedAssignments = assignmentRepository.findBySession_Id(mainAssignment.getSession().getId())
+                .stream()
+                .filter(a -> a.getResource().getId().equals(mainAssignment.getResource().getId())
+                        && a.getParticipantNumber() == mainAssignment.getParticipantNumber())
+                .toList();
 
-        return assignmentRepository.save(assignment);
+        for (Assignment a : relatedAssignments) {
+            a.setTaken(true);
+            a.setAssignedToName(name);
+        }
+
+        assignmentRepository.saveAll(relatedAssignments);
+        return mainAssignment;
     }
+
     public void updateProgress(Long assignmentId, int newCount, String name) {
         Assignment assignment = assignmentRepository.findById(assignmentId)
                 .orElseThrow(() -> new RuntimeException("Parça bulunamadı"));
 
-         if (!assignment.getAssignedToName().equals(name)) {
+        if (!assignment.getAssignedToName().equals(name)) {
             throw new RuntimeException("Bu parçayı güncelleme yetkiniz yok.");
         }
 
@@ -205,23 +269,17 @@ public class DistributionService {
         Assignment assignment = assignmentRepository.findById(assignmentId)
                 .orElseThrow(() -> new RuntimeException("Parça bulunamadı."));
 
-        // Güvenlik: Sadece parçayı alan kişi tamamlayabilir
         if (assignment.getAssignedToName() == null || !assignment.getAssignedToName().equals(name)) {
             throw new RuntimeException("Bu parçayı tamamlama yetkiniz yok.");
         }
 
-        // Durumu güncelle
         assignment.setCompleted(true);
 
-        // --- GÜNCELLENEN KISIM BAŞLANGIÇ ---
-        // Hem COUNTABLE (Şahsi) hem de JOINT (Ortak) türler için sayacı 0 yapıyoruz.
-        // Böylece veritabanında da işlem bitmiş olarak görünüyor.
-        if (assignment.getResource().getType() == ResourceType.COUNTABLE ||
-                assignment.getResource().getType() == ResourceType.JOINT) {
+        if (assignment.getResource().getType().toString().equals("COUNTABLE") ||
+                assignment.getResource().getType().toString().equals("JOINT")) {
 
             assignment.setCurrentCount(0);
         }
-        // --- GÜNCELLENEN KISIM BİTİŞ ---
 
         return assignmentRepository.save(assignment);
     }
@@ -255,29 +313,35 @@ public class DistributionService {
 
         assignmentRepository.saveAll(userAssignments);
     }
-
+    @Transactional
     public Assignment cancelAssignment(Long assignmentId, String name) {
-        Assignment assignment = assignmentRepository.findById(assignmentId)
+        Assignment mainAssignment = assignmentRepository.findById(assignmentId)
                 .orElseThrow(() -> new RuntimeException("Parça bulunamadı"));
 
-        if (assignment.isTaken() && assignment.getAssignedToName() != null) {
-            if (assignment.getAssignedToName().equals(name)) {
-                // 1. Sahipliği kaldır
-                assignment.setTaken(false);
-                assignment.setAssignedToName(null);
+        if (mainAssignment.isTaken() && mainAssignment.getAssignedToName() != null) {
+            if (mainAssignment.getAssignedToName().equals(name)) {
 
-                // 2. --- EKLENEN KISIM: Tamamlandı işaretini kaldır ---
-                assignment.setCompleted(false);
+                // --- GÜNCELLEME: AYNI KİŞİYE AİT TÜM İLGİLİ PARÇALARI İPTAL ET ---
+                List<Assignment> relatedAssignments = assignmentRepository.findBySession_Id(mainAssignment.getSession().getId())
+                        .stream()
+                        .filter(a -> a.getResource().getId().equals(mainAssignment.getResource().getId())
+                                && a.getParticipantNumber() == mainAssignment.getParticipantNumber())
+                        .toList();
 
-                // 3. --- EKLENEN KISIM: Sayacı başlangıç değerine (full) getir ---
-                // Böylece tekrar alındığında sayaç 0'dan değil, en baştan başlar.
-                if (assignment.getResource().getType() == ResourceType.COUNTABLE ||
-                        assignment.getResource().getType() == ResourceType.JOINT) {
-                    int initialCount = assignment.getEndUnit() - assignment.getStartUnit() + 1;
-                    assignment.setCurrentCount(initialCount);
+                for (Assignment a : relatedAssignments) {
+                    a.setTaken(false);
+                    a.setAssignedToName(null);
+                    a.setCompleted(false);
+
+                    if (a.getResource().getType().toString().equals("COUNTABLE") ||
+                            a.getResource().getType().toString().equals("JOINT")) {
+                        int initialCount = a.getEndUnit() - a.getStartUnit() + 1;
+                        a.setCurrentCount(initialCount);
+                    }
                 }
 
-                return assignmentRepository.save(assignment);
+                assignmentRepository.saveAll(relatedAssignments);
+                return mainAssignment;
             }
         }
         throw new RuntimeException("Bu işlemi yapmaya yetkiniz yok.");
@@ -290,7 +354,6 @@ public class DistributionService {
             throw new RuntimeException("Oturum bulunamadı.");
         }
 
-        // Güvenlik: Sadece oluşturan kişi sıfırlayabilir
         if (!session.getCreatorName().equals(username)) {
             throw new RuntimeException("Bu oturumu sıfırlamaya yetkiniz yok.");
         }
@@ -298,14 +361,10 @@ public class DistributionService {
         List<Assignment> assignments = assignmentRepository.findBySession_Id(session.getId());
 
         for (Assignment assignment : assignments) {
-            // 1. Sahipliği kaldır
             assignment.setTaken(false);
             assignment.setAssignedToName(null);
-
-            // 2. Tamamlandı işaretini kaldır
             assignment.setCompleted(false);
 
-            // 3. Sayacı başlangıç değerine (full) getir (Geri sayım mantığı olduğu için)
             int initialCount = assignment.getEndUnit() - assignment.getStartUnit() + 1;
             assignment.setCurrentCount(initialCount);
         }
@@ -314,8 +373,8 @@ public class DistributionService {
     }
 
 
-     public void initDatabase() {
+    public void initDatabase() {
         assignmentRepository.deleteAll();
         sessionRepository.deleteAll();
-     }
+    }
 }
