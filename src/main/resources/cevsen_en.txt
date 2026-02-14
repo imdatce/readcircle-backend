@@ -1,133 +1,2322 @@
-In the name of Allah, the Most Gracious, the Most Merciful.. All praise and commendation belong to Allah, the Lord of the worlds. Blessings and peace be upon our Master and unique support, Muhammad (peace and blessings be upon him), his family, his companions, all the prophets and messengers, and all the righteous servants of Allah in the heavens and on earth. O Allah, grant us a mercy from Your supreme presence that will make us independent of the mercy of others! ###
-O Allah, grant us a favor and regard that will make us independent of the favors and regards of others, and leave us in no need of them! ###
-O Allah, grant us a perfect faith that will make us independent of everything other than You, of all created things! ###
-O Allah, grant us a Muslimness with which You are pleased and satisfied, that will make us independent of all other satisfactions! ###
-O Allah, grant us a complete consciousness of *Ihsan* (excellence in faith) that will make us independent of all vain and unnecessary things! ###
-O Allah, grant us a perfect guidance that will protect us and make us independent of all kinds of deviation and perversion! ###
-O Allah, grant us a perfect maturity, integrity, and success that will protect us and make us independent of all kinds of slips and slides! ###
-O Allah, grant us a complete contentment and satisfaction that will make us independent of all transient and fleeting things doomed to decay and disappearance! ###
-O Allah, grant us a longing for You and Your Beloved of such quality that it will make us independent of all other longings! ###
-O Allah, grant us glad tidings and good news from Your supreme presence that will make us independent of the glad tidings of others! ###
-O Allah, grant us an urgent healing, health, and well being that will leave no need for the treatments and cures of others! ###
-O Allah, grant us a horizon of submission, commitment, and confidence (*thiqa*), and infinite trust and reliance upon You, that will make us independent of seeking refuge in anyone other than You! ###
-O Allah, grant us a soul at peace (*nafs al mutmainnah*), a soul well pleased (*radiyah*), and a soul pleasing to You (*mardiyyah*) that will make us independent of all pleasures other than the pleasure of Your Supreme Being! ###
-O Allah, grant us a consistency of humility and modesty that will protect us and make us independent of showing off (*riya*), arrogance, and falling into self admiration! ###
-O Allah, grant us a transcendent grace that will make us independent of the favors of others! ###
-O Allah, grant us a help from Your supreme presence of such quality that it will make us independent of the help of others! ###
-O Allah, grant us feelings of hope and expectation bound to Your generosity and grace, to the extent that it will make us independent of pinning our hopes on anyone other than You! ###
-O Allah, grant that our chests be expanded to Faith and Islam in a way that will make us independent of all kinds of means! ###
-O Allah, grant us accepted prayers that will make us independent of begging for help from others! ###
-O Allah, grant us a support and confirmation that will make us independent of the support and confirmation of others! ###
-O Allah, grant us righteous deeds that will protect us and make us independent of unnecessary, vain things! ###
-O Allah, grant us a loyalty and integrity that will make us independent of and keep us far from all misguidance! ###
-O Allah, grant us a favor, a good deed, a beauty from Your supreme presence to the extent that it leaves no need for favors coming from others! ###
-O Allah, grant us a goodness from Your supreme presence that will make us independent of goodness coming from others! ###
-O Allah, grant us a spiritual knowledge (*irfan*), a knowledge of God (*marifetullah*) that will make us independent of knowing and recognizing others! ###
-O Allah, grant us a perfect faith that will make us independent of and keep us far from all kinds of deviation and perversion! ###
-O Allah, grant us a horizon of excellence (*ihsan*) and a consciousness of servitude as if we see You, which will make us independent of turning our faces to anyone other than Your Supreme Being! ###
-O Allah, grant us a truthfulness (morality) that will protect us and make us independent of wrong and false words! ###
-O Allah, grant us a complete Muslimness that will make us independent of and preserve us from all kinds of sliding and slipping! ###
-O Allah, grant us a Divine love, a mad affection and interest towards You, that will make us independent of love and affection for others! ###
-O Allah, grant us Your supreme friendship that will make us independent of the friendship of others! ###
-O Allah, grant us the vision of You (*ru'yat*) and Your good pleasure (*ridwan*) that will make us independent of everything else! ###
-O Allah, grant us a perfect sincerity (*ikhlas*) that will make us independent of showing off (*riya*) and seeking reputation (*sum'a*), and of doing things to be seen and heard by others! ###
-O Allah, grant us an honor and prestige from Your supreme presence that will make us independent of the honor and prestige others might bestow upon us! ###
-O Allah, grant us good morals (*akhlaq al hasana*); good, beautiful character and traits that will guard us and make us independent of bad morals (*akhlaq al sayyia*); all kinds of evil, ugly character and traits! ###
-O Allah, grant us a special, specific aid that will make us independent of the help of anyone other than You! ###
-O Allah, grant us a deep respect worthy of Your magnificence, and a feeling of fear that will protect us from harams and torment and draw us closer to You! ###
-O Allah, grant us a power and might from Your supreme presence that will make us independent of the support and reinforcement coming from others! ###
-O Allah, grant us sublime ranks and degrees in Your presence that will make us independent of all worldly ranks and positions! ###
-O Allah, grant us Your supreme friendship that will make us independent of the friendship of others and the positions they might bestow! ###
-O Allah, grant us the peak of "Truth of Certainty" (*Haqq al Yaqin*) that will make us independent of all the summits of certainty below it! ###
-O Allah, grant us an integrity and maturity that will make us independent of the warnings of others! ###
-O Allah, grant us a purification and cleansing from Your Majestic Self that will make us independent of the purifications and cleansings of others! ###
-O Allah, grant us a tranquility (*sakinah*) and peace of heart (*itmi'nan*) that will make us independent of becoming attached and turning to any other means! ###
-O Allah, grant us the "Straight Path" (*Sirat al Mustaqim*) that will protect us from and make us independent of the path of those who have incurred wrath and those who have gone astray! ###
-O Allah, grant us a perpetual remembrance (*dhikr*) that will make us independent of remembering others, the happiness of remembering You at every moment! ###
-O Allah, grant us a superior victory gained by Your infinite power and strength, which will make us independent of the aid and assistance coming from others! ###
-O Allah, grant us a brilliant success in our services that will make us independent of the successes others might bring! ###
-O Allah, grant us a manifest victory against those who harbor enmity towards us, which will make us independent of the help coming from others! ###
-O Allah, grant us a perpetual truthfulness and loyalty that will protect us from being caused to slip by others! ###
-O Allah, grant us a perfect line of integrity that will protect us from the misguidance and perversion of others! ###
-O Allah, grant us a perfect providence (*inayah*) that will make us independent of the providence and help of anyone other than You! ###
-O Allah, grant us a complete care and observation that will make us independent of the seeing and observing of anyone other than You! ###
-O Allah, grant us a blessed, transcendent protection that will make us independent of the protection and guarding of others! ###
-O Allah, grant us a success in every good deed of ours that will make us independent of the help of others! ###
-O Allah, grant us Your infinite might and power that will make us independent of the power and strength of others! ###
-O Allah, grant us a clear victory (*fath al mubin*) that will make us independent of victories coming through others! ###
-O Allah, grant us lawful sustenance and means that will make us independent of possessing what is not lawful! ###
-O Allah, grant us an inner purity bestowed by You that will make us independent of deficient and defective aspirations! ###
-O Allah, grant us a complete safety that will make us independent of the safety and well being coming from others! ###
-O Allah, grant us a security, a climate of trust, and the character of being trustworthy people, which will keep us far from and protect us from all treacheries! ###
-O Allah, grant us a complete honor (*izzet*) that will make us independent of others giving strength and holding us dear! ###
-O Allah, grant us a pardon, a forgiveness, a complete absolution that will protect us from being disgraced and humiliated on the Day of Resurrection, the day of remorse and regret! ###
-O Allah, grant us a benevolence and gift, a talent that will make us independent of begging from others! ###
-O Allah, grant us lawful sustenance that will make us independent of all things You have deemed forbidden! ###
-O Allah, grant us a knowledge from Your presence (*ilm al ladun*), a knowledge from Your supreme self, that will make us independent of vain things and all kinds of unnecessary and useless information! ###
-O Allah, grant us high (spiritual) ranks that will make us independent of all apparent, superficial positions! ###
-O Allah, grant us a complete and true justice that will make us independent of relative and incomplete justice! ###
-O Allah, grant us a character of mildness (*hilm*) and gentleness that will protect us from rudeness and hard heartedness! ###
-O Allah, grant us a complete preservation and protection that will make us independent of the protection of others! ###
-O Allah, grant us a Divine generosity and honoring that will make us independent of the catering and favors of others! ###
-O Allah, grant us a sense of independence (*istighna*) that will make us independent of humbling ourselves before others! ###
-O Allah, grant us a wisdom that will make us independent of understandings and philosophies that cause errors in thought! ###
-O Allah, grant us the acceptance of our prayers in a way that will make us independent of begging from anyone other than You! ###
-O Allah, grant us a complete love (*wudd al tamm*), a Divine love bestowed by You, that will make us independent of the love and interests, the superficial affections of others! ###
-O Allah, grant us a realization of right (*ihqaq al haqq*), the establishment of truth and justice, and the privilege of prevailing over those who harbor enmity upon the truth, which will make us independent of committing or being subjected to any kind of treachery and oppression! ###
-O Allah, grant us a power and strength that will make us independent of the power and strength of others! ###
-O Allah, grant us a fortitude that will protect us from despair and abasement, hopelessness and misery! ###
-O Allah, grant us a benefit from Your supreme presence of such quality that it will make us independent of benefits coming from others! ###
-O Allah, grant us a value and esteem that will make us independent of the respect and reverence others might show! ###
-O Allah, grant us feelings of praise and gratitude that will protect us and make us independent of heedlessness and ingratitude! ###
-O Allah, grant us a new beginning on behalf of our service, independent of the help coming from others! ###
-O Allah, grant the return of all our property and possessions that were usurped unjustly to us, Your needy servants, in a way that makes us independent of their return by others! ###
-O Allah, grant us an easy livelihood, a comfort of living that will make us independent of the help of others! ###
-O Allah, who is One and Unique, to whom all existence is in need but whose Supreme Being is independent of everything! For the sake of Your names *Al Ahad* (The One) and *Al Samad* (The Eternal Refuge), make us independent of the protection and surveillance of others. ###
-O Allah, grant us a power and ability to perform righteous deeds with which You are pleased and satisfied, in a way that will make us independent of the help of others! ###
-O Allah, grant us a favor that will make us independent of the support of others in prioritizing spiritual matters that are more important in Your sight! ###
-O Allah, grant us a sincere repentance (*tawbah al nasuh*), a return to You from sins with a complete feeling of remorse, which will protect us and make us independent of repenting like the heedless! ###
-O Allah, grant us a light from Your supreme presence that will make us independent of the illumination of others! ###
-O Allah, grant to perfect our light in a way that will make us independent of the providence of others! ###
-O Allah, grant to perfect our service with Your special regard in a way that will make us independent of the regard of others! ###
-O Allah, grant us a perfect insight that will make us independent of the guidance and direction of others! ###
-O Allah, grant us a penetrating, effective sagacity (*firaset*) that will make us independent of the showing of others! ###
-O Allah, grant us a high spiritual abundance (*fayd*) that will make us independent of the abundance coming from others! ###
-O Allah, grant us a deliverance and success that will make us independent of the assistance others might offer! ###
-O Allah, grant us a reliance (*tawakkul*) and confidence (*thiqa*) in You, felt and experienced at the peak, in a way that will make us independent of relying on anyone other than You! ###
-O Allah, grant us complete submission to You in a way that will make us independent of any kind of submission to anyone other than You! ###
-O Allah, grant us the consciousness and character of entrusting (*tafwid*) and referring our affairs to You in a way that will make us independent of trusting and relying on anyone other than You! ###
-O Allah, grant us a beautiful, transcendent patience (*sabr al jamil*) that will protect us and make us independent of complaining about our state to anyone other than You! ###
-O Allah, grant that our shame and faults be veiled in a way that will make us independent of the veiling of others! ###
-O Allah, grant us a wealth of means, a richness that will make us independent of the means others might bestow! ###
-O Allah, grant us patience with all its varieties in a quality that will make us independent of the help and support of others! ###
-O Allah! Grant us a true humbleness and a humility only for You, so that we do not fall into the disgrace of kissing the hands and feet of others and flattery them. ###
-O Allah, grant us an insight and intelligence that will make us independent of the guidance of others! ###
-O Allah, grant us an honor and dignity that will make us independent of bowing double in humiliation before others! ###
-O Allah, grant us sound hearts (*qalb al salim*) that You will protect and make independent of diseases such as holding grudges, showing enmity, and deceiving! ###
-O Allah, grant us a deep understanding and comprehension of the Word of Allah and the Word of the Messenger of Allah in a way that will make us independent of the views and thoughts of others! ###
-O Allah, grant Your protection against our enemies to an extent that leaves no need for the warnings of others! ###
-O Allah, grant us a justice, equity, and fairness that will protect us and make us independent of all kinds of oppression and injustice! ###
-O Allah, grant us a wisdom and decisive speech (*fasl al hitap*), the ability to speak conclusively, that will make us independent of affectation in our words and behaviors! ###
-O Allah, grant us a Divine love and interest that will make us independent of the interest and love of anyone other than You! ###
-O Allah, grant us a pleasant, beautiful life maintained within the circle of the lawful, which will make us independent of living a life You are not pleased with! ###
-O Allah, grant us a grace and generosity that will make us independent of the favors and kindness coming from others! ###
-O Allah, grant us a perfect circle of piety (*taqwa*) that will protect us and make us independent of falling into rebellion, committing sins, and even falling into doubtful things! ###
-O Allah, grant us a protection and preservation from all kinds of rebellion and sin in a way that will make us independent of the protection and guarding of others! ###
-O Allah, inform those who show enmity towards us of their limits (put them in their place) in a way that leaves no need for others! ###
-O Allah, throw the sins and oppressions committed by those who sit and stand with enmity back into their faces; do not make us wait for someone else to disgrace them! ###
-O Allah, make us independent of waiting for others to destroy those who insist on unjust enmity towards us; You overwhelm and destroy them! ###
-O Allah, You perish those who harbor enmity towards us; make us independent of watching for others to overcome them! ###
-O Allah, You disgrace and humiliate those who sit and stand with enmity, in a way that leaves no need for others to disgrace and humiliate them! ###
-O Allah, You despise and degrade those who make unjust enmity a profession, in a way that leaves no need for others to despise and degrade them! ###
-O Allah, You subject those who commit enmity to abasement, in a way that leaves no need for others to humiliate them! ###
-O Allah, You punish our enemies in a way that leaves no need for others to punish them! ###
-O Allah, You destroy those who show enmity towards us in a way that leaves no need for others to destroy them! ###
-O Allah, You respond to the traps and plans of our enemies in a way that will make us independent of others responding! ###
-O Allah, You respond to the tricks and plots of our enemies in a way that will make us independent of others responding! ###
-O Allah, You respond to the treacheries of our enemies in a way that will make us independent of others responding! ###
-O Allah, You respond to our adversaries who sit and stand with enmity and accuse us of "misguidance" (*dalalet*), in a way that will make us independent of others responding! ###
-O Allah, You respond to our adversaries who sit and stand with enmity and accuse us of "apostasy" (*irtidat*), in a way that leaves no need for others to respond! ###
-O Allah, You overwhelm and destroy our adversaries who have made enmity towards us a path, in a quality that will make us independent of others overwhelming and destroying them; You level them to the ground! ###
-O Allah, You liberate (as soon as possible) our brothers and sisters who have been thrown into dungeons and arrested unjustly and purely out of enmity, who are made to writhe in desperation and helplessness, and who are subjected to treachery and oppression, in a quality that will make them independent of others liberating them! ###
-O Most High of the High, who is always with the broken hearted (with His aid and protection)! Here we are in Your presence as broken hearted ones. O Most High of the High, who answers the pleas of servants praying in desperation and removes their troubles! Here we are, having come to Your presence as distressed ones whose lives have reached their throats. The earth, despite its vastness, has narrowed around us. The distress inside us has surrounded and besieged us. O Allah, Most High of the High! We present our scattered, sorrowful, and grief stricken state to You. ###
-O Allah, send blessings upon the unique, subtle personage of Muhammad (peace and blessings be upon him), who is the sun of the sky of secrets, the manifestation of lights, the center of the attribute of Majesty (*Jalal*), and the pole of the constellation of Beauty (*Jamal*)! For the sake of his secret with You and his journey to You, make me secure from fear, reduce my errors, and remove my grief and greed. Be with me, and by saving me from the characteristics belonging to my ego, make me subsist through You. Completely melt the feeling of self and selfishness within me. Protect me from being captivated by my nafs. Do not make my senses a veil between You and me, and reveal every hidden secret to me, "O Ever Living, O Self Subsisting! (*Ya Hayy, Ya Qayyum!*) (3 times)" O Allah, send blessings and peace upon our Master and support, Muhammad (peace and blessings be upon him), his family, and his companions; and upon all Your righteous, decent, and pure servants on earth and in the heavens! Accept our prayers also for the sake of those blessings. Amen!
+Ey bin bir esma sahibi, mutlak’ ve gerçek mabud olan Allah
+
+Ey bol rahmet eden, fark gözetmeden herkesi rızıklandıran Rahman.
+
+Ey hususi rahmet gösteren, sevgili ibâdına mağfiret edip Cennet bahşeden Rahîm.
+
+Ey her şeyi bihakkın bilen, hiçbir şey ondan gizlenmeyen Alîm.
+
+Ey güzel muamele eden, fırsat tanıyan hemen cezalandırmayan Halîm.
+
+Ey sonsuz azamet ve nihayetsiz ihatalı esma sahibi olan Azîm.
+
+Ey her şeyi yerli yerine koyan hikmetle yapan, faydalı yaratan Hakîm.
+
+Ey mevcudiyetinin bidayeti ve sonu olmayan, bizatihi var olan hadis olmayan Kadîm.
+
+Ey hiç bir sebebe dayanmadan her şeyi ayakta tutan, fenaya uğramayan Mukîm.
+
+Ey bol kerem sahibi, umulmadık yerden ihsan eden Kerîm,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey seyyidlerin serveri, büyüklerin sahibi,
+
+Ey her çeşit duaya cevap veren,
+
+Ey bütün iyiliklerin gerçek sahibi, hâmîsi,
+
+Ey bütün makamların fevkinde olan; dereceleri yükselten.
+
+Ey bereketi büyük olan, karşılıksız bol ihsan eden,
+
+Ey hataları mağfiret eden, suçları affeden,
+
+Ey belâları def eden, musibetleri alıkoyan,
+
+Ey bütün sesleri işiten, her nidayı duyan,
+
+Ey istenenleri veren, dilekleri yerine getiren,
+
+Ey sır olan ve saklanan bütün gizlilikleri bilen,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey affedenlerin en hayırlısı, en üstünü
+
+Ey yardım, imdad edenlerin en hayırlısı en yücesi.
+
+Ey en iyi hüküm veren, en kâmil ve hayırlı hâkim,
+
+Ey en iyi başlatan, en güzel şekilde açan,
+
+Ey hiç unutmadan dostlarını en hayırlı şekilde anan.
+
+Ey her şeyin en hayırlı varisi olan, bütün eşya ona kalan.
+
+Ey en hayırlı, hak vecihle medih ve sena eden.
+
+Ey en güzel şekilde, en hayırlı tarzda rızıklandıran,
+
+Ey en muhkem, en doğru hüküm veren hal ve fasl eden.
+
+Ey ihsanından fazla, üstün ihsan mümkün olmayan.
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey izzet içinde cemal, cemal içinde izzet sahibi olan.
+
+Ey mülk ve celâlin, saltanat ve haşmetin gerçek sahibi,
+
+Ey kudret ve kemâl, güç ve mükemmellik yalnız kendisinde bulunan.
+
+Ey en büyük ve her batıl düşünceden pak muallâ ve yüce olan.
+
+Ey ehli dalâlet ve küfrün hilelerini bilen, cezayı hak edenlere azabı şiddetli olan,
+
+Ey ceza ve ikabı pek şiddetli olan,
+
+Ey hesap ve ceza ve mükâfatı seri olan
+
+Ey en iyi şekilde mükâfatlandıran ve hazinesinde pek çok, güzel sevabı bulunan,
+
+Ey katında her şey içinde yazılan Ümmü’l Kitap sahibi,
+
+Ey ağır ve yüklü bulutları inşa eden.
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey çok rahmet eden, en lâtîf rahmetini gösteren Hannân,
+
+Ey çok ihsan eden, hakiki iyilik sahibi olan Mennân,
+
+Ey amellere lâyık karşılık veren, zayi etmeyen Deyyân,
+
+Ey mağfireti bol olan, çok bağışlayan, affeden Ğufrân,
+
+Ey yol gösteren, mevcudiyetinde şek olmayan Burhan,
+
+Ey gerçek saltanat ve hüküm sahibi Sultân,
+
+Ey şirkten, noksan sıfatlardan münezzeh olan Sübhân.
+
+Ey kendisinden yardım dilenen, imdad istenen Müsteân,
+
+Ey ihsan eden, bol nimetiyle herkesi minnet altına alan, beyan ve delil gösteren, her şey kendisiyle bilinen, Zü’l Menni ve’l Beyan.
+
+Ey bütün korkulardan eman veren, hıfzeden Zü’l Eman,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey azametine ve yüceliğine karşı her şey boyun eğip tevâzu eden,
+
+Ey sonsuz kudretine her şey teslim ve musahhar olan,
+
+Ey izzetinin önünde her şey dize gelip mütezellil olan,
+
+Ey heybet ve azametine karşı sonsuz acz ile her şey boyun eğip huzû eden, lebbeyk diyen,
+
+Ey hükümranlığına saltanatına her şey inkiyad edip, baş eğen,
+
+Ey havf ve korkusundan her şey kendisine boyun eğen, zelil olan,
+
+Ey celâl i haşyetinden dağlar şak edip parçalanan,
+
+Ey semâvât ve gökler emriyle yükselen, ayakta duran,
+
+Ey izin ve iradesiyle arz istikrar bulup, zemin intizam altına giren,
+
+Ey raiyyeti saltanatına ve mülkünde yaşayanlara zulmetmeyen, rahat bırakan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey mağfiretiyle hataları affeden,
+
+Ey belâları kaldırıp sıkıntıları gideren,
+
+Ey arzu ve istekler kendisinde son bulan, meşietine bırakılan,
+
+Ey ihsanı bol olan, çok ikram eden, bereketli veren,
+
+Ey hediyeleri çok olan, rahmet hediyeleriyle herkesi ve her şeyi ihata eden,
+
+Ey mahlûkatı rızıklandıran, yoktan var ettiklerine rızık veren,
+
+Ey mukadder olan ecelleri kazâ eden, ölümlere karar veren,
+
+Ey şikâyetleri ah ve eninleri işiten, feryadları duyan,
+
+Ey muntazam ordular gönderen, askerleriyle imdad eden,
+
+Ey esirleri azâd eden, köleleri salıverip halâs eden,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey bütün hamd ve senaların hak sahibi,
+
+Ey yüceliği her şeyden üstün olan, şan ve şeref sahibi,
+
+Ey fahr ve bahâ, hüsün ve kemâlât sahibi,
+
+Ey ahidlerde bulunup sözünde duran, peyman ve vefa sahibi,
+
+Ey günahları affeden, rızası esas olan, af ve rıza yalnız kendisinden beklenen,
+
+Ey iyilik ve atiyyeleri bol olan, zahirî ve batinî nimetler, rahmetler ihsan eden,
+
+Ey hail ve fasl ve tefrik eden kat’î ve hak hüküm sahibi,
+
+Ey azîz ve bakî olan, izzet ve beka sahibi,
+
+Ey nimeti bol, kendisi çok cömert olan cevvâd ı Kerîm.
+
+Ey karşılıksız bol ihsan eden, üstün kılan, gizli nimetler sahibi,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey istemediği şeye mani olan tecavüzleri durduran, hudud koyan Mani’,
+
+Ey belâları, musibetleri, zararları, mânileri düşmanları, defeden Dafi’,
+
+Ey faydalı şeyleri yaratan, her şeye çok menfaatler iyilikler takan Nafi’,
+
+Ey her sesi duyan ve her sadayı işiten Sami’,
+
+Ey her şeyin maddî ve manevî yükselmesi elinde bulunan Rafi’,
+
+Ey her şeyi yaratan her şeyde asar ı sanatı görünen Sani’,
+
+Ey dilediği kullarına taraf çıkan hak ettikleri cezayı affeden Şafi’,
+
+Ey irade ettiği maddî manevî her şeyi ve her zıddı mümanaatsız bir araya toplayan Cami’,
+
+Ey esma ve sıfat ve şuunatıyla her şeyi ihata eden, hiçbir şey icraatı dışında kalmayan Vasi’,
+
+Ey dilediği maddî ve manevî her şeye vüs’at veren genişleten Mûsi’,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey sanat harikası her masnuun ustası her sanatın Sani’i,
+
+Ey görünen ve görünmeyen yaratılan her şeyin Hâlık’ı,
+
+Ey rızıklandırılan her şeyin ve her kesin Râzık’ı,
+
+Ey her mülkün sahibi, her memlükün Mâlik’i,
+
+Ey her dertlinin halaskarı, her meşakkatlinin Mugîs’i,
+
+Ey gam ve keder sahibi herkese ferec veren gönlüne sevinç kapıları açan Fâric,
+
+Ey rahmete muhtaç her mevcuda rahmet eden Rahîm,
+
+Ey hezimete uğrayan, yardımsız kalan herkese imdad eden nusret veren Nasır,
+
+Ey ayıplanan her bir mahlûkun ayıbını örten, ayıpları setreden Satir.
+
+Ey her mazlumun sığınağı her ahlının Melce’i,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey sıkıntı ve darlığımda tek sahibim, en büyük hazırlığım,
+
+Ey musibet zamanında yekta ümidim, tek halaskarım,
+
+Ey yalnızlık ve kimsesizlikten içim karardığında tek ünsiyet verenim,
+
+Ey gurbet ve sahipsizliğimde tek dostum,
+
+Ey nail olduğum her nimeti bana gösteren tek velinimetim,
+
+Ey meşakkat ve zorlukta kederimi izale eden tek kurtarıcım,
+
+Ey her çeşit fakr ve ihtiyacımı zamanında gideren yegâne imdadım,
+
+Ey sebeplerin tesiri kesilip muztar kaldığımda tek sığınağım,
+
+Ey dehşete kapılıp ürperdiğimde tek yardımcım,
+
+Ey şaşırdığımda rehberim, tek yol gösterenim,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey gaypları ve gizlilikleri bihakkın bilen,
+
+Ey bol mağfiret eden her günahı bağışlayan,
+
+Ey ayıpları bihakkın örten, kusurları her cihetle gizleyen,
+
+Ey bütün meşakkatleri kaldıran, sıkıntıları her haliyle gideren,
+
+Ey kalpleri çeviren halden hale sokup değiştiren,
+
+Ey kalpleri süsleyip donatan cemaliyle güzelleştiren,
+
+Ey kalpleri nurlandıran, zulmet i küfürden nuru imana çıkaran,
+
+Ey maddî ve manevî her türlü hastalığa müptelâ olan kalplerin tabibi,
+
+Ey kalplerin gerçek sevgilisi, fıtrî kusursuz habibi,
+
+Ey kalplere en yakın olan, ünsiyet veren dost,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey sonsuz derece celalli ve yüce olan haşmet sahibi Celîl,
+
+Ey nihayetsiz, gerçek güzellik sahibi olan Cemîl,
+
+Ey her şeyi yoluna koymakta kendisine en fazla güvenilen Vekîl,
+
+Ey mahlûkatın ihtiyaçlarını tekeffül eden, zorluklarını üstüne alan güven veren Kefîl,
+
+Ey hak ve hayrın rehberi, her iyiliğin ve doğrunun Delili,
+
+Ey ayağı kayıp düşecek olanları tutup kaldıran, affeden Mukîl,
+
+Ey her cihetle küçük büyük gizli aşikâr her şeyden haberdar olan Habîr,
+
+Ey yumuşak davranan, gizli inceliği bilen, her şeyde nazik cemal i sanatı görünen Latîf,
+
+Ey herkese galib gelen her bir mevcuda haddini bildiren sonsuz izzet sahibi Azîz,
+
+Ey her şeyin gerçek sahibi, bütün mevcudatın mutlak maliki, hükümdarı olan Melîk,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey maddî ve manevî yolunu şaşırıp hayrette kalanların rehberi, yol göstericisi,
+
+Ey meded dileyenlerin, yardım isteyenlerin sahibi, halaskarı,
+
+Ey belâların şiddetinden feryad ve figan edenlerin yardımcısı,
+
+Ey hıfz, himaye ve necat isteyenlerin tahassüngâhı sahibi,
+
+Ey isyankârların sığınağı, asilerin iltica kapısı,
+
+Ey günahkârları bağışlayan, suçluları affeden,
+
+Ey korkanları himayesine alan, onlara eman ve emniyet veren,
+
+Ey bîçarelere, muhtaç miskinlere merhamet eden,
+
+Ey vahşet ve yalnızlığa düşenlere ünsiyet veren en yakın dost,
+
+Ey zorluğa düşüp çaresiz kalanların duasına cevap verip derdine derman olan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey bol ihsan, sehâ ve hadsiz cömertlik sahibi,
+
+Ey karşılıksız bol iyilik ile fazi ve sonsuz şükrü icab ettiren nimet sahibi,
+
+Ey korkulacak her şeye karşı gerçek emân ve emniyet yalnız kendisinde bulunan,
+
+Ey bütün çirkinliklerden münezzeh ve mukaddes ve her kemalâtın ve nezâfetin sahibi olan,
+
+Ey her şeyi hikmetle yapan, hikmetle bildiren en iyi tarzda tanıtıp beyan eden,
+
+Ey nihayetsiz rahmet eden ve sonsuz rızasını kullarına vaad eden,
+
+Ey kesin hüccet ve asıl burhanlar elinde bulunan, deliller mevcudiyetine dair olan,
+
+Ey azameti her şeyi içine alan, her türlü saltanatın sultanı olan,
+
+Ey affı ve mağfireti bütün günahlardan üstün olan,
+
+Ey her türlü yardım kendisinden istenen, herkese hususî şefkat eden,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey bütün mevcudatı terbiye ve idare eden, her şeyin Rabbi,
+
+Ey bütün kainatın hak mabudu, her şeyin mutlak İlâhı,
+
+Ey bütün mevcudatı yaratan, her şeyin gerçek Halikı,
+
+Ey her şeyden nihayet derece üstün, sıfat ve esması ile her şeyin fevkinde olan,
+
+Ey yaratılan her şey ve başlayan her zamandan önce var olan, vücudu başka vücuttan çıkmayan,
+
+Ey fani her şey ve biten her zamandan sonra olan, vücudu daim ve baki kalan,
+
+Ey her şeyi gerçek yüzüyle ve her cihetiyle en iyi bilen,
+
+Ey sonsuz kudrete sahip, irade ettiği her şeye kadir olan,
+
+Ey her şeyin sanii olan, güzel ve taklit edilmez sanatı her şeyde var olan,
+
+Ey devam eden ve baki kalan, kendisinden başka her şey fani ve zail olan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey emniyet ve emân veren, kalplere iman bahşeden Mü’min,
+
+Ey her şeyin dizgini elinde bulunan, bütün mevcudatı çepeçevre kudret pençesinde tutan, gözeten, kollayıp koruyan, Müheymin,
+
+Ey her şeyi yoktan var eden vücuda getiren ve her mevcuda mahsus vücud veren Mükevvin,
+
+Ey her bir mevcuda rabbini ve diğer mevcudata dair fıtrî vazifesini bildirip ilham eden Mülâkkin,
+
+Ey açıklanması gerekeni en iyi surette dilediği yolla, beyan edip bildiren Mübeyyin.
+
+Ey zorlukları kolaylaştıran, meşakkatleri teshil eden, zahmetleri rahata çeviren Mühevvin.
+
+Ey her mahlûku ve hadiseyi ve her bir şeyi kendine mahsus tarzda hikmetle ve san’atla süsleyen, tezyin eden Müzeyyin.
+
+Ey azamet kendisine mahsus olan, dilediğini dilediği kadar yücelten, şeref ve haysiyet veren Muazzım.
+
+Ey ihtiyaç sahibi her mahlûkun yardımına koşan, mevcudatı birbirinin yardımına koşturan Muavvin,
+
+Ey mevcudatı ve masnuatı uyumlu bir tarzda rengârenk nakışlarla anbean bezeyen yenileyen Mülevvin,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey mülk ve memleketinde tek ve yekta olarak daim ve kaim olan Mukîm,
+
+Ey celâlet ve celâdetinde azîm olan sonsuz büyüklüğünü gösteren Azîm,
+
+Ey saltanatında ilk ve son olan ebedî ve ezelî kalan Kadîm,
+
+Ey kuluna karşı pek merhametli ve şefkatli olan Rahîm,
+
+Ey her şeyi ve her hali tüm veçhiyle en iyi bilen Alîm,
+
+Ey kendisinden uzaklaşanlara hilm ile muamele eden, zaman tanıyan birden cezalandırmayan Halîm,
+
+Ey dergâhında el açıp arz ı hacet edene keremini gösteren, ikram eden Kerîm,
+
+Ey miktarları, ölçüleri hikmetle belirleyen, takdir eden Hakîm,
+
+Ey hükmünde, kazasında ve takdirinde lütuf ve suhuletle muamele eden Latîf,
+
+Ey lütuf ve mülâyemetinde kudret ve iktidar sahibi olan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey ancak fazlı umulan ve ondan yalnız iyilik, ihsan sudur eden,
+
+Ey adaletinden başka, hiçbir hüküm ve icraatından korkulmayan,
+
+Ey ondan ancak iyilik ve ihsan beklenilen,
+
+Ey yalnız af ve mağfireti istenilen,
+
+Ey mülkünden başka hiçbir mülkün devam ve bekası bulunmayan,
+
+Ey saltanat ve satvetinden başka saltanat bulunmayan,
+
+Ey burhanından başka üstün, açık burhan bulunmayan,
+
+Ey rahmeti her şeyi kuşatan,
+
+Ey rahmeti gazabını geçen, önce gelen,
+
+Ey ilmi her şeyi ihata eden,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey üzüntü ve tedirginliği kaldıran,
+
+Ey gam ve kederleri gideren,
+
+Ey günahları ve suçları bağışlayan,
+
+Ey tevbeleri kabul buyuran,
+
+Ey mahlûkatın Halikı,
+
+Ey vaadinde sâdık olan,
+
+Ey yavruları rızıklandıran,
+
+Ey verdiği sözü, ahd ve emanı yerine getiren,
+
+Ey gizlilikleri bilen,
+
+Ey tane, tohum ve çekirdekleri açıp filizlendiren,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+Ey görünen ve düşünülen her şeyden daha üstün ve muallâ olan Âlî,
+
+Ey söz ve ahidlerinde vefalı olan, hakları eksiksiz sahiplerine veren, ifa eden Vefî,
+
+Ey bütün umur ve ihtiyaçları sağlayan, dostlarını koruyup gözeten Velî,
+
+Ey mutlak zenginlik sahibi olan, mahlûkata hiç muhtaç olmayan, bütün mahlukat kendisine muhtaç olan Ganî,
+
+Ey bitmez ve tükenmez hazineler sahibi olan Melî,
+
+Ey kusur ve ayıptan her cihetle temiz ve pâk olan, ancak kendi tezkiyesiyle kötülüklerden hakiki temizlik elde edilen Zekî,
+
+Ey kullarını sevip onlara marziyyâtını bildiren, memnun edip hoşnut olan Râdî,
+
+Ey vahdet ve mevcudiyetinin delilleri apaçık her şeyde görünen Bedî,
+
+Ey şiddet i zuhurundan gizlenmiş ve azamet i kibriyâsından istitâr etmiş olan Hafî,
+
+Ey kuvveti sonsuz olan, her şeye gücü yeten Kavî
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey güzelliği izhar edip gösteren, yarattığı her şeye mahsus güzellik vererek güzelliği esas alan,
+
+Ey çirkinliği gizleyip örten, güzel görünmeyeni güzellikle perdeleyen,
+
+Ey günahkârlara fırsat tanıyan, suçüstü muaheze etmeyen,
+
+Ey utanç veren günah ve ayıplar üzerindeki perdeyi yırtmayan,
+
+Ey affı bol, bağışlaması sınırsız olan,
+
+Ey suçluları bağışlamasında güzellik ve hikmet bulunan, en iyi şekilde af eden,
+
+Ey mağfireti geniş olan, küçük büyük her günahı ihata edip meşietiyle bağışlayan,
+
+Ey rahmet elini açıp uzatan, daim ve bol rahmet eden,
+
+Ey bütün sesli ve sesiz yalvarış ve yakarışları işiten sahip çıkan, cevap veren.
+
+Ey bütün şikâyetlerin son mercii, dertlilerin tek halaskarı,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey her şeyi ihata eden, bol nimet sahibi,
+
+Ey bütün mevcudatı ihata eden geniş rahmet sahibi,
+
+Ey herşeye erişip içini dışını saran mükemmel hikmet sahibi,
+
+Ey sonsuz kudret ve noksansız kemal sahibi,
+
+Ey delili çürütülemez, kesin hüccet ve isbat sahibi,
+
+Ey eserleri açık ve zahir ikram ve inayet sahibi,
+
+Ey sıfatı, mümkinâtın sıfatıyla ölçülmeyecek derecede yüce olan,
+
+Ey fena ve zeval bulmayan daim izzet sahibi,
+
+Ey sarsılmaz, karşı gelinmez, metin kuvvet sahibi,
+
+Ey geçmiş minnet, peşin nimet sahibi,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey hâkimlerin hâkimi olan mutlak Hâkim,
+
+Ey adaleti bütün âdillerden sonsuz derece yüksek olan mutlak Âdil,
+
+Ey sözü en doğru olan, doğruların doğrusu mutlak Sâdık,
+
+Ey varlığı ve birliği ayan ve beyan olan her şeyden daha açık Mutlak Zahir,
+
+Ey temiz olanlarından sonsuz derece pak ve temiz olan mutlak Tâhir,
+
+Ey en üstün ve en güzel mertebe i hilkatte yaratan Hâlık,
+
+Ey en sür’atli hesaba çeken, hiç bir hesap ona ağır gelmeyen mutlak Hâsib,
+
+Ey sesleri en iyi şekilde işiten, dertleri, ahları en güzel biçimde dinleyen mutlak Sami,
+
+Ey kerem ve bağışı en üstün, ikram ve atası en güzel olan mutlak Kerîm,
+
+Ey merhamet edenlerin en merhametlisi, şefkat edenlerin en yücesi olan Rahîm,
+
+Ey şefaatçilerin en yücesi, şefaat ve affı en bol olan mutlak Şâfi’,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey semaları misilsiz, maddesiz, yoktan en güzel surette var eden,
+
+Ey zulmet ve karanlıkları meydana getiren,
+
+Ey gizli saklı her şeyi en iyi bilen,
+
+Ey gönlü kırık gözü yaşlılara merhamet eden,
+
+Ey avretleri, ayıpları örtüp gizleyen,
+
+Ey belâ ve musibetleri gideren,
+
+Ey ölüleri dirilten, cansızlara hayat veren,
+
+Ey hasenat ve sevapları katlandırıp artıran,
+
+Ey bol bol bereket indiren,
+
+Ey asilere hak ettikleri büyük ceza ve şiddetli azabı veren,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey her şeye, kendine ve çevresine münasip suret giydiren mutlak Musavvir,
+
+Ey küçük, büyük her mevcudun her şeyini ölçülü yapan mutlak Mukaddir,
+
+Ey dilediği herkesi ve her şeyi maddî ve manevî kirlerden pak ve temiz kılan, mutlak Mutahhir,
+
+Ey maddî ve manevî nurlu her şeyi tenvir eden, aydınla tan mutlak Münevvir,
+
+Ey dilediği her şeyi öne geçiren, şereflendiren mutlak Mukaddim,
+
+Ey dilediği her şeyi arkaya alan, geri bırakan, erteleyen Muahhir,
+
+Ey mahlûkatın doğma ve büyümesinde hayra yönelmesinde kolaylıklar ihsan eden Müyessir,
+
+Ey kullarını gühâh ve kötülüklerin ceza ve akıbetinden sakındırıp uyaran Münzir,
+
+Ey kendine iman edip uğrunda ibadet ve sabredenleri cennetle müjdeleyen Mübeşşir,
+
+Ey bütün mevcudatı her şeyiyle en güzel tarzda intizam ve ahenk içinde tek başına idare eden mutlak Müdebbir,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey emn ve emniyet yeri, ubudiyet dergâhı sevap kaynağı Kâbe denilen «Beyt’ül-Haram»ın Rabbi,
+
+Ey emn ve emniyet zamanı, sevap, mağfiret ve bol rahmet ayları olan «Şehr i Haram»ın Rabbi,
+
+Ey ibâdına kıble, rahmetine medar, mükerrem olan «Mescid i Harâm»ın Rabbi,
+
+Ey ibadet, hürmet, mağfiret emniyet beldesi Mekke olan «Beled i Haram»ın Rabbi,
+
+Ey Rükn ü Hacer ül Esved ile ibadına tavaf namazgâhı olan «Makam ı İbrahim»’in Rabbi,
+
+Ey Müzdelife denilen tekbir tehlil seslerinin cihana yayıldığı yer olan «Meş’ar i Harâm»’ın Rabbi,
+
+Ey hikmetli emriyle istediğini helâl, istemediğini haram kılan «Hill ve Harâm»’ın Rabbi,
+
+Ey iman ile hayatın medarı nurun; uyku ile gafletin medarı karanlıkların müdebbiri olan, Rabb i Nûr ve Zalâm,
+
+Ey bütün tahiyyât ve selâmın, selâmet ve tebriklerin sahibi olan «Rabbu’t Tahiyyeti ves’s Selâm»,
+
+Ey sonsuz celâl ve yüceliğinde pür kerem, nihayetsiz kerem ve ikramında hadsiz celâl sahibi olan Rabb’el Celâli ve’l İkrâm,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey desteği olmayan fani zail acizlerin en metin desteği,
+
+Ey güvende olmayan sahipsiz kalanların en sağlam dayanağı,
+
+Ey fakir ve muhtaçların bitmez tükenmez hazinesi, her şeye kâfi güveni,
+
+Ey mededkârı bulunmayanların en yakın yardım ve imdad edicisi,
+
+Ey korumasız sığınaksız kalanların en güvenli muhkem kalesi,
+
+Ey maddî sebeplere güvenmeyip iftiharsız olanların en büyük medâr ı iftiharı,
+
+Ey izzeti izzetsiz kalanlara en büyük izzet kaynağı olan Aziz,
+
+Ey belâ ve düşmanlar karşısında yardımsız kalanların en büyük yardımcısı,
+
+Ey dostsuz kalmış yalnızlığa düşmüşlerin ölmez, dönmez, en yakın dostu,
+
+Ey mahrum kalmış, fakra müptela olmuşların bitmez tükenmez en büyük gınası
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey hiçbir kimseye ve hiçbir şeye muhtaç olmadan bizatihi var olan, Kâim,
+
+Ey bütün esma ve sıfatıyla baki, daim kalan, sonu olmayan Dâim,
+
+Ey hakiki ve daim rahmet sahibi olan Rahîm,
+
+Ey rakipsiz küçük büyük her şeyde mutlak adaletli hüküm sahibi Hâkim,
+
+Ey her şeyi bilen hiçbir şey kendisinden gizlenmeyen mutlak ilim sahibi olan Âlim,
+
+Ey maddî mânevi her türlü düşman ve belâdan koruyup muhafaza eden mutlak Âsim,
+
+Ey her şey fazl ve keremi olmakla beraber adaletle bölen, taksim eden mutlak Kasım,
+
+Ey mahlûkatın arız olduğu her türlü acz, kusur, noksanlıktan münezzeh müberra olan Salim,
+
+Ey maddî mânevî her şeyi istediği ölçüde azaltıp daraltan Kâbıd,
+
+Ey maddî manevî her şeyi istediği miktarda çoğaltıp genişleten Bâsıt,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey ismetine sığınanları bütün tehlike ve kötülüklerden koruyan,
+
+Ey rahmetini dileyenlere bol rahmet eden,
+
+Ey nusretine iltica edenleri mensur ve galip kılan,
+
+Ey hıfz ve himayesini isteyenleri mahfuz kılan,
+
+Ey fakırla keremini bekleyenlere şanına lâyık ikram eden,
+
+Ey ilm i mutlakına sığınıp irşad edilmek isteyenleri hakka hakikate götüren,
+
+Ey yardımını bekleyenlerin her türlü yardım ve imdadlarına yetişen,
+
+Ey kendisinden meded bekleyenlere imdad edip meded veren,
+
+Ey feryat ve figan edenlerin yardımına koşan,
+
+Ey günahtan dergâh ı rahmetine koşanlara mağfiret eden,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey af ve bağışlamasında keremkârlık, bolluk, güzellik bulunan,
+
+Ey minnet ve iyiliği bol ve geniş olan
+
+Ey hayır ve ihsanı çok olan,
+
+Ey fazl ve keremi kadîm olan,
+
+Ey sanatı güzel ve zarif olan,
+
+Ey lütuf ve ihsanı dâim olan,
+
+Ey keder ve sıkıntıyı izale eden,
+
+Ey dert, sıkıntı ve zararları gideren,
+
+Ey mülkün tek ve gerçek sahibi olan,
+
+Ey adalet ve hak ile hüküm veren,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey kudretine hiç bir kuvvet karşı gelemeyen, mağlup edilmeyen Azîz,
+
+Ey şefkat ve yumuşaklığından ve her şeye nüfuzundan hariç kalınamayan, Latîf,
+
+Ey her şeyi gözetleyen uyku ve gaflet ona arız olmayan Rakîb,
+
+Ey berdevam olan, zeval bulmayan yok olmayan Kâim,
+
+Ey sonsuz hayat sahibi olan, ölüm kendisine arız olmayan Hayy,
+
+Ey saltanatı zeval bulmayan gerçek mülk sahibi olan Melik,
+
+Ey fena bulmayan, daim var olan Bakî,
+
+Ey her şeye muhit, ilmine cehil arız olamayan Alîm,
+
+Ey yemek içmekten münezzeh ve hiçbir şeye muhtaç olmayan Samed,
+
+Ey zaaf ve aczden münezzeh olan mutlak kuvvet sahibi, Kavî,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey bir olan, Kâinatı saran esma ve sıfatında şeriki olmayan Vâhid,
+
+Ey hiçbir şey ondan kaçamayan, her istediğini bulan, her şeye yoktan vücud veren Vâcid,
+
+Ey bütün mevcudatı birden gören, her yerde hâzır, her şeye nazır olan Şâhid,
+
+Ey sonsuz şan ve şeref ve yücelik sahibi olan Mâcid,
+
+Ey işleri istikamet, adalet ve çok hikmetlere dayanan, yol gösteren Râşid,
+
+Ey kullarına elçiler gönderen, ölmüş cesetlere haşir’de hayat bahşeden, Bâis,
+
+Ey her şeyin hakiki ilk ve son sahibi olan, mülk yalnız ona kalan Vâris,
+
+Ey hikmeti gereği, irade ettiklerine adaletle zarar ve elem veren Dârr,
+
+Ey kâinatın özü ve neticesi olan bütün iyilikler, güzellikler, menfaatler elinde bulunan Nâfi’,
+
+Ey kötülükler içinde yolunu şaşırıp, doğruyu murad eden kullarına hidayet veren Hâdi.
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey bilinen bilinmeyen bütün azimlerden daha azametli olan Azîm,
+
+Ey akla gelen gelmeyen bilcümle kerem sahihlerinden daha keremli olan Kerîm,
+
+Ey tasavvur edilen ve edilmeyen tüm merhametlilerden daha rahmetli olan Rahîm,
+
+Ey mümkün olan ve olmayan bütün hikmet sahihlerinden daha hikmetli olan Hakîm,
+
+Ey bütün derin ilim sahiplerinden sonsuz derece daha ihatalı ilim sahibi olan Alîm,
+
+Ey her yaratılandan daha önce var olan, varlığı zamanları aşan Kadîm,
+
+Ey mümkün ve mutasavver bütün büyüklerden daha büyük olan Kebîr,
+
+Ey görünen görünmeyen celâl ve haşmet sahihlerinden daha yüce olan Celîl,
+
+Ey tanınan tanınmayan bütün izzet sahihlerinden daha âlî olan Azîz,
+
+Ey gelen geçen bütün lütuf ve güzel davranış sahiplerinden daha lütufkâr olan Lâtif.
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey sözünü yerine getiren, vefalı olan Vâfî,
+
+Ey vefâ ve sözünü yerine getirmekte sonsuz kuvvet sahibi olan Kavî,
+
+Ey sonsuz kuvvetinde nihayet derece yüce olan Âlî,
+
+Ey sonsuz ulviyetinde her şeye her şeyden yakın olan Karîb,
+
+Ey sonsuz yakınlık ve kurbiyetinde son derece lütuf sahibi olan Lâtîf,
+
+Ey sonsuz lütuf ve güzel davranışında en yüce makam ve şeref sahibi olan Şerîf,
+
+Ey makam ve şerefinde sonsuz izzet sahibi olan Azîz,
+
+Ey sonsuz izzetinde nihayet azamet sahibi olan Azîm,
+
+Ey azametinde şanı yüce, kadri büyük, işleri pek güzel sonsuz şeref ve nimet sahibi olan Mecîd,
+
+Ey şan ve yüceliğinde sonsuz medih, nihayetsiz hamd ve senaya lâyık olan Hamîd,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey her şey kendisine boyun eğip, uymakla sükûn bulan,
+
+Ey her şeyin varlığı, meydana gelmesi kendisi için olan,
+
+Ey her şeyin vücudu kendisi için devam eden,
+
+Ey he rşey kendisine yönelen, dönüp rücû eden,
+
+Ey her şey kendisinden havf ve haşyet eden,
+
+Ey her şey kendisini teşbih, tenzih ve takdis eden,
+
+Ey her şey kendisiyle kıyam bulup irade ve kudretiyle ayakta duran,
+
+Ey her şey kendisine boyun eğip huşu ve kemâl i zilletle itaat eden,
+
+Ey her şey kendisine doğru giden, yönelen, sonunda ona varan,
+
+Ey kendisi müstesna her şey helak olup zeval bulan, Ona bakan vecihle her şey beka bulan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey arzulanan, istenilen maddî manevî her her şeye yeten Kâfî,
+
+Ey verdiği her sözü yerine getiren, mevcudatın bütün hacetini îfâ eden Vâfî,
+
+Ey maddî manevî her derde deva her illete çare olan Şâfî,
+
+Ey illetlerin elem ve acısı yerine sıhhatteki mutluluk ve afiyet nimetini bahşeden Muâfî,
+
+Ey sıfat ve isimleriyle her şeyden sonsuz derece yüksek ve ulvî olan Âlî,
+
+Ey kullarını kendini tanımak ve itaat etmekle her türlü hayır ve güzelliğe ve bol rahmetine çağıran Daî,
+
+Ey sonsuz celâliyle hiç muhtaç olmadığı sevgili ibadını rızasıyla en yüce makam olan rıza makamına çıkaran Râdî,
+
+Ey hacetleri yerine getiren, adaletle hükmeden her emrini sonsuz kudretiyle icra eden Kâdi,
+
+Ey bütün sıfat ve esmasıyla hep var olan, varlığı zamanla sınırlanmayan Bakî,
+
+Ey her mevcuda vazifesini bildiren yaratıldığı gayeye yönlendiren, dilediğine hidayet veren Hâdî,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey kendisine koşup sığınmaktan başka kaçış yolu olmayan,
+
+Ey her dehşet ve belâya karşı ancak kendisinden yardım istenilen,
+
+Ey kendisinden başka iltica edilecek bir yer olmayan,
+
+Ey kendisinden başka tevekküle lâyık kimse olmayan,
+
+Ey bütün güzel ve hayırlı maksatlar ancak kendisiyle hâsıl olan,
+
+Ey hakiki kurtuluş ancak kendisine sığınmakla gerçekleşen,
+
+Ey ancak kendisi rağbet ve teveccühe lâyık olan,
+
+Ey ancak kendisi, gelip geçen bütün mevcudatın ibadetlerine şeriksiz lâyık olan,
+
+Ey her zaman ve her yerde ancak kendisinden meded istenilen, yardım umulan,
+
+Ey her musibete takat getirmek, her istenileni elde etmek, ancak kendisinin kuvvet ve gücüyle mümkün olan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey korkulup, haşyet edilenlerin en hayırlısı,
+
+Ey bütün güzel isim ve sıfatlarıyla umulan en hayırlı yâr, en iyi matlup,
+
+Ey rağbet edilenlerin en hayırlısı en lâyıkı,
+
+Ey arzulanan her hacete, dilenilen her isteğe yetişmekte, en hayırlı dergâh sahibi olan,
+
+Ey güven ve doğrulukta en yakın en hayırlı maksud,
+
+Ey her zaman zikredilmeye en lâyık olup, zikri dünya ve ahiret hayatının nuru olan, kendini zikredenleri, daha hayırlı meclislerde zikreden Zâkir,
+
+Ey verdiği sayısız nimetlere karşı hayırla anılan, en fazla şükre lâyık olan,
+
+Ey sevgisi kalpleri dolduran, sevenleri daim mest eden en hayırlı mahbub,
+
+Ey keremiyle misafirlerine en iyi bakan, ikram eden, daha güzel menzilleri gezdiren, kullarının üstüne en hayırlı bereketler indiren,
+
+Ey tatlı olan ünsiyetiyle, güzel olan yakınlığıyla en hayırlı dost,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey her şeyi yaratan, düzene koyup düzgünleştiren,
+
+Ey her şeyin ölçülü şekilde sınırını takdir miktarını tahsis eden, yaratılış vazifesine yönelten,
+
+Ey her çeşit belâyı kaldıran,
+
+Ey gizli her yalvarış ve yakarışı işiten,
+
+Ey maddî manevî batmış, boğulmaya yüz tutmuşları kurtaran,
+
+Ey helâkete düşenlere necat verip kurtaran,
+
+Ey hastalara şifa, dertlilere deva,
+
+Ey ancak kendisi ölümü halk edip, hayatı veren,
+
+Ey hikmeti ile gülenleri güldürüp, ağlayanları ağlatan,
+
+Ey hidayet ve dalâlet ancak kendi meşietine bağlı olan.
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey rahmetiyle günahları mağfîret eden Gâfir,
+
+Ey maddî manevî ayıpları, kusurları, çirkinlikleri örtüp gizleyen Satir,
+
+Ey her şeye ve her kuvvete galip gelen, cebbarları hunharları dize getiren, hiç kimse tedbir ve takdirini geri çeviremeyen dilediğini yapmaya kadir olan Kahir, Ey irade ettiği her şeye gücü ve kuvveti acze düşmeden eksilmeden kâfi gelen Kâdîr,
+
+Ey her şeye ihatalı nazarıyla birden bakan, bütün mahlukatının her an bütün hal ve hareketlerini gören Nazır,
+
+Ey misilsiz olarak en mükemmel tarz ve surette yoktan var eden Fâtır,
+
+Ey az bile olsa şükür ve iyilikleri karşılıksız bırakmayıp, fazlasıyla sevap ve mükâfatlar veren Şâkir,
+
+Ey sevdiklerini her zaman güzellikle zikreden rahmetle anan Zâkir,
+
+Ey galebe ve muzafferiyet yalnız kendi elinde bulunan, dostlarını sahipsiz bırakmayan yardım edip nusret veren Nasır,
+
+Ey ihsan eden, kötüyü iyiye çeviren, fakrdan sonra zenginlik nasib eden, ıslah eden, selâmet veren, istediğini yaptıran, Câbir,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey mülkünde seyahat edenler için karada ve denizde yollar koyup kendini tanıtan,
+
+Ey kâinatın âfâkı, uzak yakın her tarafı delil, burhan ve ayetleriyle dolup taşan,
+
+Ey kâinatta görünen, Kur’an’da okunan tüm ayetlerinde burhan ve delilleri bulunan,
+
+Ey ölümü yazıp takdir etmede, canları alıp hayata veda ettirmede kudreti ve kuvveti görünen,
+
+Ey mezarlıklarda izzeti, kabir ve ötesinde haşmeti görünen,
+
+Ey kıyamet gününde mülkündeki hâkimiyet ve saltanatı perdesiz tezahür eden,
+
+Ey mahkeme i kübrada cin ve insi hesaba çekmede heybet ve haşmeti görünen,
+
+Ey hesap gününde, mizanda hüküm sahibi olan, adaletle vaadini yerine getiren,
+
+Ey Cennet’te rahmetinin her çeşit tabakatı ve her nevi letâifi bulunan,
+
+Ey Cehennem ateşinde dehşetli pek büyük azabı bulunan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey çaresiz kalan, dehşete düşen, korku duyanların sığınağı,
+
+Ey günahın dehşet verici akıbetinden isyankârların kendisine dehalet edip koştuğu,
+
+Ey gönül verip doğruyu bulmaya yönelenlerin maksudu,
+
+Ey isyankârların kendisine sığınıp iltica ettiği,
+
+Ey maddeden manaya teveccüh etmiş olan zahidlerin rağbet edip arzuladığı,
+
+Ey hataya düşüp çaresiz kalanların tek ümidi,
+
+Ey kendisini murad edenlerin dâima ünsiyet ve huzur bulduğu,
+
+Ey yüksek mertebe sahibi olan muhsinlerin tek medarı iftiharı,
+
+Ey tevekkül edip güvenmek isteyenlerin en büyük, tek güvenleri,
+
+Ey kuvvetle iman edip, yakîne erenlerin ancak kendisiyle sükûn ve huzur bulduğu,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey her şeye her şeyden sonsuz derece yakın olan Karîb,
+
+Ey sevilen, bütün mahbublardan ziyade muhabbete layık olan sevilen Habîb,
+
+Ey bütün azamet sahiplerinden nihayetsiz derece azametli olan, Azîm,
+
+Ey sonsuz izzetiyle bütün izzet sahiplerinin fevkinde olan Aziz,
+
+Ey gücü sonsuz, kuvveti bütün kuvvetlilerin fevkinde olan Kavî,
+
+Ey bilinen bilinmeyen bütün zenginlerden sonsuz derece gına ve varlık sahibi olan Ganîy,
+
+Ey cûd ve sehâsıyla bol ihsan edenlerin en üstünü, Cevâd,
+
+Ey zarif bol rahmeti, derin ince şefkati, bütün şefkatkârların üstünde olan Rauf,
+
+Ey has ve derin rahmeti bütün merhamet ehlinin fevkinde bulunan Rahîm,
+
+Ey küçük büyük bilinen bilinmeyen bütün yücelerin yücesi olan Celîl,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey zat ve esması madde ve cismaniyetten sonsuz derece uzak olduğu halde, her şeye nihayet derece yakın olan, hiçbir şey tasarrufuna, rububiyyetine engel olamayan, Karîb,
+
+Ey her şey nazar ı şuhudunda olan, hiçbir hareket ve davranışı kaçırmayan, her şeyi her şe’niyle gözetleyen, Rakîb,
+
+Ey güzel esma ve sıfatlarıyla, bol nimet ve insanıyla daima sevilen Habîb,
+
+Ey hikmeti dairesinde her şeyin hacetine, her canlının isteğine her bir kulun duasına rahmetiyle cevap veren medet eden, Mücîb,
+
+Ey hakiki kâfi gelen, her şeyin hesabını zamansız mutlak sür’at içinde en iyi gören Hasîb,
+
+Ey maddî mânevi bütün dertlere deva, hastalıklara şifa bahşeden Tabîb,
+
+Ey her şeyin her an iç ve dışını ve gerçek hakikatini bütün incelikleriyle en iyi surette gören Basîr,
+
+Ey geçmiş ve gelecek maddî manevî, küçük büyük her şeyden haberdar olan Habîr,
+
+Ey nurlu, parlayan, ışık saçan her şeyi aydınlatan, alemleri, hakikati, akılları tenvir eden Münîr,
+
+Ey mahlûkatına gerekli her şeyi açıklayan, maddî-mânevî âyâtıyla varlığı birliği tam zahir olan Mübîn,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey mutlak galip olan, hiçbir kuvvet Ona karşı gelemeyen Gâlib,
+
+Ey her şeyi güzel san’atlı yapan, kendisi yapılmadan var olan Sâni,
+
+Ey bütün mevcudatı hiçten yaratan kendisi yaratılmaktan münezzeh olan Halik,
+
+Ey her şeyin maliki olan, hiçbir şey Ona malikiyet dava edemeyen Mâlik,
+
+Ey kahrıyla her şeye üstün gelen, hiçbir şey ona üstün gelemeyen Kahir,
+
+Ey her şeyin yükselişi derece ve mertebesi elinde bulunan kendisi yükseltilmekten münezzeh olan Râfi,
+
+Ey her şeyin hıfz ve himayesi elinde bulunan, kendisi muhafazaya muhtaç olmayan Hâfiz,
+
+Ey yardımcılara muhtaç olmadan nusret ve yardım eden Nâsir,
+
+Ey her şeyi müşahede edip gören, her yerde hâzır hiçbir yerde gâib olmayan Şâhid,
+
+Ey hiçbir şeye uzak olmayan, her şeye her şeyden yakın olan Karîb.
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey nurların nuru olan Nur,
+
+Ey maddî manevî bütün nurları nurlandıran Münevvir,
+
+Ey nurlara suret veren Musavvir,
+
+Ey nurları yaratan yoktan var eden Hâlık,
+
+Ey bütün nurların tedbiri takdiri ve keyfiyâtı elinde bulunan Mukaddir,
+
+Ey nurları vazifelendiren, idare ve tedbir eden Müdebbir,
+
+Ey bütün nurlardan önce var olan ezelî Nur,
+
+Ey bütün nurlardan sonra baki kalan ebedî Nur,
+
+Ey bütün nurların fevkinde olan yüce Nur,
+
+Ey misli benzeri olmayan yekta, mukaddes Nur,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey ihsan ve atiyyesinde şeref ve yücelik olan,
+
+Ey ef’alinde letafet, güzellik, incelik, şefkat bulunan,
+
+Ey lütuf ve keremi kesintisiz, daim var olan,
+
+Ey ihsanının başlangıcı sonu olmayan kadîm olan,
+
+Ey sözü hak olan,
+
+Ey vaadi doğru olan,
+
+Ey af ve bağışlaması sırf kendi fazl ve iyiliğinden kaynaklanan,
+
+Ey ceza ve azabı adil olan,
+
+Ey zikri gayet güzel ve tatlı olan,
+
+Ey ünsiyet ve yakınlığı son derece tatmin edici lezzet verici olan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey bütün yaratılmışlara bol nimet ve ihsan eden Münevvil,
+
+Ey ulûhiyetinin delillerini, kulluğun sınırlarını en açık şekilde belirten, hakkı batıldan iyiyi kötüden ayıran Mufassıl,
+
+Ey hikmetiyle mevcudatın halini tavrını nakşını devamlı surette değiştiren Mübeddil,
+
+Ey zorlukları kolaylaştıran Müsehhil,
+
+Ey istediğini zelil eden, emrine mutî kılan dilediği kimseye musahhar eden Müzellil,
+
+Ey rahmeti melekleri, kitapları, bereketleri, gazabı, belâları dilediği her şeyi dilediği yere indiren Münezzil,
+
+Ey kâinattaki bütün halleri durumları değiştiren, kullarını hâlden hâle sevk eden,
+
+Ey maddî manevî her şeyi dilediği ölçüde güzelleştiren Mücemmil,
+
+Ey dilediği her şeyi tamamlayan, kemâle erdiren Mükemmil,
+
+Ey dilediğini üstün kılan Mufaddıl,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey her şeyi birden gören, kendisi görünmeyen,
+
+Ey her şeyi yaratan, kendisi yaratılmayan,
+
+Ey hidayet veren yol gösteren, kendisi ise hidayete muhtaç olmayan,
+
+Ey bütün hayat sahiplerine hayat veren dirilten, kimse Ona hayat veremeyen, hayatı bizatihi var olan,
+
+Ey herkesi yediren, kendisi yedirilmekten münezzeh olan,
+
+Ey her şeyi en iyi şekilde koruyan, kendisi korunmaktan münezzeh olan,
+
+Ey her şey hakkında karar veren, hiçbir şey kendisi hakkında karar veremeyen,
+
+Ey her şey hakkında hüküm veren, hiçbir kimse, hakkında hüküm veremeyen,
+
+Ey peder, valide, evlâd olmaktan münezzeh olan, çoğalması, vücudu başka bir vücuttan çıkması mümteni ve muhal olan,
+
+Ey misli dengi benzeri nazîri bulunmayan, Zât ı Zülcelâl,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+Ey sevilmeye en lâyık olan en iyi Habîb,
+###
+
+Ey dertlere şifa olan en iyi Tabîb,
+
+Ey mutlak hakiki kâfi, yapılan her şeyi kaydeden hesabını zamansız en iyi yapan Hasîb,
+
+Ey yakın olanların en iyisi, en yakını Karîb,
+
+Ey en iyi gözeten, en sağlam koruyan Rakîb,
+
+Ey her nidaya en güzel cevap veren, en iyi icabet eden Mücîb,
+
+Ey ünsiyeti en şirin olan, dostluğuyla en yüce lezzetlere erişilen Enîs,
+
+Ey kendisine tevekkül edenlerin işlerini en güzel yapan, düzelten, en güvenilir Vekîl,
+
+Ey en iyi sahip, en yakın serdar, en güzel Seyyîd olan Mevlâ,
+
+Ey en iyi yardım eden, nusret veren, zafere kavuşturan Nasır,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey kendisini tanıyanların süruru, ariflerin sevinci,
+
+Ey kendisini murad edenlere huzur veren ünsiyet eden en yakın dost,
+
+Ey kendisine müştak olanlara daim meded eden, yardımlarına koşan,
+
+Ey tevbekârların habibi, dergâhına dönenlerin en yakın sevgilisi,
+
+Ey fakir olan bütün mahlûkata, yoksul olan herkese rızık veren,
+
+Ey günahkârların ümidi, suçluların ricagâhı,
+
+Ey sıkıntıya düşenlerin dertlerini izale eden, meşakkatlerini gideren,
+
+Ey gam ve kedere düşenlere nefes aldıran,
+
+Ey üzgünlere huzur ve ferec, mahzunlara ferah veren,
+
+Ey ezelden ebede kadar evvel olan bütün geçmişlerin, ahir olan bütün geleceklerin İlâhı,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey Cennet ve Cehennemin Rabbi,
+
+Ey Peygamberlerin, seçkinlerin ve hayırlıların Rabbi,
+
+Ey kendine sadıkların, sıdk ile inananların, ebrarların, iyilerin Rabbi,
+
+Ey küçük büyük, cüz’î küllî, her şeyin Rabbi,
+
+Ey mahlûkatın özü ve aslı olan çekirdek ile hayatının gayesi olan meyvelerinin Rabbi,
+
+Ey hayatın esası olan akıp giden nehirlerin, hayat ve rızık taşıyan ağaçların Rabbi,
+
+Ey bütün sahraların, çöllerin, kırların idarecisi sahibi Rabbi,
+
+Ey bütün sahipsizlerin, kölelerin, hürlerin, köleleri köle kılanların Rabbi,
+
+Ey açığa vurulan, gizli tutulan, aşikâr ve saklı her şeyin Rabbi,
+
+Ey rahatlık ve sükûnet zamanı olan gecenin, hareket ve maişet vakti olan gündüzün Rabbi,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey ilmi her şeye erişen, ihata eden,
+
+Ey nazarı her şeye nüfuz eden, her şeyin içini dışını en iyi gören,
+
+Ey kudreti her şeye yetişen, her şeyi içine alan,
+
+Ey hadsiz nimetleri, kulları tarafından sayılmakla bitmeyen,
+
+Ey mevcudat, cümle hamd ve şükranıyla, lâyık olduğun şükre erişemeyen,
+
+Ey celâl ve büyüklüğünü idrakte zihinler yetersiz kalan,
+
+Ey vehim, tahmin, hayallerle hakikatine (zat ve sıfatına) erişilmeyen,
+
+Ey azamet ve kibriya örtüsüyle gizlenmiş, azamet ve büyüklüğün tek sahibi,
+
+Ey heybet, saltanat, güzellik ve şa’şaası ile her yeri şenlendirip dolduran,
+
+Ey beka ve şanını izzetle yücelten, varlığında zillet ve aczden münezzeh olan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey kudsî ulvî temsillerle sıfatına bakılan, yüce misallerin yekta sahibi,
+
+Ey bütün güzel, mutlak, yüce sıfatların tek sahibi,
+
+Ey devamlı olan ahiret, geçici olan dünyanın her cihetle tek sahibi,
+
+Ey Meleklerin, Şehitlerin, ehli takvanın rahatgâhı, meskeni olan Cennet’ül Me’vânın tek sahibi,
+
+Ey Cehennem’in ve alevlenip köpüren laza ateşinin tek sahibi,
+
+Ey en büyük ayetlerin, delillerin, burhanların tek sahibi,
+
+Ey tecelliyatı her tarafta görünen en güzel isimlerin Esmâ’ül Hüsnâ’nın tek sahibi,
+
+Ey hüküm ve hesabın, emir ve kazanın tek mutlak sahibi,
+
+Ey ulvî gökler, yüce semalar ve içlerindeki her şeyin tek sahibi,
+
+Ey yerden Arş’a her şeyin yegâne sahibi,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey çok affeden, pişmanları affetmeyi seven Afüvv,
+
+Ey çok mağfiret eden, kullarını bağışlamayı seven Gafur,
+
+Ey çok seven ve sevdiren, sevilmeye ve dostluğu kazanılmaya en çok lâyık olan Vedûd,
+
+Ey çok iyi karşılık veren, az şükre bile bol nimet ve sevap ihsan eden Şekûr,
+
+Ey çok sabreden, fırsat tanıyan, hemen cezalandırmayan Sabûr,
+
+Ey çok esirgeyen, re’fet ve hususî şefkatini gösteren Rauf,
+
+Ey çok merhametli olan, şefkatiyle kullarına yönelen Atûf,
+
+Ey bütün çirkinliklerden mutlak pak ve temiz olan, pislikleri, kirleri gideren, her şeye en güzel şekilde bakan Kuddüs,
+
+Ey mutlak, zatî, ezelî ve ebedî hayat sahibi olan Hayy,
+
+Ey her şey kendisine istinat ederek kâim olan, vücudu hiçbir vücuda dayanmayan Kayyûm,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey göklerde ve ecrâm ı ulviyede azameti görünen Zat ı zülcelâl,
+
+Ey zeminde ve zeminin her bir mevcudunda vahdaniyetin delilleri ayetleri müşahede edilen Zat ı Zülkemâl,
+
+Ey her bir şeyde ve mahlûkta vücub-u vücuduna delâlet eden burhanlar bulunan Zat ı Vâcibü’l Vücud,
+
+Ey azametli denizlerde acibeleri yaratan Zat ı Zülkemâl,
+
+Ey her şeyi ve bütün mahlûkatı hiçten yaratıp tekrar iade eden, dirilten Zat ı Kadîr i Zülcelâl,
+
+Ey dağlarda canlıların ihtiyacı için iddihar edilen hazineleri halk eden Hallâk ı Kerîm,
+
+Ey her bir şeyin yaratılışını güzel yapan, tedbirini ve levazımatını güzel bir tarzda veren Zat ı Cemîli Zülikram,
+
+Ey her şey her bir hacetinde her bir emrinde ona müracaat eden ve her bir mevcud her bir keyfiyetinde ona dayanan ve her bir hak ve hakikat ve hüküm ve hâkimiyet ona râci’ olan Zat i Kadîr ve Rab ı Külli şey,
+
+Ey her şeyde zahir bir surette lütfunun eserleri ve inayetinin cilveleri ve güzel san’atının lâtif nakışları ve rahmetinin letâfetli hediyeleri müşahede edilen Zat ı Latif i Habîr
+
+Ey Zişuur mahlûkatına kudretini göstermek için kâinatı bir meşher i acaib yapan ve umum masnuatını kudret ve hikmet ve rahmet gibi kemâlatını teşhir etmek için birer dellâl birer ilan name hükmüne getiren Zat ı Kadîr i Hakîm.
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey gerçek sevgi ve dostluğu bulamayanların en sadık dostu, en yakın Habîbi,
+Ey maddî manevî hastalıklarına tabib bulamayanların en şifakâr Tabîbi,
+
+Ey imdâdları dinlenmeyen çaresizlerin en yakın mededkârı, cevap veren Mücîb,
+
+Ey şefkat umup kimsesiz kalanların en yakın şefkat edicisi olan Şefîk,
+
+Ey ölmez, ayrılmaz, refik ve dost arayanların en vefalı dostu olan Refîk,
+
+Ey şefaatçi bulamayıp şefaatten mahrum kalanların Şefîi,
+
+Ey meded edici bulamayıp imdattan mahrum kalanların Mugîsi,
+
+Ey rehber ve mürşidsiz kalan, delil bulamayanların rehberi, Delîli,
+
+Ey kendilerini hak ve doğru yola sevk edecek birisini bulamayanların kumandan ı âzâmı,
+
+Ey himayesine alıp rahmet edecek birisini bulamayanların en büyük rahmet edicisi olan Rahîm,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey kâfi görüp kendisiyle iktifa edenlerin her hacetine yeten, her şeyine kâfi gelen,
+
+Ey kendisinden hidayet isteyenlere en doğru yolu gösteren, hidayet eden,
+
+Ey dergâhına sığınanları himayesine alan inayetiyle örten saklayan,
+
+Ey kendisini nida edip çağıranların feryadına koşan, onları rahmetine çağıran,
+
+Ey kendisinden şifa isteyenlerin derdine şifa hastalığına deva olan,
+
+Ey aciz kalıp işinin kazasını Ondan isteyenlerin hâcâtını tamamlayan, en güzel şekilde hüküm veren,
+
+Ey cûd (cömertlik) ve gınasını (zenginlik) isteyenleri fazlıyla maddî manevî abâd eden, doyuran,
+
+Ey kendisinden hacetini yerine getirmek isteyenlerin ihtiyacını fazlasıyla ifa eden,
+
+Ey kuvvetine güvenip güç isteyenlere yardım eden, kuvvet veren,
+
+Ey kendisini kendilerine sahip ve büyük bilenlerin mevlâsı,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey her şeyden önce olan, başlangıcı olmayan tek ezeliyet sahibi Evvel
+
+Ey her şeyden sonra baki kalan sonu olmayan yekta ebediyet sahibi Âhir,
+
+Ey varlığı, sıfatı, isimleri her şeyde aşikâr ve apaçık olan Zahir,
+
+Ey isim ve sıfat, ef’al ve eserleriyle her şeyin içyüzünü kaplayan, hiçbir şey onların ötesine geçemeyen, nazarlardan gizli kalan Batın,
+
+Ey yoktan var eden, her şeyin varlığını ve varlığı süresince geçireceği hâlleri, hâdiseleri düzenleyen, tayin ve tespit eden Hâlık,
+
+Ey bütün mahlukatın her çeşit rızık ve ihtiyacını bahşeden, rızk kazanma sebeplerini meydana getiren Râzık,
+
+Ey her sözü, her işi doğru olan, ahdini, vadini yerine getiren Sâdık,
+
+Ey her şeyden önce olan, iradesi, ilmi ve kudreti her şeyi geçen galip gelen Sabık,
+
+Ey her şeyi ve herkesi takdiriyle istediği yere ve gayeye sevk eden Sâîk,
+
+Ey geceden sabahı, tohumlardan nebatatı, çekirdeklerden bütün mahlûkatı, tepe ve dağlardan emin yolları, yanlış düşüncelerden hakkı yarıp çıkaran Fâlık,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey gece ve gündüzü ard arda düzenli surette döndürüp değiştiren,
+
+Ey zulmetleri, karanlıkları, nuru yaratan,
+
+Ey gölgeyi ve serinliği, ateşi, harareti ve sıcak rüzgârı, meydana getiren,
+
+Ey güneşi ve ayı muti’ ve musahhar kılan,
+
+Ey hayattan önceki ve hayattan sonraki adem olmayan ölümü, ölümden önceki geçici ve ölümden sonraki baki olan hayatı yaratan,
+
+Ey halk ve icad, hüküm ve emir yalnız kendisine ait olan,
+
+Ey eş ve evlat edinmeyen, benzere, denge, çoğalmaya, nesle, muhtaç olmayan,
+
+Ey mülk ve saltanatında şeriki ortağı olmayan,
+
+Ey zillet ve aczden münezzeh ve mukaddes, âmir ve sahibi, yardımcısı olmayan,
+
+Ey bütün havi ve kuvvet yalnız kendisine ait olan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey bütün istek sahiplerinin murad ve arzularını hakkıyla her zaman bilen, cevap veren,
+
+Ey yalvarıp sual edenlerin her çeşit hacetlerine malik olan,
+
+Ey vecde kapılıp kendinden geçenlerin inilti ve feryatlarını duyan.
+
+Ey korkarak gözyaşı dökenlerin halini gören,
+
+Ey sükût edenlerin vicdanlarında saklı her gizliyi bilen,
+
+Ey isyan ve günahlardan pişman olup nedamet edenlerin halini gören,
+
+Ey tevbe ümidiyle kendine dönenlerin özrünü kabul eden,
+
+Ey fesad edip de bozgun çıkaranların işini düzeltmeyen, rast getirmeyen,
+
+Ey iyilik yapanların güzel amellerini karşılıksız bırakmayan, zayi etmeyen.
+
+Ey kendisini bilen ariflerin kalplerinden uzak olmayan, onlara daim feyiz ve huzur veren,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey daim baki olan.
+
+Ey hataları bağışlayan, mağfiret eden.
+
+Ey bütün duaları işiten.
+
+Ey ihsanı bol atiyye ve hediyesi geniş olan.
+
+Ey semayı yükselten,
+
+Ey belâyı kaldıran musibetleri izale eden,
+
+Ey medih ve senası pek azîm olan,
+
+Ey ulviyet ve şa’şaasında kadîm olan.
+
+Ey vefası çok olan, va’dini her zaman yerine getiren,
+
+Ey ceza ve sevabı, ikab ve mükâfatı şanına lâyık ve üstün olan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey bol mağfiret sahibi, fazl ve rahmetiyle her günahı bağışlayan Gaffar,
+
+Ey kötülükleri çirkinlikleri rahmetiyle örten gizleyen Settâr,
+
+Ey her istediğini yapmaya gücü yeten, herkesi ve bütün mevcudatı dize getiren, sonsuz izzet sahibi, hükmünde mutlak galip olan Kahhâr,
+
+Ey emir ve fermanına karşı konulamayan, dilediğini yaptırmaya muktedir olan, tamir ve ıslah eden Cebbar,
+
+Ey çok sabreden ve sabır gücü ihsan eden Sabbâr,
+
+Ey bütün mahlûkatı rızıklandıran rızkı elde etme sebeplerini yaratan Rezzâk,
+
+Ey bereket kapılarını, hikmetli suretleri, ahiret âlemini, bağlı, kilitli gönülleri, tılsımlı düğümleri, kapalı yolları hayırla açan Fettâh,
+
+Ey her şeyi her yönüyle çok iyi bilen, ilmiyle her şeyi ihata eden Allâm,
+
+Ey çeşit çeşit hediyeleri, nimetleri karşılıksız bol bol ihsan eden Vehhâb,
+
+Ey tevbeleri kabul günahları affeden, kullarına tevbe etmeleri için tekrar tekrar sebepler ve münasebetler yaratan rahmetine davet eden Tevvâb,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey beni yoktan var eden, âzâ ve duygularımı düzenli yapan, vazifelerine uygun bir tarz veren,
+
+Ey bana envai çeşit rızıklar ihsan eden, beni besleyen, terbiye eden sahip çıkan,
+
+Ey beni çeşit çeşit lezzetli gıdalı tatlı nimetleriyle yedirip içiren,
+
+Ey beni yakınına alan huzur ve iltifatıyla şereflendiren,
+
+Ey beni maddî manevî düşman ve belâlardan koruyan, bana ve her şeyime kâfi gelen,
+
+Ey beni muhafaza eden kollayan, uyku bilmez gözleriyle bekleyen, ayıplarımı örten,
+
+Ey bana hidayet nasib eden, yol gösteren, muvaffak eden,
+
+Ey beni azîz kılan ihtiyaçlarımı gideren gınasına mazhar eden,
+
+Ey beni öldürüp dirilten, her an ölen vücudumu yenileyen, hayatıma hayat katan,
+
+Ey bana ünsiyet veren, rahmet kanadıyla kuşatan huzur barınağına kavuşturan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey doğru, gerçek, inandırıcı olan sözleriyle hakkın hakkaniyetini gösteren,
+
+Ey hükmünü hiçbir hüküm bozamayan, ona üstün gelemeyen,
+
+Ey muradını hiçbir güç ve kuvvet geri çeviremeyen,
+
+Ey duyguların mahalli olan kalpleri istediği gibi çeviren, kişiye kalbinden daha yakın olan,
+
+Ey pişmanlıkla dergâhına sığınan kullarının tevbelerini kabul eden,
+
+Ey izin ve irâdesi olmadan hiçbir şefaat fayda vermeyen,
+
+Ey bütün semâvât bütün azamet ve ihtişamıyla tasarrufunda olan, sağ elinde durulmuş bulunan,
+
+Ey yolundan sapanları, dalâlete düşenleri en iyi bilen,
+
+Ey gök gürültüsü hamd ederek, meleklerde kendisinden korkarak teşbih ettiği,
+
+Ey rüzgârı rahmetinin müjdecisi, yağmurun elçisi olarak gönderen,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey yeri mahlûkatına beşik yapan, barınmaya uygun kılan,
+
+Ey fayda ve hikmet dolu dağları yere kazık ve direk yapan,
+
+Ey güneşi kâinat sarayına ısı ve ışık saçan musahhar bir lâmba kılan,
+
+Ey ay’ı karanlık gecelerimize nurlu bir kandil yapan,
+
+Ey geceyi örtü kılan, karanlık perdesiyle ayıpları örterek, kullarını soğuk ve düşmandan muhafaza eden,
+
+Ey gündüzü geçim ve maişet zamanı yapan,
+
+Ey uykuyu, dünya meşgalesinden uzak tutarak bir huzur ve dinlenme yapan,
+
+Ey semayı bina eden, gökleri muhkem, sağlam yapan,
+
+Ey her şeyi çift yaratan ve bütün canlıları erkek ve dişiden meydana getiren,
+
+Ey cehennem ateşini, kâfirleri bekleyip ona dönmeleri için gözetleyici kılan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey sevabı artırmakta, yardıma gelmekte, ihtiyaçları vermekte, günahları affetmekte gerçek şefaat sahibi olan Şefi’,
+
+Ey bütün ses ve sadaları en iyi işiten Semî’,
+
+Ey bütün mertebeler elinde bulunan, istediğini istediği yere yükselten Ref,
+
+Ey zararları, kötülükleri, tehlikeleri men eden, dilediği her şeyi engelleyen Menî’,
+
+Ey her şeyi misilsiz taklitsiz yoktan var eden, en güzel tarz ve surette, akılları hayrette bırakacak şekilde yaratan, Zât ve sıfatında dengi asla olmayan Bedî’,
+
+Ey işleri en süratli şekilde yapan, hesabı zamansız gören, mutlak sürat içinde yaratan Serî’,
+
+Ey kullarına en güzel müjdeleri veren, Cennet ve ebedi saadete çağıran Beşîr,
+
+Ey nefis ve şeytana uyan isyankârları tevbe ve itaate sevk etmek için şiddetli azapla korkutup, sakındıran Nezîr,
+
+Ey istediğini, istediği gibi sonsuz eksilmez kudretiyle yapan Kadîr,
+
+Ey kuvvet ve kudret sahiplerini istediği gibi yönlendiren, bütün mevcudatı kudreti altında tutan Muktedîr,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey bütün hayat sahiplerinden önce var olan, herkese hayat veren, kimseden hayat almayan ezelî hayat sahibi,
+
+Ey bütün hayat sahiplerinden sonra baki kalan, hayatının sonu olmayan, ebedî hayat sahibi,
+
+Ey hayatına hiçbir hayatın benzemediği, eşsiz hayat sahibi,
+
+Ey misli, dengi olmayan gerçek mutlak hayat sahibi,
+
+Ey zatî, ezelî ve ebedî hayatına kimsenin ortak olmadığı mutlak hayat sahibi,
+
+Ey hiçbir hayat sahibine ihtiyacı olmayan, hayatı başka hayatlara dayanmayan Zatî hayat sahibi,
+
+Ey bütün canlıları öldüren, adem olmayan ölümle verdiği hayatı geri alan, ölümsüz hayat sahibi,
+
+Ey hayatlarını sürdürmek için küçük büyük bütün hayat sahiplerini rızıklandıran hayata hayat veren gerçek hayat sahibi,
+
+Ey her zaman, her bahar ölüleri diriltmekle tecelliyat ı hayatını gösteren, ahirette bir tek emriyle ölmüş olan bütün mahlûkatı dirilten hayat sahibi,
+
+Ey hiç ölmez, zeval bulmaz, yüce, gerçek ezelî, ebedî hayat sahibi,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey her şey kendisini zikreden, hiçbir zaman unutulmayan tatlı, küllî, zikrin sahibi,
+
+Ey kâinatı kaplayan, hiç sönmeyen nurun sahibi,
+
+Ey had ve hesaba gelmeyen medih ve sena sahibi,
+
+Ey değişmeyen ve değiştirilemeyen güzel sıfat ve yüksek vasıfların sahibi,
+
+Ey had ve hesaba gelmeyen nimetlerin sahibi,
+
+Ey tükenmek bilmeyen mülkün, zeval bulmayan saltanatın sahibi,
+
+Ey idrak ve akılla keyfiyetine varılamaz olan celâl ve yüceliğin sahibi,
+
+Ey geri çevrilmez kaza ve hükmün sahibi,
+
+Ey güzel sıfatlarının yerini hiçbir sıfat tutamayan, başka hiçbir sıfatla değiştirilmeyen,
+
+Ey bütün güzel sıfatların en yüksek mertebesine sahip olan, kemâli idrak ve ihata edilemeyen,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey görünen görünmeyen, küçük büyük iç içe bütün âlemleri beraber idare, tedbir ve terbiye eden Rab,
+
+Ey iyi kötü bütün amellerin mutlak adaletle karşılığı verildiği din ve hesap gününün Malik i Hakîmi,
+
+Ey ibadete devamla, haramdan çekinmekle, musibete dayanıp sabredenleri seven,
+
+Ey en yakın yoldan günahtan dönüp kendine sığınan tevbekârları seven,
+
+Ey maddî manevî kirlerden temizlenmeye çalışanları seven,
+
+Ey ihsan edip iyi amel işleyen muhsinleri seven
+
+Ey imdat, yardım ve nusrete gelenlerin en hayırlısı en güçlüsü,
+
+Ey iyiyi kötüden, hakkı batıldan, bütün inceliğiyle en güzel ve lâyık şekilde ayıran, en girift meseleleri hallü fasıl eden,
+
+Ey iyi amel ve şükrün karşılığını en hayırlı ve lâyık şekilde veren,
+
+Ey kötülük yapan bozgun ve fesad çıkaranları en iyi bilen,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey bütün mevcudatı maddesiz, mâyesiz, örneksiz, meşietiyle yoktan var edip başlatan Mübdi’,
+
+Ey ilk yarattığı ve her zaman yenilediği, ölmüş çürümüş dağılmış mevcudatı tekrar dirilten iade eden Muîd,
+
+Ey her şeyi en iyi koruyan, muhafaza eden, bütün amelleri kaydedip hıfzeden Hafîz,
+
+Ey her şeyi sıfat ve esmâsıyla ihata eden, hiçbir şey emir ve irade ve ilim ve kudretinin dışına çıkamayan ondan kaçamayan Muhît,
+
+Ey her senaya lâyık olan, ancak kendisine hamd ve sena olunan, bütün varlıkların hâl ve kâl dilleriyle övülen Hamîd,
+
+Ey şanı yüce, kadri büyük, Zâtı şerefli, işleri güzel, ihsanı hudutsuz azîmüşşan olan Mecîd,
+
+Ey mahlûkatın çeşit çeşit rızkını vakti vaktine veren, gözetip kuvvetlendiren Mukît,
+
+Ey darda kalan, çıkmaza girenlerin imdadına gelen, feryadına koşan Mugîs,
+
+Ey dilediğine tevfik verip aziz kılan, izzet bahşeden, şereflendiren Muizz,
+
+Ey dilediğini hikmet ve adaletiyle zelîl kılan, kendisine isyan edip tevbe etmeyenleri tezlil eden Müzill,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey birliğinde zıddı olmayan Zât ı Ehad,
+
+Ey tekliğinde benzeri ve naziri olmayan Zât ı Ferd,
+
+Ey her isteğin mercii olan, hiçbir ayıp ve kusuru bulunmayan Zât ı Samed,
+
+Ey bir ve tek olup naziri mumteni’ olan Zât ı Vitr,
+
+Ey hâkimiyetinde idare ve tedbirinde vezir ve yardımcısı bulunmayan Zât ı Rab,
+
+Ey ihtiyaçtan müstağni, fakırdan muallâ olan Zât ı Ganî,
+
+Ey her şeyi hâkimiyeti altında tutan, hiçbir kuvvet Onu saltanatından azledemeyen Sultan ı zîşan,
+
+Ey her şeyi emri altına alan, hiç bir sebep kendisini aciz bırakamayan Zât ı Melîk,
+
+Ey varlığında benzeri misli olmayan Zât ı Mevcûd,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey zikri, yâdı, anılması, zikredenlere en üstün şeref olan,
+
+Ey kendisine şükürle mukabele edenler için şükrü en büyük kazanç ve zafer olan,
+
+Ey kendisine hamd ve sena edenler için hamdi en büyük iftihar vesilesi olan,
+
+Ey tâatı, kendisine itaat ve ibadet edenlere necat ve kurtuluş olan,
+
+Ey kendisini arayan ve talep edenler için kapısı her zaman açık olan,
+
+Ey inanan mü’minler için yolu zahir ve açık olan,
+
+Ey gözünü açıp bakanlar için her tarafı kaplayan âyât ve işârâtı burhan ve delili olan,
+
+Ey hüccet ve yakîn sahipleri için kitabı öğüt ve nasihâtla dolu olan,
+
+Ey suçlu ve günahkârlar için af ve bağışlaması en sağlam ilticâgâh olan,
+
+Ey güzel amel işleyen muhsinlere rahmeti yakın olan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey ismi her şeyden üstün ve mübarek olan,
+
+Ey her şeye tefevvuk eden namı şanı pek ulvî ve sonsuz derece yüksek olan,
+
+Ey her yerde her zaman senâsı okunan, övgüsü yücelen,
+
+Ey kendisinden başka ilâh olmayan, ibadete lâyık mabud bulunmayan,
+
+Ey isimleri her kusur ve noksanlıktan mukaddes ve münezzeh olan,
+
+Ey daim var olan, ebedî baki kalan,
+
+Ey kâinatta görünen bütün azametli tezahürler Onun azamet ve varlığının ziyası, haşmetinin cemali olan,
+
+Ey büyüklük ve kibriya Zat ı âlîsine has bir perde olan,
+
+Ey maddî manevî her şeyi içine alan ihsanları, sayıya gelmeyen,
+
+Ey bitmez tükenmez nimetleri, sınırlanmayan, saymakla bitmeyen,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey en iyi yardım eden, meded bekleyenlerin imdadına yetişen Muîn,
+
+Ey varlığı apaçık olan, sıfat ve isimleri her yerde görünen, her şeyi en iyi açıklayan Mübîn,
+
+Ey kendisine emanet edilen her şeye en iyi bakan, kalplere huzur, akıllara güven veren Emîn,
+
+Ey en yüce sarsılmaz makam sahibi olan, her şeyi kemal i suhuletle çekip çeviren, yerli yerine en sağlam şekilde yerleştiren, Mekîn,
+
+Ey güven ve karar sahibi olan, her şeyi külfetsiz muhkem yapan, kudretine hiçbir şey engel olamayan Metîn,
+
+Ey âsi ve münkirlere azabı, kahrı, darbesi, intikamı pek şiddetli olan,
+
+Ey mülkünde olup biten her şeyi gören, her yerde hâzır ve nazır olan Şehîd,
+
+Ey her fiili hak ve doğru olan, yol gösterip irşad eden, iyi ve güzel takdir sahibi Reşîd,
+
+Ey övülecek isim ve sıfatların sahibi, bütün hamd ve senalara lâyık olan Hamîd,
+
+Ey sonsuz şeref ve azamet ve nimet sahibi olan yücelerin yücesi Mecîd,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey yüce makam olan arş ı azamın sahibi,
+
+Ey dinleyeni doyuran, inandırıcı, sağlam, dosdoğru sözün sahibi,
+
+Ey fazlı rüşd ve hidayet dolu olan, ihsanı layık olana erişen,
+
+Ey gazabı pek şiddetli, darbesi en ağır olan,
+
+Ey emrini tutanlara Cennet ve güzellikler vaad eden, tutmayanları ise Cehennem ve ateşle tehdit ve vaîd eden,
+
+Ey hiçbir şeye uzak olmayan, her şeye nihayet derece yakın olan Zat ı karîb i zülcelâl,
+
+Ey medih ve senaya layık olan en yakın dost en iyi sahip Veliyy ül Hamîd,
+
+Ey her şeyin gerçek şahidi olan, her hadisenin iç yüzünü en iyi gören bilen Şahid i mutlak,
+
+Ey hiç bir kimseye, hiçbir kuluna zerre miktar zulmetmeyen Zat ı Âdil,
+
+Ey herkese her zaman her yerde şah damarından daha yakın olan Zat ı Karîb,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey hiçbir şerîki ve veziri bulunmayan, hiçbir ortağa ve yardımcıya muhtaç olmayan,
+
+Ey hiçbir şebîhi nazîri bulunmayan, hiçbir benzeri ve dengi olmayan,
+
+Ey güneşin ve nur saçan Ay’ın halikı,
+
+Ey sıkıntıya düşen ızdırap çeken fakirleri zengin eden,
+
+Ey iktidarsız masum küçük bebeklerin en safi ve latif rızkını veren,
+
+Ey aciz ihtiyar yaşlı büyük dedelere rahmet edip gözeten,
+
+Ey korkuya düşüp dehşete kapılıp yardım isteyenleri koruyan, eman veren,
+
+Ey kullarının her halini gören, gizli saklısını bilen,
+
+Ey kullarının bütün maddî, manevî ihtiyacından haberdar olan,
+
+Ey her şeye kadir olan, istediği her şeyi sonsuz kolaylıkla yapan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey sayısız nimetleriyle sonsuz derece cömert olan,
+
+Ey bol kerem ve ikramında nihayet derece fazl sahibi olan,
+
+Ey intikam ve cezalandırmasında sonsuz metanet ve güç sahibi olan,
+
+Ey içinde her şeyi kayıtlı olan levh i mahfuz ve onda her şeyi emriyle yazan kalemin sahibi,
+
+Ey nefes ve rüzgâr ve rüzgârla dağılan tohumların, yeryüzüne yayılan nesillerin ve zerrelerin halikı
+
+Ey Arap ve Arapların dışındaki herkese anladıkları dilde ilham eden,
+
+Ey zarar ve elemleri kaldıran fereç (rahatlık) veren,
+
+Ey bütün himmet ve ümitleri, sır ve gizlilikleri, kaygı ve dertleri en iyi bilen,
+
+Ey Kâbe i Muazzama ve Harem i Şerifin sahibi,
+
+Ey her şeyi yoktan var eden, istediği şeyi istediği zaman hiçten yaratan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey her şeyi düzgün ölçülü yaratan, her şeyde adaleti tecelli eden, ahirette herkesi hesaba çekip kimsenin kimsede zerre miktar hakkını bırakmayan sonsuz, sınırsız mutlak adalet sahibi olan Âdil,
+
+Ey bütün mevcudattan dergâhına yükselen ibadet, zikir, teşbih ve amelleri, iyi niyetleri kabul eden, kendine istiğfar ile tevbe edip sığınanları rahmetiyle karşılayan Kabil,
+
+Ey hiçbir karşılık ve sebep olmadan bol bol nimet eden fazıl gösteren, her şey kendi fazlı ve keremi olan, üstünlüğü bütün bilinen ve tasavvur edilenden sonsuz derece üstün olan Fadıl,
+
+Ey kâinatta devamlı tazelenen isim ve sıfatlarının tecelliyâtını gösteren hadsiz hareket ve faaliyetler kendi fiili olan Fail,
+
+Ey mevcudat ve mahlûkatın maddî manevî bütün ihtiyacına kefîl i mutlak olan Kâil,
+
+Ey dönüp dolaşan, var olan her şeyi kendisi var eden, her fiil ve hareket kendi elinden çıkan, her şey Onun yapmasıyla meydana gelen Câil,
+
+Ey hiçbir ayıp ve kusuru bulunmayan, bütün olgunluk ve kemâlât kendi eseri olan Kâmil,
+
+Ey her şeyi örneksiz taklitsiz yoktan, vücuda getiren Fâtır,
+
+Ey kullarını kendine çağıran, onlardan emrine uymalarını rahmetine koşmalarını isteyen Tâlib,
+
+Ey istenilen, rağbet edilen her şeyden sonsuz derece istenilmeye lâyık olan, akıl, kalp, ruh ve bütün duyguların kendisiyle rahat bulduğu gerçek Mâtlub,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey maddî manevî bütün nimetleri güç ve havliyle veren,
+
+Ey kudret, fazl ve bereketiyle ikramda bulunan, bol sehâvet sahibi,
+
+Ey lütuf ve keremini tekrar tekrar gösteren, her vakit kullarına yeni ihsanlar eden,
+
+Ey kudretinin tecelliyâtıyla sonsuz izzetini izhar eden, üstünlük ve şerafetini gösteren,
+
+Ey hikmetiyle takdir eden, ölçülü uyumlu ve düzenli herşey kendi hikmetiyle olan,
+
+Ey tedbiriyle hükmeden, tedbirli, tertipli her şey kendi hâkimiyetiyle olan,
+
+Ey ilmiyle tedbir eden, yerli yerinde her şey kendi tedbir ve idaresiyle olan,
+
+Ey sonsuz kuvvet ve iktidarında nihayet yumuşaklık gösteren hilmiyle günahları bağışlayan,
+
+Ey sonsuz ulviyyet ve yüceliğinde büyük küçük her şeye her şeyden en yakın olan, mahlûkatına yakınlık gösteren,
+
+Ey her şeye her şeyden yakın olmasıyla beraber nihayet derece yüce âlî olan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey istediğini yaratan, yaratmasına hiç bir mani’ bulunmayan,
+
+Ey istediğini yapan, her iş kendi meşietiyle olan,
+
+Ey istediğine hidayet veren, hidayet verdiğini kimse hak yoldan ayıramayan,
+
+Ey istediğini dalâlete atan, yolundan saptırdığını kimse kurtaramayan,
+
+Ey istediğine mağfiret eden, bağışlaması herkese ve her günaha yeten,
+
+Ey istediğine azap eden, adalet ve rahmetinden başka hiçbir kimse kendisini azap etmekten geri çeviremeyen,
+
+Ey istediğinin tevbesini kabul buyuran, rahmeti herkesi ve her günahı aşan,
+
+Ey istediği şekilde rahimlerde yavrulara maddî, manevî suretler ve simalar veren,
+
+Ey istediği şeyi halk eden, mevcudatı dilediği ölçü ve sayıda ziyadeleştiren, irade ettiğine başka başka özellikler veren,
+
+Ey istediğini hususî rahmetine mazhar eden, bol rahmetinden dilediğine dilediğini veren,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey eş ve evlat edinmeyen, hiçbir kimsenin dostluğuna, varlığına muhtaç olmayan,
+
+Ey hüküm ve hâkimiyetine hiçbir kimseyi şerik etmeyen,
+
+Ey her şeye, bir ölçü ve miktar veren, bir zaman ve mekân tanıyan ve plan içinde yürüterek neticeye götüren,
+
+Ey rahimiyeti zeval bulmayan, sevdiklerine merhameti baki kalan, devam eden,
+
+Ey melekleri rahmet, risalet, ilham ve müjde elçisi yapan,
+
+Ey göklerde burçlar yapan, sema yüzünü burçlarla donatan,
+
+Ey yeri kararlı kılan, zemini hayata müsait bir mekân yapan,
+
+Ey insanı basit bir sudan yaratan ve suyla hayatına hayat katan,
+
+Ey bilinen bilinmeyen her şeyin adedini bilen, hesabını yapan,
+
+Ey ilmi her şeyi ihata eden, her şeyi her şe’niyle bilen,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey rububiyetinde, ulûhiyetinde, isim ve sıfatlarında benzeri olmayan, tek ve bir olan Ferd,
+
+Ey zât, isim, sıfat ve şuunâtında benzeri, dengi, eşi olmayan Vitir,
+
+Ey taklit edilmez, misli yapılamaz her bir sanat ve eserinde birliği görünen Ehad,
+
+Ey her şeyin, her mahlûkun ihtiyacını veren, hiç bir şeye muhtaç olmayan Samed,
+
+Ey kadr ve şanı büyük, azamet ve şeref sahibi olan Emced,
+
+Ey mağlub olmaz, acze düşmez, misilsiz, sonsuz kuvvet ve izzet sahibi olan Eazz,
+
+Ey celâl ve yüceliğinde her şeyden nihayet derece âlî olan Ecell,
+
+Ey varlığı, birliği isim ve sıfatları her şeyden daha hak ve aşikâr olan, ibâdete en müstehak olan Ehakk,
+
+Ey en iyi ve güzel, bol ihsan eden, hayır ve iyilikte nihayet derece üstün olan Eberr,
+
+Ey varlığı sonsuz olan, zamanla mukayyed olmayan Ebed,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey kendisini tanıyanları tanımasına mazhar edip onlara marifetinin kapılarını açan, tanınması onlara en büyük ihsan olan Mâruf,
+
+Ey kendisine ibadet edenleri ubudiyyete mazhar edip ibadetlerini kabul buyuran Mabud,
+
+Ey kendisine şükredenleri rızasına mazhar edip şükürlerini kabul eden Meşkûr,
+
+Ey kendisini zikredenleri feyizdar edip zikreden Mezkûr,
+
+Ey kendisine hamdedenlere hamd kapılarını açan rahmet eden Mahmud,
+
+Ey kendisini arayanların yanında, her yerde her an hazır olan Mevcud,
+
+Ey birlik ve vahdaniyetine inananlara vasıflarını bildiren, kendini tanıtan Mevsûf,
+
+Ey kendisini sevenleri sevgisine mazhar eden, onların sevgilisi olan Mahbûb,
+
+Ey kendisini arayanları arayıp arzulayan, onların en büyük rağbet ettiği Zat olan Merğub
+
+Ey kendisine yönelenlere yönelen, onların en büyük gayesi olan Maksûd,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey bütün mülk kendisinin olan, saltanatından başka gerçek saltanat olmayan,
+
+Ey bütün kullar, lâyık olduğu sena ve medhini saymakla bitiremediği,
+
+Ey celâl ve kibriyasını bütün mevcudat vasfedemediği
+
+Ey gelmiş ve gelecek bütün gözler kemalini idrak edemediği,
+
+Ey gelmiş ve gelecek bütün zihin ve zekâların sıfatlarına ermekten aciz kaldığı,
+
+Ey gelmiş ve gelecek bütün fikirlerin kibriya ve büyüklüğüne yetişemediği,
+
+Ey hiçbir beşer, yüce sıfatlarını hakkıyla tavsif edemediği,
+
+Ey kullarının, hüküm, emir ve kazasını reddedemediği,
+
+Ey her şeyde marifetine birliğine çok ayet, delil ve burhanlar bulunan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey uğrunda korku ve sevgiden gözyaşı dökenlerin Habîbi,
+
+Ey kendisine tevekkül edenlerin en kuvvetli istinad ve dayanağı,
+
+Ey yollarını kaybedip, dalâlete düşüp arayanların, hidayet vericisi olan Hâdi,
+
+Ey müminlerin velîsi, en yakın dostu, en kuvvetli sahibi olan Velî,
+
+Ey kendisini zikir ve teşbih edenlere ünsiyet veren Enîs,
+
+Ey kudreti bütün güç ve kudretlerin sonsuz derece üstünde olan Kadîr,
+
+Ey görmesi bütün gören gözlerin görmesinden nihayet derece üstün olan Basîr,
+
+Ey ilmi bütün âlimlerin, bilenlerin mutlak derece fevkinde olan Alîm,
+
+Ey üzüntüden kahrolup eyvah diyerek dergâhına koşanların tek sığınağı,
+
+Ey nusret ve yardımı bütün imdad edenlerin sonsuz derece üstünde olan Nasîr,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey kâinat sofrasında maddî manevî bütün nimetler kendi ikramı olan, her zaman ikramda bulunan Mükrim,
+
+Ey her şey kendisini tazim eden, azameti bütün mevcudatı kaplayan, bütün âsârı azametine delil olan Muazzam,
+
+Ey mahlûkatına, hesaba gelmez çeşit çeşit her taifeye münasip lezzetli şirin nimetler veren Mün’im,
+
+Ey sual edilen her haceti, lâzım olan her nimeti, arzu edilen her şeyi veren Mu’tî,
+
+Ey nihayetsiz hazinelerinden dilediğini maddî manevî varlıklı kılan, hacetleri gideren Muğnî,
+
+Ey mahlûkatı yoktan var edip hayat ihsan eden, hayatlara hayat katan, ölüleri dirilten Muhyî,
+
+Ey her şeyi maddesiz mayesiz taklitsiz örneksiz yoktan var edip başlatan Mübdi’,
+
+Ey dilediğini razı eden, rızaya mucib her şey elinde bulunan, mahlûkatı rahmetiyle memnun eden, iyilik yapanı çok sevapla hoşnut eden Murzî,
+
+Ey kendisine sığınanları tehlikelerden, kötülüklerden kurtarıp necat veren Müncî,
+
+Ey iyilik ve ihsanı bol olan, güzellikle muamele eden, her şeyi en iyi surette yapan Muhsîn,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Ey her şeyin her hacetine yetişen, her isteğe kâfî olan,
+
+Ey her şeyin devamı, mevcudiyeti, ayakta kalıp idare edilmesi, her şeyi elinde tuttuğunu, her şeye kaim olduğunu gösteren,
+
+Ey hiçbir şey kendine benzemeyen, ne misli ne mîsâli Zât ve sıfatında olmayan,
+
+Ey icadı dışında hiçbir şey mülkünde artmayan, hiçbir kuvvet hiç bir sebep mülküne hiç bir şey ziyade edemeyen,
+
+Ey hazinelerinden hiçbir şey eksilmeyen, hiçbir kuvvet ve hiçbir şey mülkünün dışına çıkamayan,
+
+Ey hiçbir şey ona gizli kalmayan, hiçbir kuvvet ilminin dışına çıkamayan,
+
+Ey misli misali olmayan, kendisine benzer hiçbir varlık bulunmayan,
+
+Ey her şeyin anahtarları, kilitleri, dizginleri elinde bulunan,
+
+Ey sonsuz rahmeti her şeyi içine alan, maddî manevî her şeyi rahmetiyle ihata eden,
+
+Ey yalnız kendisi baki kalıp başka her şey zevale yüz tutup fenaya uğrayan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+Ey bilinmeyeni ancak kendisi bilen, kendisinden başkası gaybı bilemeyen,
+###
+
+Ey kötülüğü ancak kendisi uzaklaştıran, kendisinden başkası fenayı def edemeyen,
+
+Ey tedbiri ancak kendisi yapan, kendisinden başkası emir ve idareye karışamayan,
+
+Ey günahları ancak kendisi mağfiret eden, kendisinden başkası günahları gideremeyen,
+
+Ey kalpleri ancak kendisi istediği gibi çeviren, kendisinden başkası gönülleri yönlendiremeyen,
+
+Ey halk ve îcâd ancak kendisi yapan, kendisinden başkası hiçbir şey yaratamayan,
+
+Ey nimeti ancak kendisi tamamlayan, kendisinden başka hakikî nimet verici bulunmayan,
+
+Ey ancak kendisi yağmuru yaratıp, indiren, kendisinden başkaları ne indirme sebeplerine, ne de imdad etme gücüne sahip olmayan,
+
+Ey ölüleri ancak kendisi dirilten, kendisinden başka kimse hayat veremeyen,
+
+Ey gerçek mânada ancak kendisi zengin kılan, kendisinden başkasının zengin etmeye gücü yetmeyen,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey dilediğini gözler önüne seren, kötülükleri izale, iyilikleri izhar eden Kâşif,
+
+Ey belâ ve musibetlerden, dert ve kederlerden kurtarıp rahatlığa çıkaran Fâric,
+
+Ey maddî manevî, açılan her kapı, feth edilen her yer, çatlayan her çekirdek, verilen her sima ve suret emriyle olan Fâtih,
+
+Ey zafer, nusret, yardım ve destek, gücüyle meydana gelen Nasır,
+
+Ey kendisine verilen, uhdesine bırakılan, Ona tekeffül edilen her şeyi, mal ve canı en iyi koruyan, her türlü ihtiyacı karşılayan Zâmin,
+
+Ey mutlak emir sahibi olan, bütün kâinat emriyle hareket eden, hiçbir şey ve hiçbir kimse emrinden izni olmadan çıkamayan, dilediği emri dilediğine dilediği zaman ve yerde yapan Âmir,
+
+Ey nehy etmek, sakındırmak, yasak kılmak yalnız kendi irade ve meşietine bağlı olan, hiçbir kimse izni olmadan bir şeyi yasaklayamayan Nâhî,
+
+Ey her dertliye deva, her kederliye ümit ve şevk veren Recâ,
+
+Ey musibetzedelerin umut kaynağı, ümitsizliğe düşenlerin tek merci olan Mürtecâ,
+
+Ey bütün ümitleri, emelleri, bekleyişleri geniş azim rica kapısı olan, rahmetiyle karşılayan Azîmür’ Recâ,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey zayıfların en güçlü yardımcısı,
+
+Ey fakirlerin bitmez tükenmez hazinesi,
+
+Ey gariplerin sahibi, kimsesizlerin kimsesi,
+
+Ey dostlarını kayıran, sevdiklerine nusret eden,
+
+Ey a’dâ ve düşmanlara kahrıyla galip gelen,
+
+Ey semayı yükselten, gökleri kaldırıp tutan,
+
+Ey belâları gideren, musibetleri def edip kaldıran,
+
+Ey yolunu tutanların ünsiyet vericisi, velilerin dostu,
+
+Ey takva ehlinin habibi, itaat edenlerin sevgilisi,
+
+Ey ganîlerin ilâhı, zenginlerin mâbûdu,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey her şeyin başı ve bidayeti olan Evvel ve bütün eşyanın sonu ve nihayeti olan Âhir,
+
+Ey her şeyin mutlak mabudu olan İlâh ve bütün eşyanın bedî sanatkârı olan Sânii’,
+
+Ey her şeye kendine münasip rızık veren Rezzak ve bütün eşyanın yaratıcısı olan Hâlık,
+
+Ey her şeyi misilsiz ve taklitsiz yaratan Fâtır, ve bütün eşyanın mâliki ve hâkimi olan Melîk,
+
+Ey her şeyi istediği ölçüde daraltıp, azaltan, sıkıp, tutan Kâbıd, ve bütün eşyayı istediği gibi açan, genişleten, çoğaltıp, bollaştıran Bâsıt,
+
+Ey her şeyi başlatan, maddesiz ve misilsiz olarak yoktan var eden Mübdî, ve bütün eşyayı ahirette tekrar iade eden, ölüleri yeniden dirilten Muîd,
+
+Ey her şeyi hikmetiyle sebebe bağlayan, gerekli sebepleri icad eden Müsebbib ve bütün eşyayı ölçü içinde ve düzen içinde tutan Mukaddîr,
+
+Ey her şeyi terbiye eden, besleyip büyüten Mürebbî, ve bütün eşyayı tedbir ve idare eden Müdebbîr,
+
+Ey her şeyi döndüren, çekip çeviren Mukavvîr ve bütün eşyayı halden hale sokan değiştiren Muhavvîl,
+
+Ey her şeyi canlandıran mâhlukata hayat veren Muhyî ve bütün eşyayı, cümle mahlûkatı öldüren Mümît,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey kendisini yâd ve zikredenleri en güzel tarzda zikre den Zâkir ve zikredilmeye en lâyık, çok zikredilen Mezkûr,
+
+Ey şükür ve iyiliğe en güzel tarzda karşılık veren Şâkir ve şükredilmeye en lâyık, çok şükredilen Meşkûr,
+
+Ey hamd ve iyiliğe en güzel tarzda karşılık veren Hamîd ve hâmdedilmeye en lâyık, çok övülen, hamdedilen Mahmud,
+
+Ey en iyi gören, her yerde hâzır olan Şâhid, isim ve sıfatları görünmeye en lâyık, her yerde eseri görülen Meşhûd,
+
+Ey hak ve iyilik isteyenleri en doğru yola ve en güzel davete çağıran Dâi ve duâ edilmeye en lâyık, en çok çağırılan Madûv,
+
+Ey dâvetine icabet edip, kendisine el açanların duasına en güzel tarzda cevap veren Mücîb, icabete ve itaate en lâyık, çok icabet edilen Mücâb,
+
+Ey kalplere en yakın olan ünsiyet eden Munis ve ünsiyet edilmeye, yakın olunmaya en lâyık, en çok ünsiyet edilen Enîs,
+
+Ey en hayırlı dost, en yakın sâhib, dostluğu kazanılmaya en lâyık celis i Habîb,
+
+Ey umulan en hayırlı murad, en yüce gaye olan Maksud ve talep edilmeye, istenmeye en lâyık, en çok aranan Matlub,
+
+Ey sevenlerin en yücesi, sevgi gösterenlerin en hayırlısı olan Habîb ve sevilmeye en lâyık, en çok sevilen Mahbub,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey kendisine yalvarıp yakaranların duasına cevap veren Mücîb,
+
+Ey emrine boyun eğip itaat edenleri seven Habib,
+
+Ey kendisini sevenlere rahmetiyle yardımıyla yakın olan Karîb,
+
+Ey kendisini murad edip arzulayanları en iyi bilen Alîm,
+
+Ey ümit besleyip rahmetini umanlara iyilikle güzellikle mukabele eden Kerîm,
+
+Ey kendisine isyan edip karşı gelenlere yumuşaklıkla muamele edip mühlet tanıyan Halîm,
+
+Ey yumuşaklık gösterme ve fırsat tanımasında sonsuz hikmetle davranan Hakîm,
+
+Ey hüküm ve hâkimiyetinde azameti ve büyüklüğü görünen Azîm,
+
+Ey sonsuz azametinde nihayetsiz rahmeti ve has ihsanı görünen Rahîm,
+
+Ey ihsan ve kereminin başı ve sonu olmayan ihsanı nihayetsiz olan Kadîm,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arz ı niyaz ediyorum.
+
+Ey bütün sebepleri halkeden, her şeyin var olup vazifesini görmesi için şartları hazırlayan Müsebbib,
+
+Ey sevgili kullarını kendine yakın eden, kurbu ile şereflendiren, bütün yakınlıklar iradesiyle olan Mukarrib,
+
+Ey istediğinin yerine istediğini koyan, ard arda gelen gece ve gündüz, mevsim ve aylar, irade ve takdiriyle olan, yapılan işleri bütün iyilik ve kötülüğüyle tartan Muakkıb,
+
+Ey dilediğini dilediği yöne çeviren, kalpleri, suretleri, gece ve gündüzü değiştiren, bütün mevcudatı çevirip döndüren Mukallib,
+
+Ey her şeyi bir miktar ve ölçü ve ahenk içinde yaratan, her şeyin her parçasını o şeye uygun yapan Mukaddir,
+
+Ey her şeyi tertip ve düzenli yaratan, yerli yerine koyan Mürettib,
+
+Ey iyiliğe, güzelliğe, rahmetine, Cennet’e kullarını teşvik eden rağbetlerini artıran Muraggıb,
+
+Ey şuur sahiplerine güzel öğütler veren, peygamberler ve kitaplar vasıtasıyla kullarına vazifelerini hatırlatan, Müzekkir,
+
+Ey her şeyi var eden, istediği şeyi “ol” demesiyle vücuda getiren, yoktan var eden Mükevvin,
+
+Ey tasavvur edilen her büyük şeyin nihayet derece üstünde olan, kibriya ve büyüklüğünü her şeyde ve bütün kâinatta gösteren Mütekebbir,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey bütün sesleri birden işiten, hiçbir ses kendisini başka bir sesi duymaktan alıkoyamayan, meşgul edemeyen,
+
+Ey hiçbir fiil kendisini başka bir fiili görmekten men edemeyen, bütün işleri sonsuz sür’at içerisinde nihayet kolaylıkla yapan,
+
+Ey hiçbir sözü başka bir sözü söylemesine mani olmayan, hadsiz kimselerle aynı zamanda konuşabilen, herkese bir çeşit hitabı bulunan,
+
+Ey birinin ihtiyacına cevap vermek, kendisini başkasının ihtiyacına cevap vermekte yanlışlığa sevk etmeyen, bütün isteklere, dualara, suallere aynı anda cevap veren,
+
+Ey ısrarcıların ısrarı, istek sahiplerinin gayreti kendisini asla usandırmayan, onlara devamlı cevap veren,
+
+Ey mü’minlerin gönüllerini İslamiyet’le genişleten, teslimiyetle ferah verip göğüslerindeki sıkıntı ve kederi gideren, ilimle aydınlatan,
+
+Ey kalbi kırıkların, tevazu ehlinin kalplerine zikriyle huzur veren, tatmin eden,
+
+Ey kendisini arzulayıp şevk duyanların kalbinden gitmeyen, kaybolmayan, her zaman hazır olan,
+
+Ey kendisini arzulayıp isteyenlerin son gayesi, yegâne muradı, en ileri arzusu,
+
+Ey bütün âlemlerde hiçbir yerde hiçbir şey kendisinden gizli kalmayan,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey ilmi ezelî olan, her şeyi ilmiyle geçip, her bir şeyden önce gelen,
+
+Ey vaadi doğru olan, verdiği her sözde sâdık olan,
+
+Ey eserlerinde lûtfu zahir olan, keremi apaçık görülen,
+
+Ey emri her şeye galip gelen, bütün eşyaya hükmü geçen,
+
+Ey kitabı, âyetleri, kanunları muhkem ve sağlam olan
+
+Ey irâde ettiği kazâ ve kaderi mutlak surette gerçekleşen
+
+Ey Kur’an ı en yüksek ve şerefli, yüce ve muteber olan
+
+Ey mülkünün başlangıcı ve sonu olmayan, saltanatı kadîm olan,
+
+Ey fazıl ve keremi daim olan, gelen geçen nimetler fazlının bekâsını gösteren,
+
+Ey makamı en büyük ve yüce, bütün mevcudat isimlerinin tecellisini gösteren, Arş ı azim sahibi olan Zat ı zül celâl,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+Ey sahip çıkan, terbiye edenlerin ve tevehhüm edilen batıl Rabların, gerçek ve mutlak Rabbi,
+
+Ey hayır ve bereket kapılarını açan,
+
+Ey bütün sebepler kudretiyle hâsıl olan gerçek tesir sahibi,
+
+Ey sevaplar bağışlayan, iyiliklerin karşılığını gerçek mânâda yalnız kendisi verebilen,
+
+Ey doğruları ilham eden, her mahlûka vazifesini ilhamla bildiren,
+
+Ey bulutları inşa eden, istediği zaman gökyüzünü bulutlarla dolduran,
+
+Ey cezalandırması ağır, azap ve ikâbı çok şiddetli olan,
+
+Ey hesabı çok seri, sonsuz sür’at içinde hesaba çeken,
+
+Ey herkesin dönüşü kendisine olan,
+
+Ey günahları bağışlayan mağfiret eden Gafur, tevbeleri kabul eden Tevvâb,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###
+
+Yine İsimlerinle sana nida edip yalvarıyor, arzı niyaz ediyorum.
+
+Ey bizi terbiye eden sahip çıkan Rabbimiz,
+
+Ey hak mabudumuz olan İlâhımız,
+
+Ey malikimiz ve efendimiz olan Seyyidimiz,
+
+Ey velimiz sahibimiz olan Mevlâmız,
+
+Ey bize nusret veren, yardım eden Nasırımız,
+
+Ey bizi koruyan, hıfzeden Hafızımız,
+
+Ey bize güç ve kuvvet veren Kadirimiz,
+
+Ey bize nimet veren, rızıklandıran Râzıkımız,
+
+Ey bize yol gösteren, hidayet eden Delîlimiz,
+
+Ey bize imdat eden, feryadımıza koşan Mugîsimiz,
+
+Sen aczden ve şerikten, kusurdan münezzeh ve mukaddessin. Senden başka ilâh yok ki bize imdad etsin. El aman el aman!. Bizi azap ateşinden ve cehennemden kurtar.
+###

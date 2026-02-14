@@ -63,11 +63,13 @@ public class DistributionController {
     @PostMapping("/{code}/add-resource")
     public ResponseEntity<?> addResourceToSession(
             @PathVariable String code,
-            @RequestParam Long resourceId
+            @RequestParam Long resourceId,
+            @RequestParam Integer totalUnits
     ) {
         try {
             String username = getCurrentUsername();
-            service.addResourceToSession(code, resourceId, username);
+            // totalUnits parametresini servise ekleyin:
+            service.addResourceToSession(code, resourceId, username, totalUnits);
             return ResponseEntity.ok("Kaynak başarıyla eklendi.");
         } catch (Exception e) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
