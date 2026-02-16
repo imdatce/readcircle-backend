@@ -126,18 +126,27 @@ public class DataSeeder implements CommandLineRunner {
                         "tr", "Fetih Suresi",
                         "en", "Surah Al-Fath",
                         "fr", "Sourate Al-Fath",
+                        "de", "Sure Al-Fath",
+                        "ru", "Сура Аль-Фатх",
                         "ku", "Sureya Fetih",
-                        "ar", "سورة الفتح"
+                        "ar", "سورة الفتح",
+                        "id", "Surah Al-Fath",
+                        "az", "Fəth Surəsi"
                 ),
                 Map.of(
                         "tr", "Adet",
                         "en", "Count",
                         "fr", "Nombre",
                         "ku", "Hejmar",
-                        "ar", "عدد"
+                        "ar", "عدد",
+                        "de", "Anzahl"
                 ),
                 (lang) -> {
                     try {
+                        // Elimizde sadece TR ve EN dosyaları var.
+                        // Diğer diller (Kürtçe, Arapça vb.) seçilse bile
+                        // yapı ve Latin okunuşu için TR dosyasını kullanıyoruz.
+                        // Frontend, MEAL kısmını zaten API'den güncelleyecek.
                         String filename = "en".equals(lang) ? "fetih_en.txt" : "fetih_tr.txt";
                         return resourceLoaderService.loadTextFile(filename);
                     } catch (Exception e) {
@@ -155,18 +164,25 @@ public class DataSeeder implements CommandLineRunner {
                         "tr", "Yasin Suresi",
                         "en", "Surah Ya-Sin",
                         "fr", "Sourate Ya-Sin",
+                        "de", "Sure Ya-Sin",
+                        "ru", "Сура Йа Син",
                         "ku", "Sureya Yasîn",
-                        "ar", "سورة يس"
+                        "ar", "سورة يس",
+                        "id", "Surah Ya-Sin",
+                        "az", "Yasin Surəsi"
                 ),
                 Map.of(
                         "tr", "Adet",
                         "en", "Count",
                         "fr", "Nombre",
                         "ku", "Hejmar",
-                        "ar", "عدد"
+                        "ar", "عدد",
+                        "de", "Anzahl"
                 ),
                 (lang) -> {
                     try {
+                        // Meal API'den geleceği için, Latin okunuşu ve sayfa yapısı
+                        // bozulmasın diye varsayılan dosyaları kullanmaya devam ediyoruz.
                         String filename = "en".equals(lang) ? "yasin_en.txt" : "yasin_tr.txt";
                         return resourceLoaderService.loadTextFile(filename);
                     } catch (Exception e) {

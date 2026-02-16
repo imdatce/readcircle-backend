@@ -1,60 +1,63 @@
-IMAGE_MODE:::/images/fetih/fetih-1.jpg,/images/fetih/fetih-2.jpg,/images/fetih/fetih-3.jpg,/images/fetih/fetih-4.jpg,/images/fetih/fetih-5.jpg|||
-Bismillahirrahmanirrahim. İnnâ fetahnâ leke fethan mubînâ, liyagfira lekallâhu mâ tekaddeme min zenbike ve mâ teahhara ve yutimme ni‘metehu aleyke ve yehdiyeke sırâtan mustekîmâ ve yensurakallâhu nasran azîzâ.
-                          Huvellezî enzeles-sekînete fî kulûbil-mu’minîne liyezdâdû îmânen me‘a îmânihim. Ve lillâhi cunûdus-semâvâti vel-ard ve kânallâhu alîmen hakîmâ.
-                          Liyudhilel-mu’minîne vel-mu’minâti cennâtin tecrî min tahtihâl-enhâru hâlidîne fîhâ ve yukeffira anhum seyyiâtihim ve kâne zâlike indallâhi fevzen azîmâ.
-                          Ve yu‘azzibel-munâfikîne vel-munâfikâti vel-muşrikîne vel-muşrikâti’z-zânnîne billâhi zannes-sev’ aleyhim dâiretus-sev’ ve gadiballâhu aleyhim ve le‘anehum ve e‘adde lehum cehenneme ve sâet masîrâ.
-                          Ve lillâhi cunûdus-semâvâti vel-ard ve kânallâhu azîzen hakîmâ.
-                          İnnâ erselnâke şâhiden ve mubeşşiren ve nezîrâ.
-                          Li-tu’minû billâhi ve resûlihî ve tu‘azzirûhû ve tuvakkirûhû ve tusebbihûhû bukraten ve asîlâ.
-                          İnnellezîne yubâyiûneke innemâ yubâyiûnallâh. Yedullâhi fevka eydîhim. Femen nekese feinnemâ yenkusu alâ nefsihî. Ve men evfâ bimâ âhede aleyhullâh, fe-seyu’tîhi ecren azîmâ.
-                          Sayeqûlû lekel-muhallefûne minel-a‘râbi şagaletnâ emvâlunâ ve ehlûnâ, festagfir lenâ. Yekûlûne bi-elsinetihim mâ leyse fî kulûbihim.
-                          Kul: “Femen yemliku lekum minallâhi şey’en, in erâde bikum darran ev erâde bikum nef‘â? Bel kânallâhu bimâ ta‘melûne habîrâ.”
-                          Bel zanentum en len yenkaliber-resûlu vel-mu’minûn ilâ ehlîhim ebedâ ve zuyyine zâlike fî kulûbikum ve zanentum zannes-sev’ ve kuntum kavmen bûrâ.
-                          Ve men lem yu’min billâhi ve resûlihî fe-innâ a‘tednâ lil-kâfirîne se‘îrâ.
-                          Ve lillâhi mulkus-semâvâti vel-ard. Yagfiru limen yeşâ’ ve yu‘azzibu men yeşâ’. Ve kânallâhu gafûran rahîmâ.
-                          Sayeqûlul-muhallefûne iz entalaqtum ilâ megânime li-te’huzûhâ: “Zerûnâ nettebi‘kum.”
-                          Yurîdûne en yubeddilû kelâmallâh. Kul: “Len tettebi‘ûnâ, kezâlikum kâlallâhu min kablu.”
-                          Sayeqûlûne: “Bel tahsudûnenâ.” Bel kânû lâ yefkahûne illâ kalîlâ.
-                          Kul lil-muhallefîne minel-a‘râbi: “Setud‘avne ilâ kavmin ulî be’sin şedîdin. Tûqâtilûnehum ev yuslimûn.”
-                          Fe-in tutî‘û yu’tikumullâhu ecran hasenâ. Ve in tetevellev kemâ tevelleytum min kablu, yu‘azzibkum azâben elîmâ.
-                          Leyse alel-a‘mâ haracun, ve lâ alel-a‘raci haracun, ve lâ alel-merîdi haracun.
-                          Ve men yuti‘illâhe ve resûlehû yudhîlhu cennâtin tecrî min tahtihâl-enhâr. Ve men yetevelle yu‘azzibhu azâben elîmâ.
-                          Lekad radiyallâhu anil-mu’minîn iz yubâyiûneke tahtes-şecereti. Fe-alime mâ fî kulûbihim, fe-enzeles-sekînete aleyhim ve esâbehum fethan karîbâ ve megânime kesîraten ye’huzûnehâ. Ve kânallâhu azîzen hakîmâ.
-                          Va‘adekumullâhu megânime kesîraten te’huzûnehâ, fe‘accele lekum hâzihî ve keffe eydiyen-nâsi ankum.
-                          Li-tekûne âyeten lil-mu’minîne ve yehdiyekum sırâtan mustekîmâ ve uhrâ lem takdirû aleyhâ, kad ehâtallâhu bihâ. Ve kânallâhu alâ kulli şey’in kadîrâ.
-                          Lev kâtelekumullezîne keferû le-vellewul-edbâr summe lâ yecidûne veliyyen ve lâ nasîrâ.
-                          Sunnatallâhillezî kad halet min kablu, ve len tecide li-sunnatillâhi tebdîlâ.
-                          Huvellezî keffe eydiyehum ankum ve eydiyekum anhum bi-batni Mekke min ba‘di en azferakum aleyhim. Ve kânallâhu bimâ ta‘melûne basîrâ.
-                          Humullezîne keferû ve saddukum anil-mescidil-harâmi vel-hedye ma‘kûfen en yebluğa mahillehû.
-                          Ve levlâ ricâlun mu’minûn ve nisâ’un mu’minâtun, lem ta‘lemûhum, en tataûhum fe-tusîbekum minhum me‘arratun bi-gayri ilm.
-                          Hâdâ huvellezî enlezallâhu sekînetehu alâ resûluhû ve alel-mu’minîne ve elzemehum kelimetet-takvâ ve kânû ehakka bihâ ve ehlehâ ve kânallâhu bi-kulli şey’in alîmâ.
+IMAGE_MODE:::/images/fetih/fetih-1.jpg,/images/fetih/fetih-2.jpg,/images/fetih/fetih-3.jpg,/images/fetih/fetih-4.jpg,/images/fetih/fetih-5.jpg
 |||
-Rahman ve rahim Allahin adiyla Şüphesiz biz sana apaçık bir fetih verdik. Böylece Allah, senin geçmiş ve gelecek kusurlarını bağışlasın, sana olan nimetini tamamlasın, seni dosdoğru bir yola iletsin ve sana güçlü, onurlu bir yardım versin.
-O, müminlerin imanlarına iman katsınlar diye kalplerine huzur ve güven indirmiştir. Göklerin ve yerin orduları Allah’ındır. Allah her şeyi bilendir, hüküm ve hikmet sahibidir.
-Mümin erkekleri ve mümin kadınları, içlerinden ırmaklar akan, içinde ebedî kalacakları cennetlere koymak ve onların kötülüklerini örtmek için; bu, Allah katında büyük bir kurtuluştur.
-Allah hakkında kötü zanda bulunan münafık erkekleri ve münafık kadınları, müşrik erkekleri ve müşrik kadınları ise azaplandıracaktır. Kötülük onların üzerine dönsün! Allah onlara gazap etmiş, onları lanetlemiş ve onlar için cehennemi hazırlamıştır. Orası ne kötü bir varış yeridir.
-Göklerin ve yerin orduları Allah’ındır. Allah mutlak güç sahibidir, hüküm ve hikmet sahibidir.
-Şüphesiz biz seni bir şahit, bir müjdeci ve bir uyarıcı olarak gönderdik.
-Ta ki Allah’a ve Resûlü’ne iman edesiniz, onu destekleyesiniz, ona saygı gösteresiniz ve Allah’ı sabah akşam tesbih edesiniz.
-Sana biat edenler, gerçekte Allah’a biat etmiş olurlar. Allah’ın eli onların ellerinin üzerindedir. Kim sözünü bozarsa, ancak kendi aleyhine bozmuş olur. Kim de Allah’a verdiği sözü yerine getirirse, Allah ona büyük bir mükâfat verecektir.
-Geride kalan bedevîler sana, “Mallarımız ve ailelerimiz bizi alıkoydu, bizim için bağışlanma dile” diyecekler. Onlar dilleriyle, kalplerinde olmayanı söylerler.
-De ki: “Allah size bir zarar vermek isterse ya da bir fayda dilerse, Allah’a karşı sizin için kim bir şeye sahip olabilir? Hayır! Allah yaptıklarınızdan haberdardır.”
-Aksine siz, Resûl’ün ve müminlerin ailelerine asla dönmeyeceklerini sandınız; bu, kalplerinize süslü gösterildi, kötü zanda bulundunuz ve helâki hak eden bir topluluk oldunuz.
-Kim Allah’a ve Resûlü’ne iman etmezse, şüphesiz biz kâfirler için alevli bir ateş hazırladık.
-Göklerin ve yerin mülkü Allah’ındır. Dilediğini bağışlar, dilediğini azaplandırır. Allah çok bağışlayıcıdır, çok merhametlidir.
-Geride kalanlar, ganimetleri almak üzere yola çıktığınızda, “Bırakın biz de size uyalım” diyecekler.
-Onlar Allah’ın sözünü değiştirmek isterler. De ki: “Bize asla uymayacaksınız. Allah daha önce böyle buyurmuştur.”
-Bunun üzerine, “Bizi kıskanıyorsunuz” diyecekler. Hayır, onlar pek az anlarlar.
-Geride kalan bedevîlere de ki: “Çetin savaşçı bir topluluğa karşı çağrılacaksınız; onlarla savaşacaksınız ya da teslim olacaklar.”
-Eğer itaat ederseniz Allah size güzel bir karşılık verir; eğer daha önce döndüğünüz gibi yine yüz çevirirseniz sizi can yakıcı bir azapla cezalandırır.
-Kör için bir sorumluluk yoktur, topal için bir sorumluluk yoktur, hasta için de bir sorumluluk yoktur.
-Kim Allah’a ve Resûlü’ne itaat ederse, Allah onu altından ırmaklar akan cennetlere koyar; kim de yüz çevirirse, onu acı bir azapla cezalandırır.
-Andolsun ki Allah, ağacın altında sana biat ettiklerinde müminlerden razı olmuştur. Kalplerindekini bilmiş, üzerlerine huzur indirmiş ve onları yakın bir fetih ve elde edecekleri çok ganimetlerle ödüllendirmiştir. Allah mutlak güç sahibidir, hüküm ve hikmet sahibidir.
-Allah size alacağınız birçok ganimet vadetmiştir; bunu size hemen vermiş, insanların ellerini sizden çekmiştir.
-Bu, müminler için bir işaret olsun ve sizi dosdoğru yola iletsin. Henüz güç yetiremediğiniz başka ganimetler de vardır; Allah onları kuşatmıştır. Allah her şeye gücü yetendir.
-Eğer inkâr edenler sizinle savaşsalardı, arkalarını dönüp kaçarlardı; sonra ne bir dost ne de bir yardımcı bulurlardı.
-Bu, Allah’ın öteden beri süregelen yasasıdır; Allah’ın yasasında asla bir değişiklik bulamazsın.
-O, onların ellerini sizden, sizin ellerinizi de onlardan çeken O’dur, Mekke vadisinde sizi üstün kıldıktan sonra. Allah yaptıklarınızı görendir.
-Onlar inkâr edenlerdir; sizi Mescid-i Haram’dan alıkoyan, kurbanları da yerine ulaşmaktan engelleyenlerdir.
-Eğer orada tanımadığınız mümin erkekler ve mümin kadınlar olmasaydı, bilmeden onlara zarar verir ve bundan dolayı bir sıkıntıya düşerdiniz.
-Allah, dilediğini rahmetine almak için böyle yaptı. Eğer onlar ayrılmış olsalardı, inkâr edenleri acı bir azapla cezalandırırdık. Hani inkâr edenler kalplerine cahiliye taassubunu yerleştirmişlerdi; Allah da Resûlü’nün ve müminlerin üzerine huzur indirmiş, onları takva sözüne bağlamıştı. Onlar buna daha layık ve ehil idiler. Allah her şeyi bilendir. Andolsun ki Allah, Resûlü’ne gördüğü rüyayı gerçek kıldı: Allah dilerse güven içinde, başlarınızı tıraş etmiş veya saçlarınızı kısaltmış olarak, korkmadan Mescid-i Haram’a gireceksiniz. O, Resûlü’nü hidayetle ve hak dinle gönderdi ki onu bütün dinlere üstün kılsın. Şahit olarak Allah yeter. Muhammed Allah’ın Resûlü’dür. Onunla beraber olanlar kâfirlere karşı sert, kendi aralarında merhametlidirler. Onları rükû edenler, secde edenler hâlinde görürsün; Allah’tan lütuf ve rıza isterler. Secdelerin izleri yüzlerindedir. Bu, onların Tevrat’taki örneğidir. İncil’deki örnekleri ise şuna benzer: Filizini çıkaran, onu güçlendirip kalınlaştıran ve gövdesi üzerinde dimdik duran bir ekin gibidir; bu, ekincilerin hoşuna gider ki Allah bununla inkârcıları öfkelendirsin. Allah, içlerinden iman edip salih ameller işleyenlere bağışlanma ve büyük bir mükâfat vaat etmiştir.
+1. Bismillâhirrahmanirrahim.
+1. İnnâ fetahnâ leke fethan mubînâ.
+2. Liyagfira lekallâhu mâ tekaddeme min zenbike ve mâ teahhara ve yutimme ni‘metehu aleyke ve yehdiyeke sırâtan mustekîmâ.
+3. Ve yensurakallâhu nasran azîzâ.
+4. Huvellezî enzeles-sekînete fî kulûbil-mu’minîne liyezdâdû îmânen me‘a îmânihim. Ve lillâhi cunûdus-semâvâti vel-ard ve kânallâhu alîmen hakîmâ.
+5. Liyudhilel-mu’minîne vel-mu’minâti cennâtin tecrî min tahtihâl-enhâru hâlidîne fîhâ ve yukeffira anhum seyyiâtihim ve kâne zâlike indallâhi fevzen azîmâ.
+6. Ve yu‘azzibel-munâfikîne vel-munâfikâti vel-muşrikîne vel-muşrikâti’z-zânnîne billâhi zannes-sev’ aleyhim dâiretus-sev’ ve gadiballâhu aleyhim ve le‘anehum ve e‘adde lehum cehenneme ve sâet masîrâ.
+7. Ve lillâhi cunûdus-semâvâti vel-ard ve kânallâhu azîzen hakîmâ.
+8. İnnâ erselnâke şâhiden ve mubeşşiren ve nezîrâ.
+9. Li-tu’minû billâhi ve resûlihî ve tu‘azzirûhû ve tuvakkirûhû ve tusebbihûhû bukraten ve asîlâ.
+10. İnnellezîne yubâyiûneke innemâ yubâyiûnallâh. Yedullâhi fevka eydîhim. Femen nekese feinnemâ yenkusu alâ nefsihî. Ve men evfâ bimâ âhede aleyhullâh, fe-seyu’tîhi ecren azîmâ.
+11. Sayeqûlû lekel-muhallefûne minel-a‘râbi şagaletnâ emvâlunâ ve ehlûnâ, festagfir lenâ. Yekûlûne bi-elsinetihim mâ leyse fî kulûbihim. Kul: “Femen yemliku lekum minallâhi şey’en, in erâde bikum darran ev erâde bikum nef‘â? Bel kânallâhu bimâ ta‘melûne habîrâ.”
+12. Bel zanentum en len yenkaliber-resûlu vel-mu’minûn ilâ ehlîhim ebedâ ve zuyyine zâlike fî kulûbikum ve zanentum zannes-sev’ ve kuntum kavmen bûrâ.
+13. Ve men lem yu’min billâhi ve resûlihî fe-innâ a‘tednâ lil-kâfirîne se‘îrâ.
+14. Ve lillâhi mulkus-semâvâti vel-ard. Yagfiru limen yeşâ’ ve yu‘azzibu men yeşâ’. Ve kânallâhu gafûran rahîmâ.
+15. Sayeqûlul-muhallefûne iz entalaqtum ilâ megânime li-te’huzûhâ: “Zerûnâ nettebi‘kum.” Yurîdûne en yubeddilû kelâmallâh. Kul: “Len tettebi‘ûnâ, kezâlikum kâlallâhu min kablu.” Sayeqûlûne: “Bel tahsudûnenâ.” Bel kânû lâ yefkahûne illâ kalîlâ.
+16. Kul lil-muhallefîne minel-a‘râbi: “Setud‘avne ilâ kavmin ulî be’sin şedîdin. Tûqâtilûnehum ev yuslimûn.” Fe-in tutî‘û yu’tikumullâhu ecran hasenâ. Ve in tetevellev kemâ tevelleytum min kablu, yu‘azzibkum azâben elîmâ.
+17. Leyse alel-a‘mâ haracun, ve lâ alel-a‘raci haracun, ve lâ alel-merîdi haracun. Ve men yuti‘illâhe ve resûlehû yudhîlhu cennâtin tecrî min tahtihâl-enhâr. Ve men yetevelle yu‘azzibhu azâben elîmâ.
+18. Lekad radiyallâhu anil-mu’minîn iz yubâyiûneke tahtes-şecereti. Fe-alime mâ fî kulûbihim, fe-enzeles-sekînete aleyhim ve esâbehum fethan karîbâ.
+19. Ve megânime kesîraten ye’huzûnehâ. Ve kânallâhu azîzen hakîmâ.
+20. Va‘adekumullâhu megânime kesîraten te’huzûnehâ, fe‘accele lekum hâzihî ve keffe eydiyen-nâsi ankum. Li-tekûne âyeten lil-mu’minîne ve yehdiyekum sırâtan mustekîmâ.
+21. Ve uhrâ lem takdirû aleyhâ, kad ehâtallâhu bihâ. Ve kânallâhu alâ kulli şey’in kadîrâ.
+22. Lev kâtelekumullezîne keferû le-vellewul-edbâr summe lâ yecidûne veliyyen ve lâ nasîrâ.
+23. Sunnatallâhillezî kad halet min kablu, ve len tecide li-sunnatillâhi tebdîlâ.
+24. Huvellezî keffe eydiyehum ankum ve eydiyekum anhum bi-batni Mekke min ba‘di en azferakum aleyhim. Ve kânallâhu bimâ ta‘melûne basîrâ.
+25. Humullezîne keferû ve saddukum anil-mescidil-harâmi vel-hedye ma‘kûfen en yebluğa mahillehû. Ve levlâ ricâlun mu’minûn ve nisâ’un mu’minâtun, lem ta‘lemûhum, en tataûhum fe-tusîbekum minhum me‘arratun bi-gayri ilm. Li-yudhîlallâhu fî rahmetihî men yeşâ’. Lev tezeyyelû le-azzebnellezîne keferû minhum azâben elîmâ.
+26. İz ce‘alellezîne keferû fî kulûbihimul-hamiyyete hamiyyetel-câhiliyye, fe-enzelallâhu sekînetehu alâ resûlihî ve alel-mu’minîne ve elzemehum kelimetet-takvâ ve kânû ehakka bihâ ve ehlehâ. Ve kânallâhu bi-kulli şey’in alîmâ.
+27. Lekad sadakallâhu resûlehu-rru’yâ bil-hakk. Le-tedhulunnel-mescidel-harâme inşâallâhu âminîne muhallikîne ru’ûsekum ve mukassirîne lâ tehâfûn. Fe-alime mâ lem ta‘lemû fe-ce‘ale min dûni zâlike fethan karîbâ.
+28. Huvellezî ersele resûlehu bil-hudâ ve dînil-hakki li-yuzhirahu aled-dîni kullih. Ve kefâ billâhi şehîdâ.
+29. Muhammedun resûlullâh. Vellezîne me‘ahu eşiddâ’u alel-kuffâri ruhamâ’u beynehum terâhum rukke‘an succeden yebteğûne fadlen minallâhi ve rıdvânâ. Sîmâhum fî vucûhihim min eserissucûd. Zâlike meseluhum fit-tevrât. Ve meseluhum fil-incîl, ke-zer‘in ahrece şat’ehu fe-âzerehu festagleza festevâ alâ sûkıhî yu‘cibuz-zurra‘a li-yagîza bihimul-kuffâr. Va‘adallâhullezîne âmenû ve amilûs-sâlihâti minhum mağfireten ve ecran azîmâ.
+|||
+1. Rahmân ve Rahîm olan Allah’ın adıyla.
+1. Şüphesiz biz sana apaçık bir fetih verdik.
+2. Böylece Allah, senin geçmiş ve gelecek kusurlarını bağışlasın, sana olan nimetini tamamlasın, seni dosdoğru bir yola iletsin ve sana güçlü, onurlu bir yardım versin.
+3. Ve sana güçlü, onurlu bir yardım versin.
+4. O, müminlerin imanlarına iman katsınlar diye kalplerine huzur ve güven indirmiştir. Göklerin ve yerin orduları Allah’ındır. Allah her şeyi bilendir, hüküm ve hikmet sahibidir.
+5. Mümin erkekleri ve mümin kadınları, içlerinden ırmaklar akan, içinde ebedî kalacakları cennetlere koymak ve onların kötülüklerini örtmek için; bu, Allah katında büyük bir kurtuluştur.
+6. Allah hakkında kötü zanda bulunan münafık erkekleri ve münafık kadınları, müşrik erkekleri ve müşrik kadınları ise azaplandıracaktır. Kötülük onların üzerine dönsün! Allah onlara gazap etmiş, onları lanetlemiş ve onlar için cehennemi hazırlamıştır. Orası ne kötü bir varış yeridir.
+7. Göklerin ve yerin orduları Allah’ındır. Allah mutlak güç sahibidir, hüküm ve hikmet sahibidir.
+8. Şüphesiz biz seni bir şahit, bir müjdeci ve bir uyarıcı olarak gönderdik.
+9. Ta ki Allah’a ve Resûlü’ne iman edesiniz, onu destekleyesiniz, ona saygı gösteresiniz ve Allah’ı sabah akşam tesbih edesiniz.
+10. Sana biat edenler, gerçekte Allah’a biat etmiş olurlar. Allah’ın eli onların ellerinin üzerindedir. Kim sözünü bozarsa, ancak kendi aleyhine bozmuş olur. Kim de Allah’a verdiği sözü yerine getirirse, Allah ona büyük bir mükâfat verecektir.
+11. Geride kalan bedevîler sana, “Mallarımız ve ailelerimiz bizi alıkoydu, bizim için bağışlanma dile” diyecekler. Onlar dilleriyle, kalplerinde olmayanı söylerler. De ki: “Allah size bir zarar vermek isterse ya da bir fayda dilerse, Allah’a karşı sizin için kim bir şeye sahip olabilir? Hayır! Allah yaptıklarınızdan haberdardır.”
+12. Aksine siz, Resûl’ün ve müminlerin ailelerine asla dönmeyeceklerini sandınız; bu, kalplerinize süslü gösterildi, kötü zanda bulundunuz ve helâki hak eden bir topluluk oldunuz.
+13. Kim Allah’a ve Resûlü’ne iman etmezse, şüphesiz biz kâfirler için alevli bir ateş hazırladık.
+14. Göklerin ve yerin mülkü Allah’ındır. Dilediğini bağışlar, dilediğini azaplandırır. Allah çok bağışlayıcıdır, çok merhametlidir.
+15. Geride kalanlar, ganimetleri almak üzere yola çıktığınızda, “Bırakın biz de size uyalım” diyecekler. Onlar Allah’ın sözünü değiştirmek isterler. De ki: “Bize asla uymayacaksınız. Allah daha önce böyle buyurmuştur.” Bunun üzerine, “Bizi kıskanıyorsunuz” diyecekler. Hayır, onlar pek az anlarlar.
+16. Geride kalan bedevîlere de ki: “Çetin savaşçı bir topluluğa karşı çağrılacaksınız; onlarla savaşacaksınız ya da teslim olacaklar.” Eğer itaat ederseniz Allah size güzel bir karşılık verir; eğer daha önce döndüğünüz gibi yine yüz çevirirseniz sizi can yakıcı bir azapla cezalandırır.
+17. Kör için bir sorumluluk yoktur, topal için bir sorumluluk yoktur, hasta için de bir sorumluluk yoktur. Kim Allah’a ve Resûlü’ne itaat ederse, Allah onu altından ırmaklar akan cennetlere koyar; kim de yüz çevirirse, onu acı bir azapla cezalandırır.
+18. Andolsun ki Allah, ağacın altında sana biat ettiklerinde müminlerden razı olmuştur. Kalplerindekini bilmiş, üzerlerine huzur indirmiş ve onları yakın bir fetihle ödüllendirmiştir.
+19. Ve elde edecekleri çok ganimetlerle. Allah mutlak güç sahibidir, hüküm ve hikmet sahibidir.
+20. Allah size alacağınız birçok ganimet vadetmiştir; bunu size hemen vermiş, insanların ellerini sizden çekmiştir. Bu, müminler için bir işaret olsun ve sizi dosdoğru yola iletsin.
+21. Henüz güç yetiremediğiniz başka ganimetler de vardır; Allah onları kuşatmıştır. Allah her şeye gücü yetendir.
+22. Eğer inkâr edenler sizinle savaşsalardı, arkalarını dönüp kaçarlardı; sonra ne bir dost ne de bir yardımcı bulurlardı.
+23. Bu, Allah’ın öteden beri süregelen yasasıdır; Allah’ın yasasında asla bir değişiklik bulamazsın.
+24. O, onların ellerini sizden, sizin ellerinizi de onlardan çeken O’dur, Mekke vadisinde sizi üstün kıldıktan sonra. Allah yaptıklarınızı görendir.
+25. Onlar inkâr edenlerdir; sizi Mescid-i Haram’dan alıkoyan, kurbanları da yerine ulaşmaktan engelleyenlerdir. Eğer orada tanımadığınız mümin erkekler ve mümin kadınlar olmasaydı, bilmeden onlara zarar verir ve bundan dolayı bir sıkıntıya düşerdiniz. Allah, dilediğini rahmetine almak için böyle yaptı. Eğer onlar ayrılmış olsalardı, inkâr edenleri acı bir azapla cezalandırırdık.
+26. Hani inkâr edenler kalplerine cahiliye taassubunu yerleştirmişlerdi; Allah da Resûlü’nün ve müminlerin üzerine huzur indirmiş, onları takva sözüne bağlamıştı. Onlar buna daha layık ve ehil idiler. Allah her şeyi bilendir.
+27. Andolsun ki Allah, Resûlü’ne gördüğü rüyayı gerçek kıldı: Allah dilerse güven içinde, başlarınızı tıraş etmiş veya saçlarınızı kısaltmış olarak, korkmadan Mescid-i Haram’a gireceksiniz. O, sizin bilmediğinizi bildi ve bundan başka, yakın bir fetih nasip etti.
+28. O, Resûlü’nü hidayetle ve hak dinle gönderdi ki onu bütün dinlere üstün kılsın. Şahit olarak Allah yeter.
+29. Muhammed Allah’ın Resûlü’dür. Onunla beraber olanlar kâfirlere karşı sert, kendi aralarında merhametlidirler. Onları rükû edenler, secde edenler hâlinde görürsün; Allah’tan lütuf ve rıza isterler. Secdelerin izleri yüzlerindedir. Bu, onların Tevrat’taki örneğidir. İncil’deki örnekleri ise şuna benzer: Filizini çıkaran, onu güçlendirip kalınlaştıran ve gövdesi üzerinde dimdik duran bir ekin gibidir; bu, ekincilerin hoşuna gider ki Allah bununla inkârcıları öfkelendirsin. Allah, içlerinden iman edip salih ameller işleyenlere bağışlanma ve büyük bir mükâfat vaat etmiştir.
